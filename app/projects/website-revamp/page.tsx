@@ -13,11 +13,11 @@ import {
 export default function page() {
   return (
     <div className="max-w-[1440px]">
-        <div className="flex flex-row px-20">
+        <div className="flex flex-row pl-20">
             <div className="flex items-center basis-[600px]">
                 <div className="space-y-10 ">
                     <div className="space-y-3">
-                        <div>
+                        <div className="flex flex-col">
                             <h1 className="font-light text-7xl">airwallex</h1>
                             <h1 className="font-extrabold text-7xl">website revamp</h1>
                         </div>
@@ -32,7 +32,7 @@ export default function page() {
                     </div>
                 </div>
             </div>
-            <div className="max-h-[625px] px-16 pt-24 overflow-y-hidden flex items-center justify-center">
+            <div className="max-h-[625px] px-24 pt-20 overflow-y-hidden flex items-center justify-center">
                 <Image src="/images/website-revamp/hero.svg" width={600} height={500} alt="website revamp hero" className="drop-shadow-2xl rounded-md" />
             </div>
         </div>

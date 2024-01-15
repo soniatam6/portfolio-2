@@ -32,19 +32,19 @@ export default function Navbar() {
     <NavigationMenu className='max-w-screen flex items-center px-10 py-5 justify-between'>
       <div>
         <Link href="/" passHref className="text-2xl font-">
-          sonia tam
+          <h1>sonia tam</h1>
         </Link>
       </div>
       <NavigationMenuList className="space-x-3">
       <NavigationMenuItem>
           <Link href="/about" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              about
+              <h2>about</h2>
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-lg font-semibold">projects</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="font-semibold"><h2>projects</h2></NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               <ListItem
@@ -85,7 +85,7 @@ export default function Navbar() {
         <NavigationMenuItem>
           <Link href="/docs" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              resume
+              <h2>resume</h2>
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
