@@ -89,8 +89,8 @@ export default function page() {
                             <div className="space-y-2">
                                 <h2 className="font-semibold text-xl">convey...</h2>
                                 <ul className="list-disc pl-5 space-y-2">
-                                    <li><p>company's visual brand & identity</p></li>
-                                    <li><p>what the company's product offerings are</p></li>
+                                    <li><p>company&apos;s visual brand & identity</p></li>
+                                    <li><p>what the company&apos;s product offerings are</p></li>
                                     <li><p>why users should choose this company</p></li>
                                 </ul>
                             </div>
