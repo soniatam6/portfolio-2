@@ -83,7 +83,7 @@ const [openModal, setOpenModal] = useState(false);
             </a>
           </div>
           <div className='bg-slate-100 dark:bg-slate-800 rounded-md max-h-[650px] max-w-[500px]'>
-            <a href="/projects"> 
+            <a href="/projects/localization"> 
               <div>
                 <div className="p-7 pb-0 h-80">
                   <img src="/images/localization.svg" className="h-fit"/>
