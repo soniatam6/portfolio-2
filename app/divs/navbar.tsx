@@ -69,7 +69,7 @@ export default function Navbar() {
                   href="/projects/pennintouch"
                   className="hover:bg-slate-50"
                 >
-                  <p className="font-light">redesigning Penn's academic planning worksheet</p>
+                  <p className="font-light">redesigning Penn&apos;s academic planning worksheet</p>
               </ListItem>
               <ListItem
                   key="localization automation"

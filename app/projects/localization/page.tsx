@@ -47,7 +47,7 @@ export default function page() {
                                 <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
                             </div>
                             <div className="max-w-[512px] text-wrap text-white">
-                                <p><span className="font-semibold">role:</span> <span className="font-light">product management intern</span></p>
+                                <p><span className="font-semibold">role:</span> <span className="font-light">product manager</span></p>
                                 <p><span className="font-semibold">timeline:</span> <span className="font-light">Apr 2023 - Jun 2023</span></p>
                             </div>
                             <div className="max-w-[600px] text-wrap text-white space-y-9">

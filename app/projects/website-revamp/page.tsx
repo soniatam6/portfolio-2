@@ -22,7 +22,7 @@ export default function page() {
                             <h1 className="font-extrabold text-7xl">website revamp</h1>
                         </div>
                         <div className="max-w-[512px] text-wrap">
-                            <p className="font-light text-xl">redesigning and revamping Airwallex&apos;s website, localizing and launching 17 landing pages in 11 regions.</p>
+                            <p className="text-xl">redesigning and revamping Airwallex&apos;s website, localizing and launching 17 landing pages in 11 regions.</p>
                         </div>
                     </div>
                     <div>
@@ -46,10 +46,10 @@ export default function page() {
                                 <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
                             </div>
                             <div className="max-w-[512px] text-wrap text-white">
-                                <p><span className="font-semibold">role:</span> <span className="font-light">lead designer, product management intern</span></p>
-                                <p><span className="font-semibold">timeline:</span> <span className="font-light">Nov 2022 - Jun 2023</span></p>
+                                <p><strong>role:</strong> lead designer, product manager</p>
+                                <p><strong>timeline:</strong> Nov 2022 - Jun 2023</p>
                             </div>
-                            <div className="max-w-[600px] text-wrap font-light text-white space-y-3">
+                            <div className="max-w-[600px] text-wrap  text-white space-y-3">
                                 <p>Airwallex is a fintech unicorn valued offering a variety of financial solutions for SMEs and enterprises such as global money transfers, payment acceptance, and cards and expense management.</p>
                                 <p>In November of 2022, Airwallex made the strategic decision to focus on enterprise customers and enter the embedded finance market. This meant that the website needed to be redesigned to reflect the changes in product offerings. As the main designer, I was responsible for redesigning 17 product landing pages, where I worked closely with product managers, developers, the marketing team, and C-suite stakeholders. </p>
                             </div>
@@ -61,17 +61,17 @@ export default function page() {
                 </div>
             </div>
         </div>
-        <div className="p-20 py-16 space-y-8">
+        <div className="p-20 space-y-8">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl">jobs to be done</h1>
                 <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-56"></div>
             </div>
             <div>
                 <div className="space-y-3">
-                    <p className="font-light">Before designing, I believe that a designer must first understand what the JTBD are of the product they are designing. To understand the JTBD of a website, we must first look at who the users and stakeholders are of a website. </p>
+                    <p>Before designing, I believe that a designer must first understand what the JTBD are of the product they are designing. To understand the JTBD of a website, we must first look at who the users and stakeholders are of a website. </p>
                     <ul className="list-disc pl-4">
-                        <li><span className="font-semibold">Users:</span><span className="font-light"> for a website, these are the viewers such as potential users or investors. From the users perspective, the website serves to give a brief overview of who the company is, what the company does, and what value can the company potentially bring to them. </span></li>
-                        <li><span className="font-semibold">Stakeholders:</span><span className="font-light"> the internal teams who use the website to do their job, such as marketing, strategy, and product team. From the stakeholders&apos; perspective, the website serves as an instrument for them to craft a brand image, explain what their products are, and ultimately funnels potential users in to sign up. </span></li>
+                        <li><p><strong>Users: </strong>for a website, these are the viewers such as potential users or investors. From the users perspective, the website serves to give a brief overview of who the company is, what the company does, and what value can the company potentially bring to them. </p></li>
+                        <li><p><strong>Stakeholders: </strong>the internal teams who use the website to do their job, such as marketing, strategy, and product team. From the stakeholders&apos; perspective, the website serves as an instrument for them to craft a brand image, explain what their products are, and ultimately funnels potential users in to sign up. </p></li>
                     </ul>
                 </div>
             </div>
@@ -79,14 +79,32 @@ export default function page() {
                 <Image src="/images/website-revamp/jtbd-diagram.svg" width={750} height={500} alt="jtbd-diagram"/>
             </div>
             <div>
-                <p className="font-light">From this, we can understand that the main JTBD of a website is to serve as a company&apos;s <strong>product story</strong>. It&apos;s the company&apos;s narrative and story to demonstrate who it is, what products it offers, and what value propositions it brings to stakeholders. In other words, when these users view the website, they need to be convinced to click the &apos;sign up&apos; or &apos;contact us&apos; button. At the same time, the website serves as a public brand and image for the company, and is the primary way for internal teams to convey to the world about who they are, what values they stand for, and what value they can bring to users.</p>
+                <p>From this, we can understand that the main JTBD of a website is to serve as a company&apos;s <strong>product story</strong>. It&apos;s the company&apos;s narrative and story to demonstrate who it is, what products it offers, and what value propositions it brings to stakeholders. In other words, when these users view the website, they need to be convinced to click the &apos;sign up&apos; or &apos;contact us&apos; button. At the same time, the website serves as a public brand and image for the company, and is the primary way for internal teams to convey to the world about who they are, what values they stand for, and what value they can bring to users.</p>
             </div>
             <div>
-                <p className="font-light">In summary, the job of the designer is to design a website that can:</p>
+                <p>In summary, the job of the designer is to design a website that can:</p>
             </div>
-            <div className="flex items-center justify-center">
-                <Image src="/images/website-revamp/jtbd-text.svg" width={750} height={500} alt="jtbd-text"/>
-            </div>
+                <div className='flex items-center justify-center pb-12'>
+                    <div className="grid grid-cols-2 gap-4 max-w-[1000px]">
+                            <div className="space-y-2">
+                                <h2 className="font-semibold text-xl">convey...</h2>
+                                <ul className="list-disc pl-5 space-y-2">
+                                    <li><p>company's visual brand & identity</p></li>
+                                    <li><p>what the company's product offerings are</p></li>
+                                    <li><p>why users should choose this company</p></li>
+                                </ul>
+                            </div>
+                            <div className="space-y-2">
+                                <h2 className="font-semibold text-xl">balance requirements & get alignment from...</h2>
+                                <ul className="list-disc pl-5 space-y-2">
+                                    <li><p>marketing teams</p></li>
+                                    <li><p>product strategy & C-suite executives</p></li>
+                                    <li><p>product managers</p></li>
+                                    <li><p>design team</p></li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
         </div>
         <div className="bg-slate-100 px-20 max-h-[800px]">
             <div className="grid grid-cols-2 justify-center">
@@ -106,23 +124,23 @@ export default function page() {
             <div>
                 <p className=" text-white">With these JTBD in mind, the next step was to design the 17 product pages. These 17 pages can be roughly categorized as the following, with 2-4 representing Airwallex&apos;s new product categories: </p>
                 <ol className=" pl-4 text-white list-decimal">
-                    <li>Homepages (4 pages)</li>
-                    <li>Business Account (6 pages)</li>
-                    <li>Core API (4 pages)</li>
-                    <li>Embedded Finance (3 pages)</li>
+                    <li><p>Homepages (4 pages)</p></li>
+                    <li><p>Business Account (6 pages)</p></li>
+                    <li><p>Core API (4 pages)</p></li>
+                    <li><p>Embedded Finance (3 pages)</p></li>
                 </ol>
             </div>
             <div className="text-white bg-slate-800 p-2 px-5 rounded-md">
                 <Accordion type="single" collapsible>
                     <AccordionItem value="item-1">
-                        <AccordionTrigger>Design Process Overview</AccordionTrigger>
+                        <AccordionTrigger><p>Design Process Overview</p></AccordionTrigger>
                         <AccordionContent className="space-y-2">
                             <p>For each of the pages in these product categories, I roughly followed these steps to design them:</p>
                             <ol className="list-decimal pl-4 space-y-2">
-                                <li><span className="font-semibold">Research & Understand</span><span className="font-light"> -- talked to product managers and read product docs to understand what does the product do, how does it work, and what are its main value propositions. </span></li>
-                                <li><span className="font-semibold">Draft a rough structure (IA proposal)</span><span className="font-light"> -- using my understanding of the product, I drafted a rough outline of what I envisioned the page to look like. I presented these rough outlines to marketing, strategy, executives, and product managers to get alignment on the product narrative being crafted, iteratively revising and designing new outlines.  </span></li>
-                                <li><span className="font-semibold">Design & Prototype</span><span className="font-light"> -- after a general alignment was reached, I designed the pages in high fidelity on Figma, prototyping the pages to simulate a real website interactions. In this step, I would work closely with content marketers to write the copy, and with developers to understand what is feasible and what isn’t.  </span></li>
-                                <li><span className="font-semibold">Present in design review</span><span className="font-light"> -- we presented these Figma prototypes to the CEO, VP of Design, VP of Marketing, and other stakeholders for final approval on the pages, down to the details of copy, microinteractions, and animations. </span></li>
+                                <li><p><strong>Research & Understand</strong>-- talked to product managers and read product docs to understand what does the product do, how does it work, and what are its main value propositions. </p></li>
+                                <li><p><strong>Draft a rough structure (IA proposal)</strong> -- using my understanding of the product, I drafted a rough outline of what I envisioned the page to look like. I presented these rough outlines to marketing, strategy, executives, and product managers to get alignment on the product narrative being crafted, iteratively revising and designing new outlines.  </p></li>
+                                <li><p><strong>Design & Prototying</strong> -- after a general alignment was reached, I designed the pages in high fidelity on Figma, prototyping the pages to simulate a real website interactions. In this step, I would work closely with content marketers to write the copy, and with developers to understand what is feasible and what isn’t.  </p></li>
+                                <li><p><strong>Present in design review</strong> -- we presented these Figma prototypes to the CEO, VP of Design, VP of Marketing, and other stakeholders for final approval on the pages, down to the details of copy, microinteractions, and animations. </p></li>
                             </ol>
                         </AccordionContent>
                     </AccordionItem>
@@ -168,27 +186,27 @@ export default function page() {
                         <div className="space-y-3 max-w-[600px] text-wrap">
                             <p>When trying to understand a product, there were a few key questions I would center my research around: </p>
                             <ol className="list-decimal pl-4">
-                                <li>Who are the target users for this product? </li>
-                                <li>What are the needs of these target users? </li>
-                                <li>What unique value does this product bring to the user?</li>
-                                <li>Which Airwallex capabilities enable this product? </li>
-                                <li>How does it work behind the scenes? </li>
-                                <li>What are some legal, marketing, or strategy concerns I should consider for this product?</li>
+                                <li><p>Who are the target users for this product?</p></li>
+                                <li><p>What are the needs of these target users?</p></li>
+                                <li><p>What unique value does this product bring to the user?</p></li>
+                                <li><p>Which Airwallex capabilities enable this product?</p></li>
+                                <li><p>How does it work behind the scenes?</p></li>
+                                <li><p>What are some legal, marketing, or strategy concerns I should consider for this product?</p></li>
                             </ol>
                         </div>
                         <div className="bg-slate-100 p-2 px-5 rounded-md max-w-[600px]">
                             <Accordion type="single" collapsible>
                                 <AccordionItem value="item-1">
-                                    <AccordionTrigger>Example: Expense Management</AccordionTrigger>
+                                    <AccordionTrigger><p>Example: Expense Management</p></AccordionTrigger>
                                     <AccordionContent className="space-y-2">
                                         <p>For Expense Management, the analysis looked like this:</p>
                                         <ol className="list-decimal pl-4 space-y-2">
-                                            <li><span className="font-semibold">Target users:</span><span> Small to medium sized businesses who are using Airwallex’s Cards product for their employees and company expenses </span></li>
-                                            <li><span className="font-semibold">Target user needs:</span><span> Administrators want an easy way to manage and approve expenses. Employees want an easy way to see and review their expenses. </span></li>
-                                            <li><span className="font-semibold">Unique value proposition:</span><span> Mobile and desktop, uploading receipts, ability to customize approval workflows, integrations with accounting software</span></li>
-                                            <li><span className="font-semibold">Airwallex capabilities:</span><span> Expense management, borderless cards, accounting integrations</span></li>
-                                            <li><span className="font-semibold">Product mechanics:</span><span> The transactions recorded in the employee or company cards are aggregated in the Expense Management platform</span></li>
-                                            <li><span className="font-semibold">Other considerations:</span><span> This is targeted at existing customers who have Cards, so it should cross reference the product page for Cards.</span></li>
+                                            <li><p><strong>Target users:</strong> Small to medium sized businesses who are using Airwallex’s Cards product for their employees and company expenses </p></li>
+                                            <li><p><strong>Target user needs:</strong> Administrators want an easy way to manage and approve expenses. Employees want an easy way to see and review their expenses. </p></li>
+                                            <li><p><strong>Unique value proposition:</strong> Mobile and desktop, uploading receipts, ability to customize approval workflows, integrations with accounting software</p></li>
+                                            <li><p><strong>Airwallex capabilities:</strong> Expense management, borderless cards, accounting integrations</p></li>
+                                            <li><p><strong>Product mechanics:</strong> The transactions recorded in the employee or company cards are aggregated in the Expense Management platform</p></li>
+                                            <li><p><strong>Other considerations:</strong> This is targeted at existing customers who have Cards, so it should cross reference the product page for Cards.</p></li>
                                         </ol>
                                     </AccordionContent>
                                 </AccordionItem>
@@ -201,7 +219,7 @@ export default function page() {
                         <Image src="/images/website-revamp/expense-file.jpg" width={500} height={700} alt="expense file" className="drop-shadow-xl rounded-md" />
                     </div>
                     <div className="max-w-[340px] text-wrap">
-                        <p className="font-light text-center text-slate-400"> Interviewing other designers to understand their product, their designs, and the user journey</p>
+                        <p className=" text-center text-slate-400"> Interviewing other designers to understand their product, their designs, and the user journey</p>
                     </div>
                 </div>
             </div>
@@ -218,20 +236,20 @@ export default function page() {
                         <div className="space-y-3 max-w-[600px] text-wrap">
                             <p>This was most often time the most time consuming and challenging step of the design process, because this was about crafting the narrative. Usually, I followed a general structure of: </p>
                             <ol className="list-decimal pl-4">
-                                <li><span className="font-semibold">Why:</span><span> high level overview of the value propositions of the product </span></li>
-                                <li><span className="font-semibold">What:</span><span> what the main features of the product are, and what are the key propositions to call out for each feature </span></li>
-                                <li><span className="font-semibold">How:</span><span> how this works for developers, how this works for other customers (customer testimonials or case studies), or how to get started (CTAs)</span></li>
+                                <li><p><strong>Why:</strong> high level overview of the value propositions of the product </p></li>
+                                <li><p><strong>What:</strong> what the main features of the product are, and what are the key propositions to call out for each feature </p></li>
+                                <li><p><strong>How:</strong> how this works for developers, how this works for other customers (customer testimonials or case studies), or how to get started (CTAs)</p></li>
                             </ol>
                         </div>
                         <div className="bg-slate-100 p-2 px-5 rounded-md max-w-[600px]">
                             <Accordion type="single" collapsible>
                                 <AccordionItem value="item-1">
-                                    <AccordionTrigger>Example: Expense Management</AccordionTrigger>
+                                    <AccordionTrigger><p>Example: Expense Management</p></AccordionTrigger>
                                     <AccordionContent className="space-y-2">
                                         <p>For Expense Management, one of the challenges I faced was how to balance the perspective of different roles. The Expense Management product served two main types of users: </p>
                                         <ol className="list-decimal pl-4 space-y-2">
-                                            <li><span className="font-semibold">Cardholders:</span><span> employees who are using the cards to record expenses </span></li>
-                                            <li><span className="font-semibold">Administrators:</span><span> Administrators want an easy way to manage and approve expenses. Employees want an easy way to see and review their expenses. </span></li>
+                                            <li><p><strong>Cardholders:</strong> employees who are using the cards to record expenses </p></li>
+                                            <li><p><strong>Administrators:</strong> Administrators want an easy way to manage and approve expenses. Employees want an easy way to see and review their expenses. </p></li>
                                         </ol>
                                         <p>The original structural proposal was to have one section talk about the ‘all in one cards and expenses experience’ and discuss general value propositions. However, I noticed the value propositions were very different for both types of users, and mixing them up felt quite confusing as a viewer. One of my ideas was to have separate sections for different user types, but it also compromised the ‘all in one’ experience value proposition. </p>
                                         <p>After presenting both proposals and their tradeoffs to stakeholders, we reached alignment to have an overhead section discussing the ‘all in one experience’, and then have subsections specifically for each user type.</p>
@@ -250,33 +268,33 @@ export default function page() {
                         <div className="space-y-3 max-w-[600px] text-wrap">
                             <p>Once the structure was near final and I had a general idea of what kind of images to design, I would begin assembling high fidelity designs of the pages. This included details such as: </p>
                             <ul className="list-disc pl-4">
-                                <li><span className="font-semibold">Design system:</span><span> spacing, font sizes, colours, content width etc </span></li>
-                                <li><span className="font-semibold">Iconography</span></li>
-                                <li><span className="font-semibold">Content modeling:</span><span> making sure that we use the same content models that have been agreed upon with developers </span></li>
-                                <li><span className="font-semibold">Images</span></li>
+                                <li><p><strong>Design system:</strong> spacing, font sizes, colours, content width etc </p></li>
+                                <li><p><strong>Iconography</strong></p></li>
+                                <li><p><strong>Content modeling:</strong> making sure that we use the same content models that have been agreed upon with developers </p></li>
+                                <li><p><strong>Images</strong></p></li>
                             </ul>
                         </div>
                         <div className="space-y-2">
                             <p>The main focus was on designing the images, and when doing so, I would approach by considering the following factors:</p>
                             <ul className="list-decimal pl-8">
-                                <li>What kind of feature or ability is this section highlighting?</li>
-                                <li>Is this feature best exemplified on desktop or mobile?</li>
-                                <li>What are the key screens or symbols that would help a user identify this feature?</li>
-                                <li>What are the key value propositions that is written on the side, and what are some screens that would demonstrate those points?</li>
+                                <li><p>What kind of feature or ability is this section highlighting?</p></li>
+                                <li><p>Is this feature best exemplified on desktop or mobile?</p></li>
+                                <li><p>What are the key screens or symbols that would help a user identify this feature?</p></li>
+                                <li><p>What are the key value propositions that is written on the side, and what are some screens that would demonstrate those points?</p></li>
                             </ul>
                             <p>Once I have collected all the product screens that address the factors above, I would find a way to assemble them in a visually pleasing, not too overwhelming yet informative.</p>
                         </div>
                         <div className="bg-slate-100 p-2 px-5 rounded-md max-w-[600px]">
                             <Accordion type="single" collapsible>
                                 <AccordionItem value="item-1">
-                                    <AccordionTrigger>Example: Expense Management</AccordionTrigger>
+                                    <AccordionTrigger><p>Example: Expense Management</p></AccordionTrigger>
                                     <AccordionContent className="space-y-2">
                                         <p>For example, for the ‘For Employers’ section, the analysis looks like this: </p>
                                         <ol className="list-decimal pl-4 space-y-2">
-                                            <li><span className="font-semibold">Highlighted abilities:</span><span> Employees can easily upload receipts and submit expenses </span></li>
-                                            <li><span className="font-semibold">Mobile or desktop?</span><span> Mobile, because that emphasizes the point that employees can submit expenses on the go </span></li>
-                                            <li><span className="font-semibold">Key screens:</span><span> Submitting expenses screen, scanning receipts can be identified by the camera focusing on a receipt</span></li>
-                                            <li><span className="font-semibold">Key value propositions:</span><span> The side mentions uploading pictures and submitting expenses, which is shown by the images</span></li>
+                                            <li><p><strong>Highlighted abilities:</strong> Employees can easily upload receipts and submit expenses </p></li>
+                                            <li><p><strong>Mobile or desktop?</strong> Mobile, because that emphasizes the point that employees can submit expenses on the go </p></li>
+                                            <li><p><strong>Key screens:</strong> Submitting expenses screen, scanning receipts can be identified by the camera focusing on a receipt</p></li>
+                                            <li><p><strong>Key value propositions:</strong> The side mentions uploading pictures and submitting expenses, which is shown by the images</p></li>
                                         </ol> 
                                     </AccordionContent>
                                 </AccordionItem>
@@ -289,7 +307,7 @@ export default function page() {
                         <Image src="/images/website-revamp/admin-example.svg" width={500} height={700} alt="admin example" className="drop-shadow-xl rounded-md" />
                     </div>
                     <div className="max-w-[340px] text-wrap">
-                        <p className="font-light text-center text-slate-400"> high fidelity version with overhead section</p>
+                        <p className=" text-center text-slate-400"> high fidelity version with overhead section</p>
                     </div>
                 </div>
             </div>
@@ -306,9 +324,9 @@ export default function page() {
                         <div className="space-y-2">
                             <p>For the website, there were 3 key things to hand off to developers:</p>
                             <ul className="list-decimal pl-8">
-                                <li>Mobile designs</li>
-                                <li>Web responsiveness</li>
-                                <li>Content modeling</li>
+                                <li><p>Mobile designs</p></li>
+                                <li><p>Web responsiveness</p></li>
+                                <li><p>Content modeling</p></li>
                             </ul>
                         </div>
                         
@@ -342,7 +360,7 @@ export default function page() {
                         <Image src="/images/website-revamp/responsiveness.jpg" width={600} height={600} alt="admin example" className="drop-shadow-xl rounded-md" />
                     </div>
                     <div className="max-w-[400px] text-wrap">
-                        <p className="font-light text-center text-slate-400"> mapping out responsive breakpoints and behaviours</p>
+                        <p className=" text-center text-slate-400"> mapping out responsive breakpoints and behaviours</p>
                     </div>
                 </div>
             </div>
@@ -363,7 +381,7 @@ export default function page() {
                         <Image src="/images/website-revamp/content-modeling.svg" width={600} height={600} alt="admin example" className="drop-shadow-xl rounded-md" />
                     </div>
                     <div className="max-w-[400px] text-wrap">
-                        <p className="font-light text-center text-slate-400"> content modeling for the hero section</p>
+                        <p className=" text-center text-slate-400"> content modeling for the hero section</p>
                     </div>
                 </div>
             </div>
@@ -403,7 +421,7 @@ export default function page() {
                         <Image src="/images/website-revamp/localization.jpg" width={500} height={700} alt="admin example" className="drop-shadow-xl rounded-md" />
                     </div>
                     <div className="max-w-[340px] text-wrap">
-                        <p className="font-light text-center text-slate-400"> generated localized images from plugin</p>
+                        <p className=" text-center text-slate-400"> generated localized images from plugin</p>
                     </div>
                 </div>
             </div>
@@ -429,25 +447,21 @@ export default function page() {
                                 <h1 className="font-bold text-3xl">launch</h1>
                                 <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-24"></div>
                             </div>
-                            <div className="max-w-[600px] text-wrap font-light space-y-3">
+                            <div className="max-w-[600px] text-wrap space-y-3">
                                 <p>We launched in 7 regions over the course of 3 weeks, where each launch roughly followed these steps:</p>
                                 <ul className="list-decimal pl-4">
-                                    <li>Localizing designs, content, and copy</li>
-                                    <li>Migrating all content into CMS</li>
-                                    <li>QA on staging with stakeholders</li>
+                                    <li><p>Localizing designs, content, and copy</p></li>
+                                    <li><p>Migrating all content into CMS</p></li>
+                                    <li><p>QA on staging with stakeholders</p></li>
                                 </ul>
                                 <div>
-                                    <span>Each launch happened under a lot of </span><span className="font-semibold">stakeholder pressure,</span>
-                                        <span>given there were many investor events happening in that month and our CEO wanted to have the
-                                            website ready to show at these events. I worked alongside my product manager to drive the
-                                            launches forward, as well as led</span> <span className="font-semibold">4 regional launches myself.</span>
-                                            <span> Some of the skills I learned in the process included:</span>
+                                    <p>Each launch happened under a lot of <strong>stakeholder pressure,</strong> given there were many investor events happening in that month and our CEO wanted to have the website ready to show at these events. I worked alongside my product manager to drive the launches forward, as well as led <strong>4 regional launches myself.</strong> Some of the skills I learned in the process included:</p>
                                 </div>
                                 <ul className="list-disc pl-4">
-                                    <li>Prioritization</li>
-                                    <li>Interdependency tracking</li>
-                                    <li>Resource allocation according to strengths and weaknesses</li>
-                                    <li>Negotiation of expectations</li>
+                                    <li><p>Prioritization</p></li>
+                                    <li><p>Interdependency tracking</p></li>
+                                    <li><p>Resource allocation according to strengths and weaknesses</p></li>
+                                    <li><p>Negotiation of expectations</p></li>
                                 </ul>
                             </div>
                         </div>
@@ -458,7 +472,7 @@ export default function page() {
                         <Image src="/images/website-revamp/launch.png" width={350} height={500} alt="admin example" className="drop-shadow-xl rounded-md" />
                     </div>
                     <div className="max-w-[340px] text-wrap">
-                        <p className="font-light text-center text-slate-400"> balloon gifted to me and my PM celebrating the launches!</p>
+                        <p className=" text-center text-slate-400"> balloon gifted to me and my PM celebrating the launches!</p>
                     </div>
                 </div>
             </div>
@@ -473,20 +487,18 @@ export default function page() {
                                 <h1 className="font-bold text-3xl">reflection</h1>
                                 <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
                             </div>
-                            <div className="max-w-[600px] text-wrap font-light space-y-3">
+                            <div className="max-w-[600px] text-wrap  space-y-3">
                                 <div>
-                                <span>It goes without saying that this is probably the 
-                                        </span><span className="font-semibold"> most challenging yet rewarding</span><span> project that I’ve been on. I spent a majority of my gap year working 
-                                        on this project, and it has made me grow and mature immensely both personally and professionally. </span>
+                                    <p>It goes without saying that this is probably the <strong>most challenging yet rewarding</strong> project that I’ve been on. I spent a majority of my gap year working on this project, and it has made me grow and mature immensely both personally and professionally.</p>
                                 </div>
                                 <div>
-                                    <span>Some of my key takeaways from this project include:</span>
+                                    <p>Some of my key takeaways from this project include:</p>
                                     <ul className="list-disc pl-4">
-                                        <li>importance of momentum in projects</li>
-                                        <li>taking the more time consuming, iterative approach often yields better</li>
-                                        <li>process matters more, not results</li>
-                                        <li>open and clear communication of expectations is key to teamwork</li>
-                                        <li>design is not about pushing pixels and making things pretty</li>
+                                        <li><p>importance of momentum in projects</p></li>
+                                        <li><p>taking the more time consuming, iterative approach often yields better</p></li>
+                                        <li><p>process matters more, not results</p></li>
+                                        <li><p>open and clear communication of expectations is key to teamwork</p></li>
+                                        <li><p>design is not about pushing pixels and making things pretty</p></li>
                                     </ul>
                                 </div>
                                 <p>My experience would not be complete without the mentors I had at Airwallex who helped me grow along the way. thank you and shoutout to you guys! you know who you are :)</p>
@@ -499,7 +511,7 @@ export default function page() {
                         <Image src="/images/website-revamp/reflection.png" width={350} height={500} alt="admin example" className="drop-shadow-xl rounded-md" />
                     </div>
                     <div className="max-w-[340px] text-wrap">
-                        <p className="font-light text-center text-slate-400"> farewell dinner on my last day @ airwallex</p>
+                        <p className=" text-center text-slate-400"> farewell dinner on my last day @ airwallex</p>
                     </div>
                 </div>
             </div>
