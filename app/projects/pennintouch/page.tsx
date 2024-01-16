@@ -25,7 +25,7 @@ export default function page() {
             </div>
         </div>
         <div className="bg-slate-900 h-fit flex">
-            <div className="flex flex-row px-20 max-h-[625px]">
+            <div className="flex flex-row px-20 h-fit">
                 <div className="flex items-center">
                     <div className="space-y-10 ">
                         <div className="space-y-8">
@@ -37,10 +37,10 @@ export default function page() {
                                 <p><span className="font-semibold">role:</span> <span className="font-light">lead product designer</span></p>
                                 <p><span className="font-semibold">timeline:</span> <span className="font-light">Jan 2022 - Mar 2022</span></p>
                             </div>
-                            <div className="max-w-[600px] text-wrap font-light text-white space-y-5">
+                            <div className="max-w-[600px] text-wrap font-light text-white space-y-9">
                                 <div className="space-y-1">
                                     <h1 className="font-semibold text-xl">what is PennInTouch?</h1>
-                                    <p className="font-light">PennInTouch is the University of Pennsylvania’s course registration system. There, you can search for courses, register, see mock schedules, plan on an academic planning worksheet, and view your schedule. </p>
+                                    <p className="font-light">PennInTouch is the University of Pennsylvania’s old course registration system. There, you can search for courses, register, see mock schedules, plan on an academic planning worksheet, and view your schedule. </p>
                                 </div>
                                 <div className="space-y-1">
                                     <h1 className="font-semibold text-xl">what is the academic planning worksheet?</h1>
@@ -54,8 +54,8 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-                <div className="overflow-y-hidden pl-16 pt-40 flex items-center justify-center">
-                    <Image src="/images/pennintouch/context.svg" width={600} height={500} alt="pit context" />
+                <div className="overflow-y-hidden pl-20 py-20 flex items-center justify-center">
+                    <Image src="/images/pennintouch/context.svg" width={650} height={500} alt="pit context" />
                 </div>
             </div>
         </div>

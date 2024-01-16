@@ -43,7 +43,7 @@ const [openModal, setOpenModal] = useState(false);
             </a>
           </div>
           <div className='bg-slate-100 dark:bg-slate-800 rounded-md max-h-[650px] max-w-[500px]'>
-            <a href="/projects"> 
+            <a href="/projects/foodboo"> 
               <div>
                 <div className="p-7 pb-0 h-80">
                   <img src="/images/foodboo.svg" className="drop-shadow-md rounded-md h-fit"/>
@@ -63,7 +63,7 @@ const [openModal, setOpenModal] = useState(false);
             </a>
           </div>
           <div className='bg-slate-100 dark:bg-slate-800 rounded-md max-h-[650px] max-w-[500px]'>
-            <a href="/projects"> 
+            <a href="/projects/pennintouch"> 
               <div>
                 <div className="p-7 pb-0 h-80">
                   <img src="/images/pennintouch.svg" className="drop-shadow-md rounded-md h-fit"/>
