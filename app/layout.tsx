@@ -32,7 +32,7 @@ export default function RootLayout({
       <body className={`${raleway.variable} ${josefin.variable}`}>
         <ThemeProvider
               attribute="class"
-              defaultTheme="system"
+              defaultTheme="light"
               enableSystem
               disableTransitionOnChange
           >
