@@ -12,7 +12,7 @@ import {
   
 export default function page() {
   return (
-    <div className="max-w-[1440px]">
+    <div className="">
         <div className="flex flex-row pl-20">
             <div className="flex items-center basis-[600px]">
                 <div className="space-y-10 ">
@@ -32,7 +32,7 @@ export default function page() {
                     </div>
                 </div>
             </div>
-            <div className="max-h-[625px] px-24 pt-20 overflow-y-hidden flex items-center justify-center">
+            <div className="max-h-[650px] px-24 pt-24 overflow-y-hidden flex items-center justify-center">
                 <Image src="/images/website-revamp/hero.svg" width={600} height={500} alt="website revamp hero" className="drop-shadow-2xl rounded-md" />
             </div>
         </div>
@@ -370,7 +370,7 @@ export default function page() {
         </div>
 
         <div className="py-8">
-            <div className="grid grid-cols-2 p-20 max-h-[625px]">
+            <div className="grid grid-cols-2 p-20 h-[625px]">
                 <div className="flex items-center ">
                     <div className="space-y-10 ">
                         <div className="space-y-8">
@@ -378,11 +378,11 @@ export default function page() {
                                 <h1 className="font-bold text-3xl">localization</h1>
                                 <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
                             </div>
-                            <div className="max-w-[600px] text-wrap font-light space-y-3">
+                            <div className="max-w-[600px] text-wrap space-y-3">
                                 <p>The website needed to be localized to 11 different regions, all with different product offerings, legal requirements, language translations, and image requirements. </p>
-                                <span>Before, designers at Airwallex would have to spend months manually localizing the images to each region, manually changing things like currencies, flags, payment methods etc. For us, localizing manually was not an option because we were under immense pressure from stakeholders to launch the website before an investor event in the US. Hence, I led an initiative to build a 
-                                    </span><span className="font-semibold"> localization automation Figma plugin</span> <span>to help us 
-                                    generate localized images, which helped speed up the process and enabled us to successfully launch within the given timeframe. </span>
+                                <p>Before, designers at Airwallex would have to spend months manually localizing the images to each region, manually changing things like currencies, flags, payment methods etc. For us, localizing manually was not an option because we were under immense pressure from stakeholders to launch the website before an investor event in the US. Hence, I led an initiative to build a 
+                                    <strong> localization automation tool </strong>to help us 
+                                    generate localized images, which helped speed up the process and enabled us to successfully launch within the given timeframe. </p>
                             </div>
                             <div className="space-y-4">
                                 <p>Read more about the localization plugin here: </p>

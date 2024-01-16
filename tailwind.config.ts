@@ -16,8 +16,9 @@ const config: Config = {
     },
     extend: {
       fontFamily: {
-        lato: 'var(--font-raleway)',
-        josefin: 'var(--font-josefin-sans)',
+        'sans': 'var(--font-raleway)',
+        'body': 'var(--font-raleway)',
+        'display': 'var(--font-josefin-sans)',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

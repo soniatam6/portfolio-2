@@ -8,12 +8,12 @@ const [openModal, setOpenModal] = useState(false);
 
   return (
     <div>
-      <div className='h-[550px] flex items-center justify-end p-10 bg-gradient-to-r from-teal-400 to-indigo-500'>
-        <div className="text-white">
-          <h1 className='text-7xl text-right mb-4 font-black'>sonia tam</h1>
-          <div className='space-y-2 font-light'>
-            <p className='text-2xl text-right'>cog sci + cs @ upenn</p>
-            <p className='text-2xl text-right'>product & design</p>
+      <div className='h-[650px] flex items-center justify-end p-10 bg-gradient-to-r from-teal-400 to-indigo-500'>
+        <div className="space-y-6">
+          <h1 className='text-white text-8xl text-right mb-4 font-black'>sonia tam</h1>
+          <div className='space-y-3 font-light'>
+            <p className='text-gray-100 text-3xl text-right'>cog sci + cs @ upenn</p>
+            <p className='text-gray-100 text-3xl text-right'>product & design</p>
           </div>
         </div>
       </div>

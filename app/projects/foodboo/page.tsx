@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function page() {
   return (
-    <div className="max-w-[1440px]">
+    <div className="">
         <div className="flex flex-row pl-20">
             <div className="flex items-center basis-[600px]">
                 <div className="space-y-10 ">
@@ -27,7 +27,7 @@ export default function page() {
                     </div>
                 </div>
             </div>
-            <div className="max-h-[625px] py-24 flex items-center justify-center">
+            <div className="max-h-[650px] py-24 flex items-center justify-center">
                 <Image src="/images/foodboo/foodboo-hero.svg" width={1100} height={500} alt="foodboo hero" />
             </div>
         </div>

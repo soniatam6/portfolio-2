@@ -1,9 +1,11 @@
+import Link from 'next/link';
+
 export default function Footer() {
     return (
       <div className="bg-slate-100 dark:bg-slate-800 p-10">
-          <div className="py-9">
-            <h1 className="bg-gradient-to-r from-teal-400 to-indigo-500 bg-clip-text text-transparent text-3xl font-bold">
-              sonia tam
+          <div className="py-7">
+            <h1 className="bg-gradient-to-r from-teal-400 to-indigo-500 bg-clip-text text-transparent text-4xl font-bold">
+              <Link href='/'>sonia tam</Link>
             </h1>
           </div>
           <div className="flex justify-left">
@@ -13,9 +15,14 @@ export default function Footer() {
                   DESIGN PROJECTS
                 </h2>
                 <ul className="text-slate-600 dark:text-slate-200 space-y-2 text-sm">
-                  <li>airwallex website revamp</li>
-                  <li>foodboo</li>
-                  <li>PennInTouch</li>
+                  <li>
+                    <Link href='/projects/website-revamp'><p>airwallex website revamp</p></Link></li>
+                  <li><Link href='/projects/foodboo'>
+                    <p>foodboo</p>
+                  </Link></li>
+                  <li><Link href='/projects/pennintouch'>
+                    <p>PennInTouch</p>
+                  </Link></li>
                 </ul>
               </div>
               <div className="space-y-2">
@@ -23,7 +30,9 @@ export default function Footer() {
                   PM PROJECTS
                 </h2>
                 <ul className="text-slate-600 dark:text-slate-200 space-y-2 text-sm">
-                  <li>localization automation</li>
+                  <li><Link href='/projects/localization'>
+                    <p>localization automation</p>
+                  </Link></li>
                 </ul>
               </div>
               <div className="space-y-2">
@@ -31,9 +40,13 @@ export default function Footer() {
                   OTHER
                 </h2>
                 <ul className="text-slate-600 dark:text-slate-200 space-y-2 text-sm">
-                  <li>about</li>
-                  <li>resume</li>
-                  <li>essays</li>
+                  <li><Link href='/about'>
+                    <p>about</p>
+                  </Link></li>
+                  <li><p>resume</p></li>
+                  <li><Link href='https://soniatam.substack.com/'>
+                    <p>writings</p>
+                  </Link></li>
                 </ul>
               </div>
               <div className="space-y-2">
@@ -41,18 +54,12 @@ export default function Footer() {
                   CONTACT
                 </h2>
                 <ul className="text-slate-600 dark:text-slate-200 space-y-2 text-sm">
-                  <li>soniatam6@gmail.com</li>
-                  <li>+1 (445) 208-0204</li>
-                  <li>
-                    <a href="https://www.linkedin.com/in/sonia-tam/" className="underline">Linkedin</a>
-                  </li>
+                  <li><p>soniatam6@gmail.com</p></li>
+                  <li><p>+1 (445) 208-0204</p></li>
                 </ul>
               </div>
             </div>
           </div>
-        </div>
+      </div>
     );
-  }
-  
-  
-  
+}

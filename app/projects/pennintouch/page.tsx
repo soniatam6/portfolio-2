@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function page() {
   return (
-    <div className="max-w-[1440px]">
+    <div className="">
         <div className="bg-[url('/images/pennintouch/hero.svg')] flex h-[650px]">
             <div className="space-y-10 pl-20 pt-40">
                 <div className="space-y-3">

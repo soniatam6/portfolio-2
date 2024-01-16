@@ -44,7 +44,7 @@ export default function Navbar() {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="font-semibold"><h2>projects</h2></NavigationMenuTrigger>
+          <NavigationMenuTrigger className="font-normal"><h2>projects</h2></NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               <ListItem
@@ -61,7 +61,7 @@ export default function Navbar() {
                   href="/projects/foodboo"
                   className="hover:bg-slate-50"
                 >
-                  <p className="font-light">designing a food truck directory app and website for Penn students and community</p>
+                  <p className="font-light">designing a food truck directory app and website </p>
               </ListItem>
               <ListItem
                   key="PennInTouch"
@@ -69,7 +69,7 @@ export default function Navbar() {
                   href="/projects/pennintouch"
                   className="hover:bg-slate-50"
                 >
-                  <p className="font-light">redesigning the academic planning worksheet in Penn&apos;s course registration system</p>
+                  <p className="font-light">redesigning Penn's academic planning worksheet</p>
               </ListItem>
               <ListItem
                   key="localization automation"
@@ -77,10 +77,17 @@ export default function Navbar() {
                   href="/projects/localization"
                   className="hover:bg-slate-50"
                 >
-                  <p className="font-light">building an image localization automation tool for Airwallex&apos;s website revamp project</p>
+                  <p className="font-light">building an image localization automation tool</p>
               </ListItem>
             </ul>
           </NavigationMenuContent>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <Link href="https://soniatam.substack.com/" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              <h2>writings</h2>
+            </NavigationMenuLink>
+          </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <Link href="/docs" legacyBehavior passHref>
@@ -88,28 +95,6 @@ export default function Navbar() {
               <h2>resume</h2>
             </NavigationMenuLink>
           </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button variant="outline" size="icon">
-                <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-                <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
-                <span className="sr-only">Toggle theme</span>
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end">
-              <DropdownMenuItem onClick={() => setTheme("light")}>
-                Light
-              </DropdownMenuItem>
-              <DropdownMenuItem onClick={() => setTheme("dark")}>
-                Dark
-              </DropdownMenuItem>
-              <DropdownMenuItem onClick={() => setTheme("system")}>
-                System
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
@@ -131,7 +116,7 @@ const ListItem = React.forwardRef<
           )}
           {...props}
         >
-          <div className="text-sm font-medium leading-none">{title}</div>
+          <h2 className="text-[18px] font-semibold leading-none">{title}</h2>
           <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
             {children}
           </p>
