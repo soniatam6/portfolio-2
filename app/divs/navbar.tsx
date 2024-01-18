@@ -53,7 +53,7 @@ export default function Navbar() {
                   href="/projects/glean"
                   className="hover:bg-slate-50"
                 >
-                  <p className="font-light">redesigning Glean's enterprise search results page</p>
+                  <p className="font-light">redesigning Glean&apos;s enterprise search results page</p>
               </ListItem>
               <ListItem
                   key="foodboo"

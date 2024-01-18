@@ -28,7 +28,7 @@ const [openModal, setOpenModal] = useState(false);
                 <div className="p-7">
                   <h1 className="text-2xl text-slate-800 dark:text-white font-bold">glean search redesign </h1>
                   <p className="text-slate-400 py-2 text">
-                    redesigning Glean's traditional search and AI powered search result page.
+                    redesigning Glean&apos;s traditional search and AI powered search result page.
                   </p>
                   <div className="inline-grid grid-cols-2 gap-x-2 py-2">
                     <div>

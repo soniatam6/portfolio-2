@@ -25,7 +25,7 @@ export default function page() {
                             <h1 className="font-extrabold text-7xl">search redesign</h1>
                         </div>
                         <div className="max-w-[512px] text-wrap">
-                            <p className="text-xl">redesigning glean's traditional search and AI powered search result page.</p>
+                            <p className="text-xl">redesigning glean&apos;s traditional search and AI powered search result page.</p>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ export default function page() {
                 <div className="pt-14 grid grid-cols-2">
                     <div className="flex flex-col space-y-4 justify-center items-center">
                         <Image src="/images/glean/cabrium.svg" width={625} height={500} alt="cabrium" className="drop-shadow-xl rounded-md" />
-                        <p className='text-slate-400'>cabrium's platform</p>
+                        <p className='text-slate-400'>cabrium&apos;s platform</p>
                     </div>
                     <div className="pr-20 pl-4 flex items-center">
                         <div className="space-y-5">
@@ -102,7 +102,7 @@ export default function page() {
                     </div>
                     <div className="flex flex-col space-y-4 justify-center items-center">
                         <Image src="/images/glean/google-ux.svg" width={625} height={500} alt="cabrium" className="drop-shadow-xl rounded-md" />
-                        <p className='text-slate-400'>Google's 'generative search' design</p>
+                        <p className='text-slate-400'>Google&apos;s &apos;generative search&apos; design</p>
                     </div>
                 </div>
             </div>
@@ -173,8 +173,8 @@ export default function page() {
                         </ul>
                         <li><p><strong>Entity searches</strong> where users want to see all summarized information about one entity</p></li>
                         <ul className='list-disc pl-8 space-y-1'>
-                            <li><p>Example: 'Christine Kong’</p></li>
-                            <li><p>Example:  ‘Acme Inc’ </p></li>
+                            <li><p>Example: &apos;Christine Kong&apos;</p></li>
+                            <li><p>Example:  &apos;Acme Inc&apos; </p></li>
                         </ul>
                     </ul>
                 </div>
@@ -339,7 +339,7 @@ export default function page() {
                                 <h1 className="font-semibold">Customize search</h1>
                             </div>
                             <div className="max-w-[550px]">
-                                <p><strong>Test #5: </strong>Filter out for all results of type 'Notion'</p>
+                                <p><strong>Test #5: </strong>Filter out for all results of type &apos;Notion&apos;</p>
                                 <p><strong>Takeaways:</strong></p>
                                 <ul className="list-decimal pl-4 space-y-2">
                                     <li><p>Initial reactions were to use the top bar and select “what type”, but eventually succeeded</p></li>
