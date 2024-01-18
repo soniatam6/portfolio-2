@@ -48,12 +48,12 @@ export default function Navbar() {
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               <ListItem
-                  key="airwallex website revamp"
-                  title="airwallex website revamp"
-                  href="/projects/website-revamp"
+                  key="glean search redesign"
+                  title="glean search redesign"
+                  href="/projects/glean"
                   className="hover:bg-slate-50"
                 >
-                  <p className="font-light">redesigning and revamping Airwallex&apos;s website</p>
+                  <p className="font-light">redesigning Glean's enterprise search results page</p>
               </ListItem>
               <ListItem
                   key="foodboo"
@@ -70,6 +70,14 @@ export default function Navbar() {
                   className="hover:bg-slate-50"
                 >
                   <p className="font-light">redesigning Penn&apos;s academic planning worksheet</p>
+              </ListItem>
+              <ListItem
+                  key="airwallex website revamp"
+                  title="airwallex website revamp"
+                  href="/projects/website-revamp"
+                  className="hover:bg-slate-50"
+                >
+                  <p className="font-light">redesigning and revamping Airwallex&apos;s website</p>
               </ListItem>
               <ListItem
                   key="localization automation"

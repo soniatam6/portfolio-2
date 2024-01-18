@@ -17,6 +17,9 @@ export default function page() {
             <div className="flex items-center basis-[600px]">
                 <div className="space-y-10 ">
                     <div className="space-y-3">
+                        <div>
+                            <p className="text-slate-300 font-semibold text-sm">INTERNSHIP</p>
+                        </div>
                         <div className="flex flex-col">
                             <h1 className="font-light text-7xl">airwallex</h1>
                             <h1 className="font-extrabold text-7xl">website revamp</h1>

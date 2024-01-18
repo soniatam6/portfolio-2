@@ -9,6 +9,9 @@ export default function page() {
         <div className="bg-[url('/images/pennintouch/hero.svg')] flex h-[650px]">
             <div className="space-y-10 pl-20 pt-40">
                 <div className="space-y-3">
+                    <div>
+                        <p className="text-slate-300 font-semibold text-sm">PROJECT</p>
+                    </div>
                     <div> 
                         <span className="font-light "> <h1 className="text-6xl">pennintouch </h1></span>
                         <span className="font-bold"> <h1 className="text-6xl"> revamp</h1></span>

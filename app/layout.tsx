@@ -18,8 +18,8 @@ const josefin = Josefin_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'Sonia Tam Portfolio',
-  description: 'Sonia Tam portfolio website',
+  title: 'Sonia Tam',
+  description: 'Sonia Tam',
 }
 
 export default function RootLayout({

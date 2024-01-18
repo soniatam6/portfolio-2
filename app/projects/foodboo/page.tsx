@@ -10,6 +10,9 @@ export default function page() {
             <div className="flex items-center basis-[600px]">
                 <div className="space-y-10 ">
                     <div className="space-y-6">
+                        <div>
+                            <p className="text-slate-300 font-semibold text-sm">PROJECT</p>
+                        </div>
                         <div className="flex flex-col">
                             <Image src="/images/foodboo/foodboo-logo.svg" width={400} height={500} alt="logo" />
                         </div>
