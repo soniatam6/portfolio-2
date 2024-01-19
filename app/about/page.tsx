@@ -8,7 +8,7 @@ export default function page() {
     <div>
         <div className="grid grid-cols-2 px-20">
             <div className="max-h-[625px] pt-72 overflow-y-hidden flex items-center justify-start">
-                <Image src="/images/about/sonia-tam.jpg" width={525} height={500} alt="sonia-tam" className="saturate-500 drop-shadow-2xl" />
+                <Image src="/images/about/sonia_tam.jpg" width={525} height={500} alt="sonia-tam" className="saturate-500 drop-shadow-2xl" />
             </div>
             <div className="flex items-center justify-end">
                 <div className="space-y-10 ">
