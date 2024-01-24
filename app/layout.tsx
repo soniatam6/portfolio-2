@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 import { Raleway, Josefin_Sans } from 'next/font/google'
 import './globals.css'
 
-import Navbar from './divs/navbar'
 import Navbar2 from './divs/navbar2'
 import Footer from './divs/footer'
 import ThemeProvider from '@/components/ui/theme-provider'
@@ -43,8 +42,8 @@ export default function RootLayout({
           </main>
         <Footer />
         </ThemeProvider>
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-        <script noModule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script async type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script async noModule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
         </body>
     </html>
   )
