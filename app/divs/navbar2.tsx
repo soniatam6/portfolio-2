@@ -14,10 +14,15 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 import { IonIcon } from "@ionic/react"
+import dynamic from 'next/dynamic';
+
 
 export default function Navbar() {
   const [state, setState] = React.useState(false)
-
+  const IonIcon = dynamic(
+    () => import('@ionic/react').then((mod) => mod.IonIcon),
+    { ssr: false }
+  );
   return (
     <NavigationMenu className=" w-full border-b md:border-0">
       <div className="items-center w-screen mx-auto md:flex md:px-8">
