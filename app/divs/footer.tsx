@@ -2,19 +2,19 @@ import Link from 'next/link';
 
 export default function Footer() {
     return (
-      <div className="bg-slate-100 dark:bg-slate-800 p-10">
+      <div className="bg-slate-100 dark:bg-slate-800 p-6 md:p-10">
           <div className="py-7">
             <h1 className="bg-gradient-to-r from-teal-400 to-indigo-500 bg-clip-text text-transparent text-4xl font-bold">
               <Link href='/'>sonia tam</Link>
             </h1>
           </div>
           <div className="flex justify-left">
-            <div className="inline-grid grid-cols-4 gap-32 py-4 pb-12">
+            <div className="inline-grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-32 py-4 pb-12">
               <div className="space-y-3">
                 <h2 className="text-slate-400 font-semibold text-sm">
                   DESIGN PROJECTS
                 </h2>
-                <ul className="text-slate-600 dark:text-slate-200 space-y-3 text-sm">
+                <ul className="text-slate-600 dark:text-slate-200 space-y-3 text-xs md:text-sm">
                   <li>
                     <Link href='/projects/glean'><p>Glean search redesign</p></Link></li>
                   <li>
@@ -55,8 +55,10 @@ export default function Footer() {
                 <h2 className="text-slate-400 font-semibold text-sm">
                   CONTACT
                 </h2>
-                <ul className="text-slate-600 dark:text-slate-200 space-y-3 text-sm">
-                  <li><p>soniatam6@gmail.com</p></li>
+                <ul className="text-slate-600 dark:text-slate-200 break-normal space-y-3 text-sm">
+                  <li><p>soniatam6
+                    @gmail
+                    .com</p></li>
                   <li><p>+1 (445) 208-0204</p></li>
                 </ul>
               </div>

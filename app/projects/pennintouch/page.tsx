@@ -6,29 +6,32 @@ import Link from 'next/link'
 export default function page() {
   return (
     <div className="">
-        <div className="bg-[url('/images/pennintouch/hero.svg')] flex h-[650px]">
-            <div className="space-y-10 pl-20 pt-40">
-                <div className="space-y-3">
+        <div className="bg-[url('/images/pennintouch/hero.svg')] flex h-fit md:h-[650px]">
+            <div className="space-y-10 p-6 md:pl-20 md:pt-40">
+                <div className="pt-10 md:pt-0 space-y-3">
                     <div>
                         <p className="text-slate-300 font-semibold text-sm">PROJECT</p>
                     </div>
                     <div> 
-                        <span className="font-light "> <h1 className="text-6xl">pennintouch </h1></span>
-                        <span className="font-bold"> <h1 className="text-6xl"> revamp</h1></span>
+                        <span className="font-light "> <h1 className="text-5xl md:text-6xl">pennintouch </h1></span>
+                        <span className="font-bold"> <h1 className="text-5xl md:text-6xl"> revamp</h1></span>
                     </div>
                     <div className="max-w-[512px] text-wrap">
-                        <p className="font-light text-xl">redesigning the academic planning worksheet in Penn’s course registration system</p>
+                        <p className="font-light text-md md:text-xl">redesigning the academic planning worksheet in Penn’s course registration system</p>
                     </div>
                 </div>
                 <div>
                     <Button variant="default">
-                        <Link href="https://tinyurl.com/bdhrstbu " className="font-semibold">See demo</Link>
+                        <Link href="https://tinyurl.com/bdhrstbu" className="font-semibold">See demo</Link>
                     </Button>
+                </div>
+                <div className='md:hidden'>
+                    <Image src="/images/pennintouch/hero2.svg" width={700} height={900} layout='responsive' alt="pit hero" />
                 </div>
             </div>
         </div>
         <div className="bg-slate-900 h-fit flex">
-            <div className="flex flex-row px-20 h-fit">
+            <div className="flex flex-col md:flex-row pt-14 md:pt-0 px-6 md:px-20 h-fit">
                 <div className="flex items-center">
                     <div className="space-y-10 ">
                         <div className="space-y-8">
@@ -57,47 +60,47 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-                <div className="overflow-y-hidden pl-20 py-20 flex items-center justify-center">
+                <div className="overflow-y-hidden md:pl-20 py-10 md:py-20 flex items-center justify-center">
                     <Image src="/images/pennintouch/context.svg" width={650} height={500} alt="pit context" />
                 </div>
             </div>
         </div>
         
-        <div className="p-20 py-20 space-y-6">
+        <div className="p-6 pt-14 md:p-20 md:py-20 space-y-6">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl">research</h1>
                 <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
             </div>
             <p>I used 3 methods of research to understand the user journey and pain points</p>
-            <div className="grid grid-cols-3 gap-16">
+            <div className="grid md:grid-cols-3 gap-16">
                 <div className="flex flex-col space-y-6">
-                    <Image src="/images/pennintouch/diagrams.png" width={500} height={500} alt="diagrams" className="drop-shadow-xl rounded-md"/>
+                    <Image src="/images/pennintouch/diagrams.png" width={500} height={500} layout='responsive' alt="diagrams" className="drop-shadow-xl rounded-md"/>
                     <div className="flex items-center flex-col space-y-2">
                         <h2 className="font-semibold text-xl">user flow diagram</h2>
                         <p className="text-center">my first step was to diagram the user experience flow, and immediately I already noticed the number of unnecessary steps it took to use the worksheet.</p>
                     </div>
                 </div>
                 <div className="flex flex-col space-y-6">
-                    <Image src="/images/pennintouch/interviews.png" width={500} height={500} alt="interviews" className="drop-shadow-xl rounded-md"/>
+                    <Image src="/images/pennintouch/interviews.png" width={500} height={500} layout='responsive' alt="interviews" className="drop-shadow-xl rounded-md"/>
                     <div className="flex items-center flex-col space-y-2">
                         <h2 className="font-semibold text-xl">interviews</h2>
                         <p className="text-center">when interviewing, I wanted to learn about the users’ experiences with PiT’s function and interface. I was surprised to learn about users’ assumptions about the worksheet and their pain points with the interface. </p>
                     </div>
                 </div>
                 <div className="flex flex-col space-y-6">
-                    <Image src="/images/pennintouch/surveys.png" width={500} height={500} alt="surveys" className="drop-shadow-xl rounded-md"/>
+                    <Image src="/images/pennintouch/surveys.png" width={500} height={500} layout='responsive' alt="surveys" className="drop-shadow-xl rounded-md"/>
                     <div className="flex items-center flex-col space-y-2">
                         <h2 className="font-semibold text-xl">surveys</h2>
                         <p className="text-center">through the survey, I collected quantitative data to understand the extent of some pain points. from the survey, I learned that students found the worksheet very helpful, but hard to use.</p>
                     </div>
                 </div>
             </div>
-            <div className="pt-16 flex-col flex items-center space-y-8 justify-center">
+            <div className="py-16 flex-col flex items-center space-y-8 justify-center">
                 <div className="text-center flex flex-col max-w-[800px] ">
                     <h1 className="font-bold">the problem statement</h1>
                     <p><strong>how might we...</strong> create an academic planning worksheet that can help students review what requirements are already fulfilled, yet also plan ahead for the future?</p>
                 </div>
-                <div className="grid grid-cols-2 gap-12 max-w-[800px] ">
+                <div className="grid md:grid-cols-2 gap-12 max-w-[800px] ">
                     <div>
                         <h2 className="font-semibold">focus 1: function</h2>
                         <p>how might we create a system that is organized by semesters and requirements?</p>
@@ -110,13 +113,13 @@ export default function page() {
             </div>
         </div>
 
-        <div className="bg-slate-900 p-20 py-20 space-y-6">
+        <div className="bg-slate-900 p-6 pt-14 md:p-20 md:py-20 space-y-6">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl text-white">prototyping</h1>
                 <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-40"></div>
             </div>
             <div className="flex items-center justify-center">
-                <div className="grid grid-cols-2 gap-12 max-w-[800px] text-white">
+                <div className="grid md:grid-cols-2 gap-12 md:max-w-[800px] text-white">
                         <div className="space-y-2">
                             <h2 className="font-semibold">function</h2>
                             <ul className="list-decimal pl-4 space-y-1">
@@ -135,15 +138,15 @@ export default function page() {
                         </div>
                 </div>
             </div>
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid md:grid-cols-2 gap-2 md:gap-6">
                 <Image src="/images/pennintouch/p1.png" width={700} height={900} alt="prototype 1" className="rounded-md"/>
                 <Image src="/images/pennintouch/p2.png" width={700} height={900} alt="prototype 2" className="rounded-md"/>
                 <Image src="/images/pennintouch/p3.png" width={700} height={900} alt="prototype 3" className="rounded-md"/>
                 <Image src="/images/pennintouch/p4.png" width={700} height={900} alt="prototype 4" className="rounded-md"/>
             </div>
-            <div className="flex flex-col text-white space-y-4 items-center justify-center">
+            <div className="flex flex-col text-white space-y-4 pb-14 md:pb-0 items-center justify-center">
                 <h1 className="font-bold">feedback & revisions</h1>
-                <div className="grid grid-cols-2 gap-12 max-w-[800px] text-white">
+                <div className="grid md:grid-cols-2 gap-12 md:max-w-[800px] text-white">
                         <div className="space-y-2">
                             <h2 className="font-semibold">feedback</h2>
                             <ul className="list-decimal pl-4 space-y-1">
@@ -162,37 +165,37 @@ export default function page() {
             </div>
         </div>
 
-        <div className="p-20 py-20 space-y-6">
+        <div className="md:p-20 md:py-20 p-6 py-14 space-y-6">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl">revisions</h1>
                 <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
             </div>
             <div>
-                <Image src="/images/pennintouch/revisions.svg" width={1400} height={1400} alt="revisions" className="rounded-md"/>
+                <Image src="/images/pennintouch/revisions.svg" width={1400} height={1400} layout='responsive' alt="revisions" className="rounded-md"/>
             </div>
         </div>
 
-        <div className="bg-slate-100 p-20 py-20 space-y-12">
+        <div className="bg-slate-100 p-6 py-14 md:p-20 md:py-20 space-y-12">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl">final</h1>
                 <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-16"></div>
             </div>
-            <div className="flex flex-row space-x-20">
-                <Image src="/images/pennintouch/final1.svg" width={700} height={900} alt="final 1" className="rounded-lg drop-shadow-xl basis-3/5"/>
+            <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-20">
+                <Image src="/images/pennintouch/final1.svg" width={700} height={900} layout='responsive' alt="final 1" className="rounded-lg drop-shadow-xl basis-3/5"/>
                 <Image src="/images/pennintouch/final1-modal.svg" width={700} height={900} alt="final 1 modal" className="rounded-lg drop-shadow-xl"/>
             </div>
-            <div className="flex flex-row space-x-20">
-                <Image src="/images/pennintouch/final2.svg" width={700} height={900} alt="final 2" className="rounded-lg drop-shadow-xl basis-3/5"/>
+            <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-20">
+                <Image src="/images/pennintouch/final2.svg" width={700} height={900} layout='responsive' alt="final 2" className="rounded-lg drop-shadow-xl basis-3/5"/>
                 <Image src="/images/pennintouch/final2-modal.svg" width={500} height={900} alt="final 2 modal" className="rounded-lg drop-shadow-xl"/>
             </div>
         </div>
-        <div className="p-20 py-20 space-y-16">
+        <div className="md:p-20 md:py-20 p-6 pt-14 space-y-16">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl">reflections</h1>
                 <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-40"></div>
             </div>
             <div className="flex items-center justify-center">
-                <div className="grid grid-cols-3 gap-12 max-w-[1000px]">
+                <div className="grid md:grid-cols-3 gap-12 max-w-[1000px]">
                         <div className="space-y-6">
                             <div>
                                 <h2 className="font-semibold">problem #1</h2>
@@ -238,9 +241,9 @@ export default function page() {
                         </div>
                 </div>
             </div>
-            <div className="flex flex-col space-y-4 items-center justify-center">
+            <div className="flex flex-col space-y-4 items-center justify-center pb-14 md:pb-0">
                 <h1 className="font-bold">challenges</h1>
-                <div className="grid grid-cols-2 gap-12 max-w-[1000px]">
+                <div className="grid md:grid-cols-2 gap-12 max-w-[1000px]">
                         <div className="space-y-2">
                             <h2 className="font-semibold">how do you visually show the function of an element?</h2>
                             <p>in my high-fidelity mockups, I received feedback on improving the UI to reflect the function of an element. For example, I struggled a lot with how to make a button look like a button, or how to make something look draggable. </p>

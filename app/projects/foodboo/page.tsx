@@ -6,15 +6,15 @@ import Link from 'next/link'
 export default function page() {
   return (
     <div className="">
-        <div className="flex flex-row pl-20">
-            <div className="flex items-center basis-[600px]">
+        <div className="flex flex-col md:flex-row p-6 pb-16 md:p-0 md:pl-20">
+            <div className="flex items-center basis-[300px] md:basis-[600px]">
                 <div className="space-y-10 ">
                     <div className="space-y-6">
                         <div>
                             <p className="text-slate-300 font-semibold text-sm">PROJECT</p>
                         </div>
-                        <div className="flex flex-col">
-                            <Image src="/images/foodboo/foodboo-logo.svg" width={400} height={500} alt="logo" />
+                        <div className="flex flex-col w-60 md:w-[400px]">
+                            <Image src="/images/foodboo/foodboo-logo.svg" width={400} height={500} layout='responsive' alt="logo" />
                         </div>
                         <div className="max-w-[450px] text-wrap">
                             <p className="font-light text-xl">designing a food truck directory app and website for Penn students</p>
@@ -30,12 +30,12 @@ export default function page() {
                     </div>
                 </div>
             </div>
-            <div className="max-h-[650px] py-24 flex items-center justify-center">
-                <Image src="/images/foodboo/foodboo-hero.svg" width={1100} height={500} alt="foodboo hero" />
+            <div className="md:max-h-[650px] pt-6 md:py-24 flex items-center justify-center">
+                <Image src="/images/foodboo/foodboo-hero.svg" width={1100} height={500} layout='responsive' alt="foodboo hero" />
             </div>
         </div>
         <div className="bg-slate-900 h-fit flex">
-            <div className="flex flex-row pl-20 max-h-[780px]">
+            <div className="flex flex-col md:flex-row md:p-0 p-6 pt-14 md:pl-20 md:max-h-[780px]">
                 <div className="flex items-center">
                     <div className="space-y-10">
                         <div className="space-y-12">
@@ -64,13 +64,13 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-                <div className="overflow-y-hidden pl-16 pb-40 flex items-center justify-center">
+                <div className="overflow-y-hidden md:pl-16 md:pb-40 flex items-center justify-center">
                     <Image src="/images/foodboo/context.svg" width={700} height={500} alt="pit context" />
                 </div>
             </div>
         </div>
 
-        <div className="pl-20 py-20 space-y-6">
+        <div className="md:pl-20 md:py-20 p-6 pt-14 space-y-6">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl">research</h1>
                 <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
@@ -82,9 +82,12 @@ export default function page() {
                     <li><p><strong>Operations & payment methods: </strong>what were some operational challenges the owners faced?</p></li>
                 </ul>
             </div>
-            <div className="grid grid-cols-2 h-[500px]">
-                    <div className="flex items-center">
-                        <div className="space-y-8">
+            <div className="grid md:grid-cols-2 md:h-[500px]">
+                <div className="flex md:px-2 items-center justify-center ">
+                        <Image src="/images/foodboo/surveys.png" width={750} height={500} layout='responsive' alt="surveys" />
+                    </div>
+                    <div className="flex items-center md:order-first">
+                        <div className="space-y-4 md:space-y-8">
                             <div>
                                 <h1 className="font-semibold">user experience</h1>
                                 <p className="italic text-gray-400">key takeaways</p>
@@ -99,16 +102,13 @@ export default function page() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex px-2 items-center justify-center ">
-                        <Image src="/images/foodboo/surveys.png" width={750} height={500} alt="surveys" />
-                    </div>
             </div>
-            <div className="grid grid-cols-2 h-[500px]">
+            <div className="grid md:grid-cols-2 md:gap-10 md:h-[500px]">
                 <div className="flex items-center">
-                    <Image src="/images/foodboo/diagram.png" width={600} height={500} alt="diagram"/>
+                    <Image src="/images/foodboo/diagram.png" width={600} height={500} layout='responsive' alt="diagram"/>
                 </div>
                     <div className="flex items-center">
-                        <div className="space-y-8">
+                        <div className="space-y-4 md:space-y-8">
                             <div>
                                 <h1 className="font-semibold">operations & payments</h1>
                                 <p className="italic text-gray-400">key takeaways</p>
@@ -123,9 +123,9 @@ export default function page() {
                     </div>
                     
             </div>
-            <div className="py-16 flex-row flex items-center space-x-16 justify-center">
+            <div className="py-4 md:py-16 flex-row flex items-center space-x-6 md:space-x-16 justify-center">
                 <div className="w-2 h-40 bg-teal-400"></div>
-                <div className="text-center space-y-4 flex flex-col max-w-[600px] ">
+                <div className="text-center space-y-4 flex flex-col md:max-w-[600px] ">
                     <h1 className="font-bold">the problem statement</h1>
                     <p><strong>how might we...</strong> create a centralized platform providing customers with all necessary information to make informed decisions on which food truck to choose?</p>
                 </div>
@@ -133,34 +133,31 @@ export default function page() {
             </div>
         </div>
 
-        <div className="bg-slate-900 p-20 py-20 space-y-16">
+        <div className="bg-slate-900 p-6 pt-14 md:p-20 md:py-20 space-y-16">
             <div className="space-y-2">
                 <div className="space-y-1">
                     <h1 className="font-bold text-3xl text-white">wireframing</h1>
                     <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-40"></div>
                 </div>
-                <div className="flex items-center justify-center">
-                    <Image src="/images/foodboo/wireframing-table.svg" width={1000} height={500} alt="wireframing table" />
+                <div className="flex items-center justify-center ">
+                    <Image src="/images/foodboo/wireframing-table.svg" width={1000} height={500} layout='responsive' alt="wireframing table" className='md:max-w-[1000px]'/>
                 </div>
             </div>
-            <div className="h-fit grid grid-cols-2">
+            <div className="h-fit grid gap-4 md:gap-0 md:grid-cols-2">
                 <div className="flex items-center">
                     <div className="space-y-8 text-white">
-                        <div className="space-y-3 max-w-[512px] text-wrap">
+                        <div className="space-y-3 md:max-w-[512px] text-wrap">
                             <h1 className="font-bold text-xl"> mobile wireframes</h1>
                             <p>One of the challenges I encountered early on in wireframing was how to incorporate the price of the dish in the menu section while maintaining a way to convey a clickable button. I resorted to using parentheses (“Chicken over Rice ($8)”)  </p>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <Image src="/images/foodboo/mob-wf.svg" width={650} height={600} alt="mob wireframes" />
+                    <Image src="/images/foodboo/mob-wf.svg" width={650} height={600} layout='responsive' alt="mob wireframes" />
                 </div>
             </div>
-            <div className="flex flex-row space-x-10">
-                <div>
-                    <Image src="/images/foodboo/desktop-wf.svg" width={800} height={800} alt="desktop wireframes" />
-                </div>
-                <div className="flex items-center max-w-[512px]">
+            <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:gap-16">
+                <div className="flex items-center md:max-w-[512px]">
                     <div className="space-y-8 text-white">
                         <div className="space-y-3 text-wrap">
                             <h1 className="font-bold text-xl"> desktop wireframes</h1>
@@ -168,21 +165,24 @@ export default function page() {
                         </div>
                     </div>
                 </div>
+                <div className='md:order-first pb-14 md:pb-0'>
+                    <Image src="/images/foodboo/desktop-wf.svg" width={800} height={800} alt="desktop wireframes" />
+                </div>
             </div>
         </div>
 
-        <div className="pl-20 py-20 space-y-16">
+        <div className="p-6 pt-14 md:pl-20 md:py-20 space-y-16">
             <div className="space-y-5">
                 <div className="space-y-1">
                     <h1 className="font-bold text-3xl">usability testing</h1>
                     <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-60"></div>
                 </div>
                 <div className="flex items-center justify-center">
-                    <Image src="/images/foodboo/user-testing.svg" width={1000} height={500} alt="wireframing table" />
+                    <Image src="/images/foodboo/user-testing.svg" width={1000} height={500} layout='responsive' alt="wireframing table" className='md:max-w-[1000px]'/>
                 </div>
             </div>
-            <div className="flex flex-row">
-                <div className="flex items-center max-w-[500px]">
+            <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row">
+                <div className="flex items-center md:max-w-[500px]">
                     <div className="space-y-8">
                         <div className="space-y-3 text-wrap">
                             <h1 className="font-bold text-xl"> mobile high fidelity wireframes</h1>
@@ -190,18 +190,14 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-                <div className="grid grid-cols-3 gap-6 px-8">
+                <div className="grid grid-cols-3 gap-6 md:px-8">
                     <Image src="/images/foodboo/mob-hf-wf-3.svg" width={650} height={600} alt="mob hifi wireframe 3" className='drop-shadow-lg' />
                     <Image src="/images/foodboo/mob-hf-wf-1.svg" width={650} height={600} alt="mob hifi wireframe 1" className='drop-shadow-lg' />
                     <Image src="/images/foodboo/mob-hf-wf-2.svg" width={650} height={600} alt="mob hifi wireframe 3" className='drop-shadow-lg' />
                 </div>
             </div>
-            <div className="flex flex-row space-x-16">
-                <div className="grid grid-cols-2 gap-6 items-center justify-center max-w-[840px]">
-                    <Image src="/images/foodboo/desktop-hf-wf-1.svg" width={650} height={600} alt="desktop hifi wireframe 1" className='drop-shadow-lg' />
-                    <Image src="/images/foodboo/desktop-hf-wf-2.svg" width={650} height={600} alt="desktop hifi wireframe 2" className='drop-shadow-lg' />
-                </div>
-                <div className="flex items-center max-w-[512px]">
+            <div className="flex flex-col md:flex-row space-y-4 md:space-y-0">
+                <div className="flex items-center md:max-w-[512px]">
                     <div className="space-y-8">
                         <div className="space-y-3 text-wrap">
                             <h1 className="font-bold text-xl"> desktop high fidelity wireframes</h1>
@@ -209,10 +205,14 @@ export default function page() {
                         </div>
                     </div>
                 </div>
+                <div className="grid grid-cols-2 gap-6 md:pr-20 items-center justify-center md:max-w-[840px] md:order-first">
+                    <Image src="/images/foodboo/desktop-hf-wf-1.svg" width={650} height={600} alt="desktop hifi wireframe 1" className='drop-shadow-lg' />
+                    <Image src="/images/foodboo/desktop-hf-wf-2.svg" width={650} height={600} alt="desktop hifi wireframe 2" className='drop-shadow-lg' />
+                </div>
             </div>
-            <div className="flex flex-col space-y-4 items-center justify-center">
+            <div className="flex flex-col space-y-4 items-center justify-center pb-14 md:pb-0">
                 <h1 className="font-bold">user testing feedback</h1>
-                <div className="grid grid-cols-2 gap-12 max-w-[800px]">
+                <div className="grid md:grid-cols-2 gap-12 md:max-w-[800px]">
                         <div className="space-y-2">
                             <h2 className="font-semibold">feedback (UX)</h2>
                             <ul className="list-disc pl-5 space-y-2">
@@ -238,16 +238,16 @@ export default function page() {
                 </div>
             </div>
         </div>
-        <div className='bg-slate-100 h-[800px] relative flex justify-center'>
+        <div className='bg-slate-100 h-[500px] md:h-[800px] relative flex justify-center'>
             <Image src="/images/foodboo/final-mob.svg" width={1000} height={800} className="w-full object-cover" alt="final mob" />
         </div>
 
-        <div className="pl-20 py-20 space-y-6">
+        <div className="p-6 pt-14 md:pl-20 md:py-20 space-y-6">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl">challenges</h1>
                 <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
             </div>
-            <div className='max-w-[1240px] flex items-center justify-center'>
+            <div className='md:max-w-[1240px] flex items-center justify-center'>
                 <table className="table-auto text-left">
                     <thead className="border-b-2">
                         <tr className="border-b">
@@ -302,7 +302,7 @@ export default function page() {
             </div>
         </div>
 
-        <div className='bg-slate-100 h-[1200px] relative flex justify-center'>
+        <div className='bg-slate-100 h-[700px] md:h-[1200px] relative flex justify-center'>
             <Image src="/images/foodboo/final-desktop.svg" width={1000} height={800} className="w-full object-cover" alt="final mob" />
         </div>
 

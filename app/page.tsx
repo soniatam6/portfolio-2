@@ -8,21 +8,21 @@ const [openModal, setOpenModal] = useState(false);
 
   return (
     <div>
-      <div className='h-[650px] flex items-center justify-end p-10 bg-gradient-to-r from-teal-400 to-indigo-500'>
-        <div className="space-y-6">
-          <h1 className='text-white text-8xl text-right mb-4 font-black'>sonia tam</h1>
+      <div className='w-screen h-[500px] md:h-[650px] flex items-center justify-end p-6 md:p-10 bg-gradient-to-r from-teal-400 to-indigo-500'>
+        <div className="md:space-y-6 flex flex-col justify-end">
+          <h1 className='text-white text-5xl md:text-8xl text-right mb-4 font-black'>sonia tam</h1>
           <div className='space-y-3 font-light'>
-            <p className='text-gray-100 text-3xl text-right'>cog sci + cs @ upenn</p>
-            <p className='text-gray-100 text-3xl text-right'>product & design</p>
+            <p className='text-gray-100 text-xl md:text-3xl text-right'>cog sci + cs @ upenn</p>
+            <p className='text-gray-100 text-xl md:text-3xl text-right'>product & design</p>
           </div>
         </div>
       </div>
       <div className="bg-white dark:bg-slate-900 flex justify-center items-center">
-        <div className="bg-white dark:bg-slate-900 inline-grid grid-cols-2 gap-8 p-24">
+        <div className="bg-white dark:bg-slate-900 space-y-8 lg:space-y-0 lg:inline-grid lg:grid-cols-2 gap-8 p-8 lg:p-24">
           <div className='bg-slate-100 dark:bg-slate-800 rounded-md max-h-[650px] max-w-[500px]'>
             <a href="/projects/glean"> 
               <div>
-                <div className="p-7 pb-0 h-80">
+                <div className="p-7 pb-0 h-fit lg:h-80">
                   <img src="/images/glean.svg" className="drop-shadow-md rounded-md h-fit"/>
                 </div>
                 <div className="p-7">
@@ -42,7 +42,7 @@ const [openModal, setOpenModal] = useState(false);
           <div className='bg-slate-100 dark:bg-slate-800 rounded-md max-h-[650px] max-w-[500px]'>
             <a href="/projects/foodboo"> 
               <div>
-                <div className="p-7 pb-0 h-80">
+                <div className="p-7 pb-0 h-fit lg:h-80">
                   <img src="/images/foodboo.svg" className="drop-shadow-md rounded-md h-fit"/>
                 </div>
                 <div className="p-7">
@@ -62,7 +62,7 @@ const [openModal, setOpenModal] = useState(false);
           <div className='bg-slate-100 dark:bg-slate-800 rounded-md max-h-[650px] max-w-[500px]'>
             <a href="/projects/pennintouch"> 
               <div>
-                <div className="p-7 pb-0 h-80">
+                <div className="p-7 pb-0 h-fit lg:h-80">
                   <img src="/images/pennintouch.svg" className="drop-shadow-md rounded-md h-fit"/>
                 </div>
                 <div className="p-7">
@@ -82,7 +82,7 @@ const [openModal, setOpenModal] = useState(false);
           <div className='bg-slate-100 dark:bg-slate-800 rounded-md max-h-[650px] max-w-[500px]'>
             <a href="/projects/localization"> 
               <div>
-                <div className="p-7 pb-0 h-80">
+                <div className="p-7 pb-0 h-fit lg:h-80">
                   <img src="/images/localization.svg" className="h-fit"/>
                 </div>
                 <div className="p-7">
@@ -102,7 +102,7 @@ const [openModal, setOpenModal] = useState(false);
           <div className='bg-slate-100 dark:bg-slate-800 rounded-md max-h-[650px] max-w-[500px]'>
             <a href="/projects/website-revamp"> 
               <div>
-                <div className="p-7 pb-0 h-80">
+                <div className="p-7 pb-0 h-fit lg:h-80">
                   <img src="/images/awx-website-revamp.jpg" className="drop-shadow-md rounded-md h-fit"/>
                 </div>
                 <div className="p-7">

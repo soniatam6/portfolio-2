@@ -13,19 +13,19 @@ import {
 export default function page() {
   return (
     <div className=''>
-        <div className="flex flex-row pl-20">
-            <div className="flex items-center basis-[600px]">
+        <div className="flex flex-col md:flex-row p-6 md:pl-20">
+            <div className="flex items-center basis-[300px] md:basis-[600px] pt-10 md:pt-0">
                 <div className="space-y-10 ">
                     <div className="space-y-3">
                         <div className='pb-3'>
                             <p className="text-slate-300 font-semibold text-sm">INTERNSHIP</p>
                         </div>
                         <div className="flex flex-col">
-                            <h1 className="font-light text-7xl">localization</h1>
-                            <h1 className="font-extrabold text-7xl">automation tool</h1>
+                            <h1 className="font-light text-5xl md:text-7xl">localization</h1>
+                            <h1 className="font-extrabold text-5xl md:text-7xl">automation tool</h1>
                         </div>
                         <div className="max-w-[512px] text-wrap">
-                            <p className="font-light text-xl">leading an initiative to build an image localization Figma plugin for the airwallex website revamp project</p>
+                            <p className="font-light text-md md:text-xl">leading an initiative to build an image localization Figma plugin for the airwallex website revamp project</p>
                         </div>
                     </div>
                     <div>
@@ -35,14 +35,14 @@ export default function page() {
                     </div>
                 </div>
             </div>
-            <div className="max-h-[650px] px-24 pt-48 overflow-y-hidden flex items-center justify-center">
+            <div className="md:max-h-[650px] md:px-24 md:pt-48 md:overflow-y-hidden flex items-center justify-center">
                 <Image src="/images/localization/hero.svg" width={600} height={500} alt="localization hero" className="drop-shadow-xl rounded-md" />
             </div>
         </div>
 
-        <div className="bg-slate-900 py-8">
-            <div className="grid grid-cols-2 py-16">
-                <div className="flex items-center pl-20 ">
+        <div className="bg-slate-900 p-6 pt-14 md:py-8">
+            <div className="grid md:grid-cols-2 md:py-16 gap-6 md:gap-0">
+                <div className="flex items-center md:pl-20 ">
                     <div className="space-y-10 ">
                         <div className="space-y-8">
                             <div className="space-y-1">
@@ -74,15 +74,15 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-                <div className="flex items-center justify-center">
-                    <Image src="/images/localization/context.svg" width={600} height={500} alt="awx logo"/>
+                <div className="flex items-center justify-center pb-14 md:pb-0">
+                    <Image src="/images/localization/context.svg" width={600} height={500} layout='responsive' alt="context diagram" className='md:max-w-[600px]'/>
                 </div>
             </div>
         </div>
 
-        <div className="py-8">
-            <div className="grid grid-cols-2 py-16">
-                <div className="flex items-center pl-20 ">
+        <div className="p-6 pt-14 md:py-8">
+            <div className="grid md:grid-cols-2 md:py-16 gap-10 md:gap-0">
+                <div className="flex items-center md:pl-20 ">
                     <div className="space-y-10 ">
                         <div className="space-y-8">
                             <div className="space-y-1">
@@ -111,19 +111,19 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-                <div className="flex items-center justify-center">
-                    <Image src="/images/localization/problem.svg" width={500} height={500} alt="awx logo"/>
+                <div className="flex items-center justify-center pb-14 md:pb-0">
+                    <Image src="/images/localization/problem.svg" width={500} height={500} layout='responsive' alt="awx logo" className='md:max-w-[500px]'/>
                 </div>
             </div>
         </div>
 
-        <div className="bg-slate-100 p-20 space-y-8">
+        <div className="bg-slate-100 p-6 pt-14 md:p-20 space-y-8">
             <div className="space-y-1">
-                <h1 className="font-bold text-3xl">defining user requirements</h1>
+                <h1 className="font-bold text-2xl md:text-3xl">defining user requirements</h1>
                 <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-80"></div>
             </div>
             <p>The first step was to break down what ‘localization’ really meant for images. As the main user of the product and designer for the website, I took a step back to analyze what were the types of designs that needed to be localized. After reviewing all the designs, these were the categories of objects to be localized:</p>
-            <div className="grid grid-cols-2">
+            <div className="grid md:grid-cols-2 gap-6 md:gap-0">
                 <div className='space-y-6'>
                     <p><strong>Text-based</strong></p>
                     <Image src="/images/localization/text-based.svg" width={550} height={500} alt="text-based"/>
@@ -134,7 +134,7 @@ export default function page() {
                 </div>
             </div>
             <p>I also observed that there were some small modular designs that were repeatedly used, and depended on product availability or specifications for each region. Some examples include: </p>
-            <div className="flex flex-row space-x-12">
+            <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-12">
                 <div className='space-y-6'>
                     <Image src="/images/localization/GAs.svg" width={550} height={500} alt="GAs" className='drop-shadow-md'/>
                     <div className='w-fit'>
@@ -169,12 +169,12 @@ export default function page() {
                 <p className='text-center'>Homepage US &gt; Compliance and Security section &gt; ‘Protected’ talking point &gt; Upload image</p>
                 <p>The pain point was in having to manually click through all these pages every single time there was a small change made to the images. This was a very time costly operation since as we were conducting QA in parallel, there would often be very small revisions that need to be made to images. Consequentially, as the user, I often found myself spending hours just clicking through Contentful trying to find the appropriate place to upload all the revised images. </p>
             </div>
-            <div className='space-y-8'>
+            <div className='space-y-8 pb-14 md:pb-0'>
                 <p>With these observations above, we can write the following problem statement to summarize the JTBD of this product:</p>
-                <div className="flex-row flex items-center space-x-16 justify-center">
+                <div className="flex-row flex items-center space-x-6 md:space-x-16 justify-center">
                     <div className="w-2 h-56 bg-teal-400"></div>
                     <div className="space-y-4 items-center flex flex-col ">
-                        <h1 className="font-bold">the problem statement</h1>
+                        <h1 className="font-bold text-2xl">the problem statement</h1>
                         <p><strong>how might we...</strong> build a tool that can help us</p>
                         <ul className='list-disc pl-4 max-w-[500px]'>
                             <li><p>automatically transfer a mapping of data into Figma designs</p></li>
@@ -188,7 +188,7 @@ export default function page() {
         </div>
 
         <div className="bg-slate-900 space-y-20">
-            <div className="pl-20 py-20 h-fit grid grid-cols-2">
+            <div className="p-6 pt-14 md:pl-20 md:py-20 h-fit gap-6 md:gap-0 grid md:grid-cols-2">
                 <div className="flex items-center">
                     <div className="space-y-8">
                         <div className="space-y-1">
@@ -247,7 +247,7 @@ export default function page() {
                             <p className="font-light text-center text-slate-400"> Map of localized data</p>
                         </div>
                     </div>
-                    <div className='space-y-3 flex flex-col items-center'>
+                    <div className='space-y-3 flex flex-col items-center pb-14 md:pb-0'>
                         <div>
                             <Image src="/images/localization/name-template.png" width={350} height={700} alt="name-template" className="rounded-md" />
                         </div>
@@ -259,12 +259,12 @@ export default function page() {
             </div>
         </div>
 
-        <div className="bg-slate-100 py-20 pl-20 space-y-16">
+        <div className="bg-slate-100 p-6 pt-14 md:py-20 md:pl-20 space-y-8 md:space-y-16">
             <div className="space-y-1">
-                <h1 className="font-bold text-3xl ">implementation & challenges</h1>
+                <h1 className="font-bold text-2xl md:text-3xl ">implementation & challenges</h1>
                 <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-80"></div>
             </div>
-            <div className="h-fit grid grid-cols-2">
+            <div className="h-fit grid md:grid-cols-2 gap-6 md:gap-0">
                 <div className="flex items-center">
                     <div className="space-y-8 ">
                         <div className="space-y-2 max-w-[625px]">
@@ -284,7 +284,7 @@ export default function page() {
                     </div>
                 </div>
             </div>
-            <div className="h-fit grid grid-cols-2">
+            <div className="h-fit grid gap-6 md:gap-0 md:grid-cols-2">
                 <div className="flex items-center">
                     <div className="space-y-8 ">
                         <div className="space-y-2">
@@ -298,7 +298,7 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col space-y-4 items-center justify-center'>
+                <div className='flex flex-col space-y-4 items-center justify-center pb-14 md:pb-0'>
                     <Image src="/images/localization/naming-convention.svg" width={575} height={600} alt="naming conventions" className="drop-shadow-lg" />
                     <div className="max-w-[340px] text-wrap">
                         <p className="font-light text-center text-slate-400"> naming conventions that we agreed upon</p>
@@ -307,7 +307,7 @@ export default function page() {
             </div>
         </div>
 
-        <div className="p-20 space-y-16">
+        <div className="p-6 pt-14 md:p-20 space-y-16">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl ">results & metrics</h1>
                 <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-40"></div>
@@ -316,7 +316,7 @@ export default function page() {
                 <p>With the help of this localization plugin, efficient project management, and a lot of hard work from the team, we managed to successfully launch the website within <strong>1 week turnaround</strong>, just in time for our CEO attended the investor event. We continued to use this plugin to help us localize for the other regions, and <strong>successfully launched 7 regions in a span of 3 weeks.</strong> </p>
                 <p>Here is the before and after effort estimates:</p>
                 <div className='flex items-center justify-center'>
-                    <div className="grid grid-cols-2 gap-12 max-w-[800px]">
+                    <div className="grid md:grid-cols-2 gap-12 max-w-[800px]">
                             <div className="space-y-2">
                                 <p className="font-semibold">before:</p>
                                 <ul className="list-disc pl-5 space-y-2">
@@ -344,7 +344,7 @@ export default function page() {
                     </ul>
                 </div>
             </div>
-            <div className="space-x-24 relative flex flex-row items-center justify-center">
+            <div className="md:space-x-24 space-y-6 md:space-y-0 relative flex flex-col md:flex-row items-center justify-center">
                     <div className='space-y-3 flex flex-col items-center'>
                         <div>
                             <Image src="/images/localization/localized-assets.png" width={675} height={700} alt="localized assets" className="drop-shadow-lg rounded-md" />
@@ -353,7 +353,7 @@ export default function page() {
                             <p className="font-light text-center text-slate-400"> generated localized design assets</p>
                         </div>
                     </div>
-                    <div className='space-y-3 flex flex-col items-center'>
+                    <div className='space-y-3 flex flex-col items-center pb-14 md:pb-0'>
                         <div>
                             <Image src="/images/localization/plugin.png" width={450} height={700} alt="plugin" className="drop-shadow-lg rounded-md" />
                         </div>

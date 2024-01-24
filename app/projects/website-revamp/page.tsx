@@ -13,19 +13,19 @@ import {
 export default function page() {
   return (
     <div className="">
-        <div className="flex flex-row pl-20">
-            <div className="flex items-center basis-[600px]">
+        <div className="flex flex-col md:flex-row p-6 md:p-0 md:pl-20">
+            <div className="pt-10 flex items-center basis-[300px] md:basis-[600px]">
                 <div className="space-y-10 ">
                     <div className="space-y-3">
                         <div>
                             <p className="text-slate-300 font-semibold text-sm">INTERNSHIP</p>
                         </div>
                         <div className="flex flex-col">
-                            <h1 className="font-light text-7xl">airwallex</h1>
-                            <h1 className="font-extrabold text-7xl">website revamp</h1>
+                            <h1 className="font-light text-5xl md:text-7xl">airwallex</h1>
+                            <h1 className="font-extrabold text-5xl md:text-7xl">website revamp</h1>
                         </div>
                         <div className="max-w-[512px] text-wrap">
-                            <p className="text-xl">redesigning and revamping Airwallex&apos;s website, localizing and launching 17 landing pages in 11 regions.</p>
+                            <p className="text-md md:text-xl">redesigning and revamping Airwallex&apos;s website, localizing and launching 17 landing pages in 11 regions.</p>
                         </div>
                     </div>
                     <div>
@@ -35,12 +35,12 @@ export default function page() {
                     </div>
                 </div>
             </div>
-            <div className="max-h-[650px] px-24 pt-24 overflow-y-hidden flex items-center justify-center">
+            <div className="py-6 md:max-h-[650px] md:px-24 md:pt-24 md:overflow-y-hidden flex items-center justify-center">
                 <Image src="/images/website-revamp/hero.svg" width={600} height={500} alt="website revamp hero" className="drop-shadow-2xl rounded-md" />
             </div>
         </div>
-        <div className="bg-slate-900 py-8">
-            <div className="grid grid-cols-2 p-20 max-h-[625px]">
+        <div className="bg-slate-900 md:py-8">
+            <div className="grid md:grid-cols-2 p-6 pt-14 md:p-20 md:max-h-[625px]">
                 <div className="flex items-center ">
                     <div className="space-y-10 ">
                         <div className="space-y-8">
@@ -59,12 +59,12 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-                <div className="flex items-center justify-center">
-                    <Image src="/images/website-revamp/awx-logo.svg" width={400} height={500} alt="awx logo"/>
+                <div className="py-14 md:py-0 flex items-center justify-center">
+                    <Image src="/images/website-revamp/awx-logo.svg" width={350} height={500} alt="awx logo" className='md:max-w-[400px]'/>
                 </div>
             </div>
         </div>
-        <div className="p-20 space-y-8">
+        <div className="p-6 pt-14 md:p-20 space-y-8">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl">jobs to be done</h1>
                 <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-56"></div>
@@ -79,7 +79,7 @@ export default function page() {
                 </div>
             </div>
             <div className="flex items-center justify-center">
-                <Image src="/images/website-revamp/jtbd-diagram.svg" width={750} height={500} alt="jtbd-diagram"/>
+                <Image src="/images/website-revamp/jtbd-diagram.svg" width={750} height={500} layout='responsive' alt="jtbd-diagram" className='md:max-w-[750px]'/>
             </div>
             <div>
                 <p>From this, we can understand that the main JTBD of a website is to serve as a company&apos;s <strong>product story</strong>. It&apos;s the company&apos;s narrative and story to demonstrate who it is, what products it offers, and what value propositions it brings to stakeholders. In other words, when these users view the website, they need to be convinced to click the &apos;sign up&apos; or &apos;contact us&apos; button. At the same time, the website serves as a public brand and image for the company, and is the primary way for internal teams to convey to the world about who they are, what values they stand for, and what value they can bring to users.</p>
@@ -88,7 +88,7 @@ export default function page() {
                 <p>In summary, the job of the designer is to design a website that can:</p>
             </div>
                 <div className='flex items-center justify-center pb-12'>
-                    <div className="grid grid-cols-2 gap-4 max-w-[1000px]">
+                    <div className="grid md:grid-cols-2 gap-4 max-w-[1000px]">
                             <div className="space-y-2">
                                 <h2 className="font-semibold text-xl">convey...</h2>
                                 <ul className="list-disc pl-5 space-y-2">
@@ -109,17 +109,17 @@ export default function page() {
                     </div>
                 </div>
         </div>
-        <div className="bg-slate-100 px-20 max-h-[800px]">
-            <div className="grid grid-cols-2 justify-center">
-                <div className="max-h-[800px] pb-80 overflow-y-hidden flex items-center justify-center">
+        <div className="bg-slate-100 md:px-20 md:max-h-[800px]">
+            <div className="grid md:grid-cols-2 justify-center">
+                <div className="md:max-h-[800px] p-10 md:p-0 md:pb-80 md:overflow-y-hidden flex items-center justify-center">
                     <Image src="/images/website-revamp/baas-page-prev.jpg" width={550} height={500} alt="baas preview" className="drop-shadow-2xl rounded-md" />
                 </div>
-                <div className="max-h-[800px] pt-96 overflow-y-hidden flex items-center justify-center">
+                <div className="md:max-h-[800px] p-10 md:p-0 md:pt-96 md:overflow-y-hidden flex items-center justify-center">
                     <Image src="/images/website-revamp/ba-prev.jpg" width={550} height={500} alt="ba preview" className="drop-shadow-2xl rounded-md" />
                 </div>
             </div>
         </div>
-        <div className="bg-slate-900 p-20 py-20 space-y-6">
+        <div className="bg-slate-900 p-6 pt-14 md:p-20 md:py-20 space-y-6">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl text-white">overview & timeline</h1>
                 <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-60"></div>
@@ -152,13 +152,13 @@ export default function page() {
             <div>
                 <p className=" text-white">All in all, the 7 month project looked a little like this:</p>
             </div>
-            <div className="flex items-center justify-center">
-                <Image src="/images/website-revamp/timeline.svg" width={1000} height={500} alt="timeline" />
+            <div className="flex items-center justify-center pb-14 md:pb-0">
+                <Image src="/images/website-revamp/timeline.svg" width={1000} height={500} layout='responsive' alt="timeline" className='max-w-[1000px]'/>
             </div>
         </div>
         <div className="space-y-20">
             <div>
-                <div className="pl-20 pt-20 h-[500px] grid grid-cols-2">
+                <div className="pt-14 p-6 md:pl-20 md:p-0 md:h-[600px] grid md:grid-cols-2">
                     <div className="flex items-center">
                         <div className="space-y-8">
                             <div className="space-y-1">
@@ -176,17 +176,17 @@ export default function page() {
                             </div>
                         </div>
                     </div>
-                    <div className="relative flex overflow-x-hidden items-center">
-                        <Image src="/images/website-revamp/expense-hero.svg" width={750} height={500} alt="expense hero" className="drop-shadow-xl rounded-md left-16 absolute right-0" />
+                    <div className="relative flex md:overflow-x-hidden items-center">
+                        <Image src="/images/website-revamp/expense-hero.svg" width={750} height={500} alt="expense hero" className="drop-shadow-xl rounded-md md:left-16 md:absolute md:right-0 pt-10" />
                     </div>
                 </div>
             </div>
 
-            <div className="pl-20 h-fit grid grid-cols-2">
+            <div className="md:pl-20 px-6 h-fit grid gap-6 md:gap-0 md:grid-cols-2">
                 <div className="flex items-center">
-                    <div className="space-y-8">
+                    <div className="space-y-4 md:space-y-8">
                         <h1 className="font-bold text-xl"> research & understanding</h1>
-                        <div className="space-y-3 max-w-[600px] text-wrap">
+                        <div className="space-y-3 md:max-w-[600px] text-wrap">
                             <p>When trying to understand a product, there were a few key questions I would center my research around: </p>
                             <ol className="list-decimal pl-4">
                                 <li><p>Who are the target users for this product?</p></li>
@@ -219,7 +219,7 @@ export default function page() {
                 </div>
                 <div className="space-y-6 relative flex flex-col items-center justify-center">
                     <div>
-                        <Image src="/images/website-revamp/expense-file.jpg" width={500} height={700} alt="expense file" className="drop-shadow-xl rounded-md" />
+                        <Image src="/images/website-revamp/expense-file.jpg" width={500} height={700} layout='responsive' alt="expense file" className="drop-shadow-xl rounded-md md:max-w-[500px]" />
                     </div>
                     <div className="max-w-[340px] text-wrap">
                         <p className=" text-center text-slate-400"> Interviewing other designers to understand their product, their designs, and the user journey</p>
@@ -227,12 +227,7 @@ export default function page() {
                 </div>
             </div>
 
-            <div className="pl-20 h-fit grid grid-cols-2">
-                <div className="space-y-3 relative flex flex-col">
-                    <div className="items-start justify-start">
-                        <Image src="/images/website-revamp/expense-wf.svg" width={550} height={700} alt="expense file" />
-                    </div>
-                </div>
+            <div className="px-6 md:pl-20 h-fit grid md:grid-cols-2 gap-6 md:gap-0">
                 <div className="flex items-center">
                     <div className="space-y-8">
                         <h1 className="font-bold text-xl"> drafting an outline</h1>
@@ -262,9 +257,14 @@ export default function page() {
                         </div>
                     </div>
                 </div>
+                <div className="space-y-3 relative flex flex-col md:order-first">
+                    <div className="items-start justify-start">
+                        <Image src="/images/website-revamp/expense-wf.svg" width={550} height={700} alt="expense file" />
+                    </div>
+                </div>
             </div>
 
-            <div className="pl-20 h-fit grid grid-cols-2 pb-20">
+            <div className="md:pl-20 h-fit grid px-6 pb-14 md:grid-cols-2 gap-6 md:gap-0 md:pb-20">
                 <div className="flex items-center">
                     <div className="space-y-6">
                         <h1 className="font-bold text-xl"> design & prototyping</h1>
@@ -316,8 +316,8 @@ export default function page() {
             </div>
         </div>
 
-        <div className="bg-slate-900 p-20 py-20 space-y-20">
-            <div className="h-fit grid grid-cols-2">
+        <div className="bg-slate-900 p-6 py-14 md:p-20 md:py-20 space-y-20">
+            <div className="h-fit grid gap-6 md:gap-0 md:grid-cols-2">
             <div className="flex items-center">
                     <div className="space-y-8 text-white">
                         <div className="space-y-1">
@@ -347,7 +347,7 @@ export default function page() {
                 </div>
             </div>
 
-            <div className="h-fit grid grid-cols-2">
+            <div className="h-fit grid gap-6 md:gap-0 md:grid-cols-2">
                 <div className="flex items-center">
                     <div className="space-y-16 text-white">
                         <div className="space-y-3 max-w-[540px] text-wrap">
@@ -368,7 +368,7 @@ export default function page() {
                 </div>
             </div>
 
-            <div className="h-fit grid grid-cols-2">
+            <div className="h-fit grid gap-6 md:gap-0 md:grid-cols-2">
                 <div className="flex items-center">
                     <div className="space-y-16 text-white">
                         <div className="space-y-3 max-w-[540px] text-wrap">
@@ -390,8 +390,8 @@ export default function page() {
             </div>
         </div>
 
-        <div className="py-8">
-            <div className="grid grid-cols-2 p-20 h-[625px]">
+        <div className="md:py-8">
+            <div className="grid md:grid-cols-2 p-6 py-14 md:p-20 gap-6 md:gap-0 md:h-[625px]">
                 <div className="flex items-center ">
                     <div className="space-y-10 ">
                         <div className="space-y-8">
@@ -430,19 +430,19 @@ export default function page() {
             </div>
         </div>
 
-        <div className="bg-slate-100 px-20 max-h-[800px]">
-            <div className="grid grid-cols-2 justify-center">
-                <div className="max-h-[800px] pb-56 overflow-y-hidden flex items-center justify-center">
+        <div className="bg-slate-100 md:px-20 h-fit md:max-h-[800px]">
+            <div className="grid md:grid-cols-2 justify-center">
+                <div className="md:max-h-[800px] p-6 md:pb-56 md:overflow-y-hidden flex items-center justify-center">
                     <Image src="/images/website-revamp/issuing.svg" width={550} height={500} alt="website revamp hero" className="drop-shadow-2xl rounded-md" />
                 </div>
-                <div className="max-h-[800px] pt-72 overflow-y-hidden flex items-center justify-center">
+                <div className="md:max-h-[800px] p-6 md:pt-72 md:overflow-y-hidden flex items-center justify-center">
                     <Image src="/images/website-revamp/payments.svg" width={550} height={500} alt="website revamp hero" className="drop-shadow-2xl rounded-md" />
                 </div>
             </div>
         </div>
 
         <div>
-            <div className="grid grid-cols-2 p-20 h-fit">
+            <div className="grid md:grid-cols-2 p-6 py-14 md:p-20 gap-6 md:gap-0 h-fit">
                 <div className="flex items-center ">
                     <div className="space-y-10 ">
                         <div className="space-y-8">
@@ -482,7 +482,7 @@ export default function page() {
         </div>
 
         <div className="bg-slate-100">
-            <div className="grid grid-cols-2 p-20 h-fit">
+            <div className="grid md:grid-cols-2 md:p-20 p-6 py-14 gap-6 md:gap-0 h-fit">
                 <div className="flex items-center">
                     <div className="space-y-10 ">
                         <div className="space-y-8">
