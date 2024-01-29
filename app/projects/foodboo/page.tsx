@@ -239,7 +239,7 @@ export default function page() {
             </div>
         </div>
         <div className='bg-slate-100 h-[500px] md:h-[800px] relative flex justify-center'>
-            <Image src="/images/foodboo/final-mob.svg" width={1000} height={800} className="w-full object-cover" alt="final mob" />
+            <Image src="/images/foodboo/final-mob.svg" layout='fill' className="w-full h-full object-cover" alt="final mob" />
         </div>
 
         <div className="p-6 pt-14 md:pl-20 md:py-20 space-y-6">
@@ -303,7 +303,7 @@ export default function page() {
         </div>
 
         <div className='bg-slate-100 h-[700px] md:h-[1200px] relative flex justify-center'>
-            <Image src="/images/foodboo/final-desktop.svg" width={1000} height={800} className="w-full object-cover" alt="final mob" />
+            <Image src="/images/foodboo/final-desktop.svg" layout='fill' className="w-full object-cover" alt="final desktop" />
         </div>
 
     </div>

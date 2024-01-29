@@ -48,7 +48,9 @@ export default function Footer() {
                   <li><Link href='https://soniatam.substack.com/'>
                     <p>writings</p>
                   </Link></li>
-                  <li><p>resume</p></li>
+                  <li><Link href='https://drive.google.com/file/d/12W4pJytDyxrtDuhZQqDSaD0lv0TeVJpz/view?usp=sharing'>
+                    <p>resume</p>
+                  </Link></li>
                 </ul>
               </div>
               <div className="space-y-3">
@@ -56,15 +58,13 @@ export default function Footer() {
                   CONTACT
                 </h2>
                 <ul className="text-slate-600 dark:text-slate-200 break-normal space-y-3 text-sm">
-                  <li><p>soniatam6
-                    @gmail
-                    .com</p></li>
+                  <li><p>soniatam6@gmail.com</p></li>
                   <li><p>+1 (445) 208-0204</p></li>
                 </ul>
               </div>
             </div>
           </div>
-          <p className='text-right text-slate-300'>~ built with love</p>
+          <p className='text-right text-slate-300'>~ built with shadcn/ui</p>
       </div>
     );
 }

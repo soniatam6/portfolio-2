@@ -103,7 +103,7 @@ const [openModal, setOpenModal] = useState(false);
             <a href="/projects/website-revamp"> 
               <div>
                 <div className="p-7 pb-0 h-fit lg:h-80">
-                  <img src="/images/awx-website-revamp.jpg" className="drop-shadow-md rounded-md h-fit"/>
+                  <img src="/images/awx-website-revamp.jpg" className="drop-shadow-md rounded-md w-full lg:w-auto"/>
                 </div>
                 <div className="p-7">
                   <h1 className="text-2xl text-slate-800 dark:text-white font-bold">airwallex website revamp </h1>

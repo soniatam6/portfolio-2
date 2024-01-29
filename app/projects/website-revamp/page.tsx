@@ -139,7 +139,7 @@ export default function page() {
                         <AccordionTrigger><p>Design Process Overview</p></AccordionTrigger>
                         <AccordionContent className="space-y-2">
                             <p>For each of the pages in these product categories, I roughly followed these steps to design them:</p>
-                            <ol className="list-decimal pl-4 space-y-2">
+                            <ol className="list-decimal pl-6 lg:pl-4 space-y-2">
                                 <li><p><strong>Research & Understand</strong>-- talked to product managers and read product docs to understand what does the product do, how does it work, and what are its main value propositions. </p></li>
                                 <li><p><strong>Draft a rough structure (IA proposal)</strong> -- using my understanding of the product, I drafted a rough outline of what I envisioned the page to look like. I presented these rough outlines to marketing, strategy, executives, and product managers to get alignment on the product narrative being crafted, iteratively revising and designing new outlines.  </p></li>
                                 <li><p><strong>Design & Prototying</strong> -- after a general alignment was reached, I designed the pages in high fidelity on Figma, prototyping the pages to simulate a real website interactions. In this step, I would work closely with content marketers to write the copy, and with developers to understand what is feasible and what isn’t.  </p></li>
@@ -203,7 +203,7 @@ export default function page() {
                                     <AccordionTrigger><p>Example: Expense Management</p></AccordionTrigger>
                                     <AccordionContent className="space-y-2">
                                         <p>For Expense Management, the analysis looked like this:</p>
-                                        <ol className="list-decimal pl-4 space-y-2">
+                                        <ol className="list-decimal pl-6 lg:pl-4 space-y-2">
                                             <li><p><strong>Target users:</strong> Small to medium sized businesses who are using Airwallex’s Cards product for their employees and company expenses </p></li>
                                             <li><p><strong>Target user needs:</strong> Administrators want an easy way to manage and approve expenses. Employees want an easy way to see and review their expenses. </p></li>
                                             <li><p><strong>Unique value proposition:</strong> Mobile and desktop, uploading receipts, ability to customize approval workflows, integrations with accounting software</p></li>
@@ -245,7 +245,7 @@ export default function page() {
                                     <AccordionTrigger><p>Example: Expense Management</p></AccordionTrigger>
                                     <AccordionContent className="space-y-2">
                                         <p>For Expense Management, one of the challenges I faced was how to balance the perspective of different roles. The Expense Management product served two main types of users: </p>
-                                        <ol className="list-decimal pl-4 space-y-2">
+                                        <ol className="list-decimal pl-6 lg:pl-4 space-y-2 ">
                                             <li><p><strong>Cardholders:</strong> employees who are using the cards to record expenses </p></li>
                                             <li><p><strong>Administrators:</strong> Administrators want an easy way to manage and approve expenses. Employees want an easy way to see and review their expenses. </p></li>
                                         </ol>
@@ -293,7 +293,7 @@ export default function page() {
                                     <AccordionTrigger><p>Example: Expense Management</p></AccordionTrigger>
                                     <AccordionContent className="space-y-2">
                                         <p>For example, for the ‘For Employers’ section, the analysis looks like this: </p>
-                                        <ol className="list-decimal pl-4 space-y-2">
+                                        <ol className="list-decimal pl-6 lg:pl-4 space-y-2">
                                             <li><p><strong>Highlighted abilities:</strong> Employees can easily upload receipts and submit expenses </p></li>
                                             <li><p><strong>Mobile or desktop?</strong> Mobile, because that emphasizes the point that employees can submit expenses on the go </p></li>
                                             <li><p><strong>Key screens:</strong> Submitting expenses screen, scanning receipts can be identified by the camera focusing on a receipt</p></li>

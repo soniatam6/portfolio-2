@@ -213,7 +213,7 @@ export default function page() {
                                 <AccordionItem value="item-1">
                                     <AccordionTrigger><p>work flow</p></AccordionTrigger>
                                     <AccordionContent>
-                                    <ol className="list-decimal pl-4 space-y-2">
+                                    <ol className="list-decimal pl-6 lg:pl-4 space-y-2">
                                         <li><p>Designer, developer, and PM agree on a naming scheme for the Figma layers to be localized </p></li>
                                         <li><p>Designer creates a master component set of flags, cards, and payment methods</p></li>
                                         <li><p>Designer would clean up a template version of the image, switching in instances of the flags, cards, and payment methods</p></li>
