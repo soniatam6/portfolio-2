@@ -11,7 +11,7 @@ export default function page() {
                 <div className="pt-10 md:pt-0 space-y-4">
                         <div className='max-w-[600px]'>
                             <p className="text-stone-400 text-md font-mono">HOW MIGHT WE...</p>
-                            <h1 className='text-5xl font-semibold leading-normal'>improve course planning?</h1>
+                            <h1 className='text-5xl font-semibold leading-normal'>improve the course planning experience?</h1>
                         </div>
                     <div className="max-w-[512px] text-wrap">
                         <p className="font-light text-md md:text-xl">redesigning the academic planning worksheet in Penn’s course registration system</p>
@@ -57,8 +57,9 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-                <div className="overflow-y-hidden md:pl-20 py-10 md:py-20 flex items-center justify-center">
+                <div className="max-w-[600px] md:pl-20 py-10 md:py-20 flex flex-col items-center justify-center">
                     <Image src="/images/pennintouch/context.svg" width={650} height={500} alt="pit context" />
+                    <p className='font-mono text-sm text-stone-500'>the original Penn course planning tool</p>
                 </div>
             </div>
         </div>

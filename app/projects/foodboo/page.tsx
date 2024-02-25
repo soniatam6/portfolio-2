@@ -88,7 +88,7 @@ export default function page() {
                         <div className="space-y-4 md:space-y-8">
                             <div>
                                 <h1 className="font-semibold">user experience</h1>
-                                <p className="italic text-gray-400">key takeaways</p>
+                                <p className="font-mono text-stone-400">key takeaways</p>
                             </div>
                             <div className="max-w-[600px]">
                                 <ul className="list-decimal pl-4 space-y-2">
@@ -109,7 +109,7 @@ export default function page() {
                         <div className="space-y-4 md:space-y-8">
                             <div>
                                 <h1 className="font-semibold">operations & payments</h1>
-                                <p className="italic text-gray-400">key takeaways</p>
+                                <p className="font-mono text-stone-400">key takeaways</p>
                             </div>
                             <div className="max-w-[600px]">
                                 <ul className="list-decimal pl-4 space-y-2">

@@ -19,7 +19,7 @@ export default function page() {
                     <div className="space-y-4">
                     <div className='max-w-[600px]'>
                             <p className="text-stone-400 text-md font-mono">HOW MIGHT WE...</p>
-                            <h1 className='text-5xl font-semibold leading-normal'>automate image localization</h1>
+                            <h1 className='text-5xl font-semibold leading-normal'>automate image localization?</h1>
                         </div>
                         <div className="max-w-[512px] text-wrap">
                             <p className="font-light text-md md:text-xl">leading an initiative to build an image localization Figma plugin for the airwallex website revamp project</p>
