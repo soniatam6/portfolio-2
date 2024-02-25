@@ -17,6 +17,14 @@ module.exports = {
       },
     },
     extend: {
+      colors: {
+        'burgundy_v3': '#7D0008',
+        'cream_v3': '#F9F5EB',
+        'stone_v3': '#9E9E9A',
+        'beige_v3': '#EDEAE1',
+        'black_v3': '#211413',
+        'walnut_v3': '#6E5D57',
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

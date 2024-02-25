@@ -1,5 +1,6 @@
 "use client"
 
+//INACTIVE, DO NOT USE THIS FILE
 import * as React from "react"
 import Link from "next/link"
 
@@ -29,13 +30,13 @@ import {
 export default function Navbar() {
   const { setTheme } = useTheme()
   return (
-    <NavigationMenu className='max-w-screen flex items-center px-10 py-5 justify-between'>
+    <NavigationMenu className='bg-cream_v3 max-w-screen flex items-center px-10 py-5 justify-between'>
       <div>
-        <Link href="/" passHref className="text-2xl font-">
-          <h1>sonia tam</h1>
+        <Link href="/" passHref className="text-xl">
+          <h1 className="font-sans">sonia tam</h1>
         </Link>
       </div>
-      <NavigationMenuList className="space-x-3">
+      <NavigationMenuList className="bg-cream_v3 space-x-3">
       <NavigationMenuItem>
           <Link href="/about" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
@@ -51,7 +52,7 @@ export default function Navbar() {
                   key="glean search redesign"
                   title="glean search redesign"
                   href="/projects/glean"
-                  className="hover:bg-slate-50"
+                  className="hover:bg-stone-200"
                 >
                   <p className="font-light">redesigning Glean&apos;s enterprise search results page</p>
               </ListItem>

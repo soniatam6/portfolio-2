@@ -6,16 +6,13 @@ import Link from 'next/link'
 export default function page() {
   return (
     <div className="">
-        <div className="bg-[url('/images/pennintouch/hero.svg')] flex h-fit md:h-[650px]">
-            <div className="space-y-10 p-6 md:pl-20 md:pt-40">
-                <div className="pt-10 md:pt-0 space-y-3">
-                    <div>
-                        <p className="text-slate-300 font-semibold text-sm">PROJECT</p>
-                    </div>
-                    <div> 
-                        <span className="font-light "> <h1 className="text-5xl md:text-6xl">pennintouch </h1></span>
-                        <span className="font-bold"> <h1 className="text-5xl md:text-6xl"> revamp</h1></span>
-                    </div>
+        <div className="bg-cream_v3 bg-[url('/images/pennintouch/hero.svg')] flex h-fit md:h-[650px]">
+            <div className="space-y-20 p-6 md:pl-20 md:pt-40">
+                <div className="pt-10 md:pt-0 space-y-4">
+                        <div className='max-w-[600px]'>
+                            <p className="text-stone-400 text-md font-mono">HOW MIGHT WE...</p>
+                            <h1 className='text-5xl font-semibold leading-normal'>improve course planning?</h1>
+                        </div>
                     <div className="max-w-[512px] text-wrap">
                         <p className="font-light text-md md:text-xl">redesigning the academic planning worksheet in Penn’s course registration system</p>
                     </div>
@@ -30,14 +27,14 @@ export default function page() {
                 </div>
             </div>
         </div>
-        <div className="bg-slate-900 h-fit flex">
+        <div className="bg-black_v3 h-fit flex">
             <div className="flex flex-col md:flex-row pt-14 md:pt-0 px-6 md:px-20 h-fit">
                 <div className="flex items-center">
                     <div className="space-y-10 ">
                         <div className="space-y-8">
                             <div className="space-y-1">
                                 <h1 className="font-bold text-3xl text-white">context</h1>
-                                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
+                                <div className="bg-burgundy_v3 h-1.5 w-32"></div>
                             </div>
                             <div className="max-w-[512px] text-wrap text-white">
                                 <p><span className="font-semibold">role:</span> <span className="font-light">lead product designer</span></p>
@@ -66,10 +63,10 @@ export default function page() {
             </div>
         </div>
         
-        <div className="p-6 pt-14 md:p-20 md:py-20 space-y-6">
+        <div className="bg-cream_v3 p-6 pt-14 md:p-20 md:py-20 space-y-6">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl">research</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
+                <div className="bg-burgundy_v3 h-1.5 w-32"></div>
             </div>
             <p>I used 3 methods of research to understand the user journey and pain points</p>
             <div className="grid md:grid-cols-3 gap-16">
@@ -113,10 +110,10 @@ export default function page() {
             </div>
         </div>
 
-        <div className="bg-slate-900 p-6 pt-14 md:p-20 md:py-20 space-y-6">
+        <div className="bg-black_v3 p-6 pt-14 md:p-20 md:py-20 space-y-6">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl text-white">prototyping</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-40"></div>
+                <div className="bg-burgundy_v3 h-1.5 w-40"></div>
             </div>
             <div className="flex items-center justify-center">
                 <div className="grid md:grid-cols-2 gap-12 md:max-w-[800px] text-white">
@@ -165,20 +162,20 @@ export default function page() {
             </div>
         </div>
 
-        <div className="md:p-20 md:py-20 p-6 py-14 space-y-6">
+        <div className="bg-cream_v3 md:p-20 md:py-20 p-6 py-14 space-y-6">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl">revisions</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
+                <div className="bg-burgundy_v3 h-1.5 w-32"></div>
             </div>
             <div>
                 <Image src="/images/pennintouch/revisions.svg" width={1400} height={1400} layout='responsive' alt="revisions" className="rounded-md"/>
             </div>
         </div>
 
-        <div className="bg-slate-100 p-6 py-14 md:p-20 md:py-20 space-y-12">
+        <div className="bg-beige_v3 p-6 py-14 md:p-20 md:py-20 space-y-12">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl">final</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-16"></div>
+                <div className="bg-burgundy_v3 h-1.5 w-16"></div>
             </div>
             <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-20">
                 <Image src="/images/pennintouch/final1.svg" width={700} height={900} layout='responsive' alt="final 1" className="rounded-lg drop-shadow-xl basis-3/5"/>
@@ -189,10 +186,10 @@ export default function page() {
                 <Image src="/images/pennintouch/final2-modal.svg" width={500} height={900} alt="final 2 modal" className="rounded-lg drop-shadow-xl"/>
             </div>
         </div>
-        <div className="md:p-20 md:py-20 p-6 pt-14 space-y-16">
+        <div className="bg-cream_v3 md:p-20 md:py-20 p-6 pt-14 space-y-16">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl">reflections</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-40"></div>
+                <div className="bg-burgundy_v3 h-1.5 w-40"></div>
             </div>
             <div className="flex items-center justify-center">
                 <div className="grid md:grid-cols-3 gap-12 max-w-[1000px]">

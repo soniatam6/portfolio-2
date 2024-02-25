@@ -1,20 +1,27 @@
 import type { Metadata } from 'next'
-import { Raleway, Josefin_Sans } from 'next/font/google'
+import { Cormorant_Garamond, Inter, IBM_Plex_Mono } from 'next/font/google'
 import './globals.css'
 
 import Navbar2 from './divs/navbar2'
 import Footer from './divs/footer'
 import ThemeProvider from '@/components/ui/theme-provider'
 
-const raleway = Raleway({ 
-  weight: ['100', '300', '400', '700', '900'],
+const inter = Inter({ 
+  //weight: ['100', '300', '400', '700', '900'],
   subsets: ['latin'], 
-  variable: '--font-raleway',
+  variable: '--font-inter',
 })
 
-const josefin = Josefin_Sans({
+const garamond = Cormorant_Garamond({
+  weight: ['300', '400', '500', '600', '700'],
   subsets: ['latin'],
-  variable: '--font-josefin-sans',
+  variable: '--font-garamond',
+})
+
+const ibm = IBM_Plex_Mono({
+  weight: ['100', '200', '300', '400', '500', '600', '700'],
+  subsets: ['latin'],
+  variable: '--font-ibm',
 })
 
 export const metadata: Metadata = {
@@ -29,7 +36,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="light">
-      <body className={`${raleway.variable} ${josefin.variable}`}>
+      <body className={`${inter.variable} ${garamond.variable} ${ibm.variable}`}>
         <ThemeProvider
               attribute="class"
               defaultTheme="light"

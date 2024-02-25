@@ -12,17 +12,14 @@ import {
 
 export default function page() {
   return (
-    <div className=''>
-        <div className="flex flex-col md:flex-row p-6 md:pl-20">
+    <div className='bg-cream_v3'>
+        <div className="flex flex-col md:flex-row md:pl-20">
             <div className="flex items-center basis-[300px] md:basis-[600px] pt-10 md:pt-0">
-                <div className="space-y-10 ">
-                    <div className="space-y-3">
-                        <div className='pb-3'>
-                            <p className="text-slate-300 font-semibold text-sm">INTERNSHIP</p>
-                        </div>
-                        <div className="flex flex-col">
-                            <h1 className="font-light text-5xl md:text-7xl">localization</h1>
-                            <h1 className="font-extrabold text-5xl md:text-7xl">automation tool</h1>
+                <div className="space-y-20">
+                    <div className="space-y-4">
+                    <div className='max-w-[600px]'>
+                            <p className="text-stone-400 text-md font-mono">HOW MIGHT WE...</p>
+                            <h1 className='text-5xl font-semibold leading-normal'>automate image localization</h1>
                         </div>
                         <div className="max-w-[512px] text-wrap">
                             <p className="font-light text-md md:text-xl">leading an initiative to build an image localization Figma plugin for the airwallex website revamp project</p>
@@ -40,14 +37,14 @@ export default function page() {
             </div>
         </div>
 
-        <div className="bg-slate-900 p-6 pt-14 md:py-8">
+        <div className="bg-black_v3 p-6 pt-14 md:py-8">
             <div className="grid md:grid-cols-2 md:py-16 gap-6 md:gap-0">
                 <div className="flex items-center md:pl-20 ">
                     <div className="space-y-10 ">
                         <div className="space-y-8">
                             <div className="space-y-1">
                                 <h1 className="font-bold text-3xl text-white">context</h1>
-                                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
+                                <div className="bg-burgundy_v3 h-1.5 w-32"></div>
                             </div>
                             <div className="max-w-[512px] text-wrap text-white">
                                 <p><span className="font-semibold">role:</span> <span className="font-light">product manager</span></p>
@@ -80,14 +77,14 @@ export default function page() {
             </div>
         </div>
 
-        <div className="p-6 pt-14 md:py-8">
+        <div className="bg-cream_v3 p-6 pt-14 md:py-8">
             <div className="grid md:grid-cols-2 md:py-16 gap-10 md:gap-0">
                 <div className="flex items-center md:pl-20 ">
                     <div className="space-y-10 ">
                         <div className="space-y-8">
                             <div className="space-y-1">
                                 <h1 className="font-bold text-3xl">the problem</h1>
-                                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
+                                <div className="bg-burgundy_v3 h-1.5 w-32"></div>
                             </div>
                             <div className="max-w-[650px] text-wrap space-y-9">
                                 <div>
@@ -117,10 +114,10 @@ export default function page() {
             </div>
         </div>
 
-        <div className="bg-slate-100 p-6 pt-14 md:p-20 space-y-8">
+        <div className="bg-beige_v3 p-6 pt-14 md:p-20 space-y-8">
             <div className="space-y-1">
                 <h1 className="font-bold text-2xl md:text-3xl">defining user requirements</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-80"></div>
+                <div className="bg-burgundy_v3 h-1.5 w-80"></div>
             </div>
             <p>The first step was to break down what ‘localization’ really meant for images. As the main user of the product and designer for the website, I took a step back to analyze what were the types of designs that needed to be localized. After reviewing all the designs, these were the categories of objects to be localized:</p>
             <div className="grid md:grid-cols-2 gap-6 md:gap-0">
@@ -139,28 +136,28 @@ export default function page() {
                     <Image src="/images/localization/GAs.svg" width={550} height={500} alt="GAs" className='drop-shadow-md'/>
                     <div className='w-fit'>
                         <p className='text-center'><strong>Global Accounts</strong></p>
-                        <p className='text-center text-slate-400'>account details & availabilities differ for each region</p>
+                        <p className='text-center text-stone-400'>account details & availabilities differ for each region</p>
                     </div>
                 </div>
                 <div className='space-y-6 basis-2/4'>
                     <Image src="/images/localization/transfer.svg" width={550} height={500} alt="transfer-methods" className='drop-shadow-md'/>
                     <div className='w-fit'>
                         <p className='text-center'><strong>Transfer methods</strong></p>
-                        <p className='text-center text-slate-400'>transfer details & availabilities differ for each region</p>
+                        <p className='text-center text-stone-400'>transfer details & availabilities differ for each region</p>
                     </div>
                 </div>
                 <div className='space-y-6 flex flex-col items-center justify-center'>
                     <Image src="/images/localization/cards.svg" width={240} height={450} alt="cards" className='drop-shadow-md rounded-md'/>
                     <div className='w-fit'>
                         <p className='text-center'><strong>Cards</strong></p>
-                        <p className='text-center text-slate-400'>each region differs in offering physical vs virtual, Visa Business vs Visa Commercial</p>
+                        <p className='text-center text-stone-400'>each region differs in offering physical vs virtual, Visa Business vs Visa Commercial</p>
                     </div>
                 </div>
                 <div className='space-y-6'>
                     <Image src="/images/localization/payment-methods.svg" width={550} height={500} alt="payment-methods" className='drop-shadow-md rounded-md'/>
                     <div className='w-fit'>
                         <p className='text-center'><strong>Payment methods</strong></p>
-                        <p className='text-center text-slate-400'>each region has differs in local payment acceptance methods</p>
+                        <p className='text-center text-stone-400'>each region has differs in local payment acceptance methods</p>
                     </div>
                 </div>
             </div>
@@ -172,7 +169,7 @@ export default function page() {
             <div className='space-y-8 pb-14 md:pb-0'>
                 <p>With these observations above, we can write the following problem statement to summarize the JTBD of this product:</p>
                 <div className="flex-row flex items-center space-x-6 md:space-x-16 justify-center">
-                    <div className="w-2 h-56 bg-teal-400"></div>
+                    <div className="w-2 h-56 bg-burgundy_v3"></div>
                     <div className="space-y-4 items-center flex flex-col ">
                         <h1 className="font-bold text-2xl">the problem statement</h1>
                         <p><strong>how might we...</strong> build a tool that can help us</p>
@@ -182,18 +179,18 @@ export default function page() {
                             <li><p>automatically update appropriate images without having to navigate Contentful</p></li>
                         </ul>
                     </div>
-                    <div className="w-2 h-56 bg-teal-400"></div>
+                    <div className="w-2 h-56 bg-burgundy_v3"></div>
                 </div>
             </div>
         </div>
 
-        <div className="bg-slate-900 space-y-20">
+        <div className="bg-black_v3 space-y-20">
             <div className="p-6 pt-14 md:pl-20 md:py-20 h-fit gap-6 md:gap-0 grid md:grid-cols-2">
                 <div className="flex items-center">
                     <div className="space-y-8">
                         <div className="space-y-1">
                             <h1 className="text-white font-bold text-3xl">solution design</h1>
-                            <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-40"></div>
+                            <div className="bg-burgundy_v3 h-1.5 w-40"></div>
                         </div>
                         <div className="text-white space-y-3 max-w-[650px] text-wrap">
                             <p>To brainstorm solutions, I sat down with my engineer to discuss possible ways to address the requirements. From our conversation, we knew that we needed: </p>
@@ -208,7 +205,7 @@ export default function page() {
                             <h2>solution flow</h2>
                             <p>Together, we started drawing out how the solution might work, what kind of information is needed, and who is responsible for what. See the solution flow below, where I played the role of both PM and designer:</p>
                         </div>
-                        <div className="bg-slate-800 text-white p-2 px-5 rounded-md max-w-[600px]">
+                        <div className="bg-stone-800 text-white p-2 px-5 rounded-md max-w-[600px]">
                             <Accordion type="single" collapsible>
                                 <AccordionItem value="item-1">
                                     <AccordionTrigger><p>work flow</p></AccordionTrigger>
@@ -236,7 +233,7 @@ export default function page() {
                             <Image src="/images/localization/solution-design.svg" width={450} height={700} alt="solution design" className="rounded-md" />
                         </div>
                         <div className="max-w-[340px] text-wrap">
-                            <p className="font-light text-center text-slate-400"> Solution design</p>
+                            <p className="font-light text-center text-stone-400"> Solution design</p>
                         </div>
                     </div>
                     <div className='space-y-3 flex flex-col items-center'>
@@ -244,7 +241,7 @@ export default function page() {
                             <Image src="/images/localization/mapping.png" width={450} height={700} alt="mapping" className="rounded-md" />
                         </div>
                         <div className="max-w-[340px] text-wrap">
-                            <p className="font-light text-center text-slate-400"> Map of localized data</p>
+                            <p className="font-light text-center text-stone-400"> Map of localized data</p>
                         </div>
                     </div>
                     <div className='space-y-3 flex flex-col items-center pb-14 md:pb-0'>
@@ -252,17 +249,17 @@ export default function page() {
                             <Image src="/images/localization/name-template.png" width={350} height={700} alt="name-template" className="rounded-md" />
                         </div>
                         <div className="max-w-[340px] text-wrap">
-                            <p className="font-light text-center text-slate-400"> Named layers in template design</p>
+                            <p className="font-light text-center text-stone-400"> Named layers in template design</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div className="bg-slate-100 p-6 pt-14 md:py-20 md:pl-20 space-y-8 md:space-y-16">
+        <div className="bg-beige_v3 p-6 pt-14 md:py-20 md:pl-20 space-y-8 md:space-y-16">
             <div className="space-y-1">
                 <h1 className="font-bold text-2xl md:text-3xl ">implementation & challenges</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-80"></div>
+                <div className="bg-burgundy_v3 h-1.5 w-80"></div>
             </div>
             <div className="h-fit grid md:grid-cols-2 gap-6 md:gap-0">
                 <div className="flex items-center">
@@ -280,7 +277,7 @@ export default function page() {
                 <div className='flex flex-col space-y-4 items-center justify-center'>
                     <Image src="/images/localization/timeline.svg" width={575} height={600} alt="timeline" className="drop-shadow-lg rounded-md" />
                     <div className="max-w-[340px] text-wrap">
-                        <p className="font-light text-center text-slate-400"> a little visual to help plan the week out</p>
+                        <p className="font-light text-center text-stone-400"> a little visual to help plan the week out</p>
                     </div>
                 </div>
             </div>
@@ -301,7 +298,7 @@ export default function page() {
                 <div className='flex flex-col space-y-4 items-center justify-center pb-14 md:pb-0'>
                     <Image src="/images/localization/naming-convention.svg" width={575} height={600} alt="naming conventions" className="drop-shadow-lg" />
                     <div className="max-w-[340px] text-wrap">
-                        <p className="font-light text-center text-slate-400"> naming conventions that we agreed upon</p>
+                        <p className="font-light text-center text-stone-400"> naming conventions that we agreed upon</p>
                     </div>
                 </div>
             </div>
@@ -310,7 +307,7 @@ export default function page() {
         <div className="p-6 pt-14 md:p-20 space-y-16">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl ">results & metrics</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-40"></div>
+                <div className="bg-burgundy_v3 h-1.5 w-40"></div>
             </div>
             <div className="space-y-8">
                 <p>With the help of this localization plugin, efficient project management, and a lot of hard work from the team, we managed to successfully launch the website within <strong>1 week turnaround</strong>, just in time for our CEO attended the investor event. We continued to use this plugin to help us localize for the other regions, and <strong>successfully launched 7 regions in a span of 3 weeks.</strong> </p>
@@ -335,7 +332,7 @@ export default function page() {
                             </div>
                     </div>
                 </div>
-                <p>... leading to a  <strong className="text-xl text-teal-400">97%</strong>  efficiency improvement!</p>
+                <p>... leading to a  <strong className="text-xl text-burgundy_v3">97%</strong>  efficiency improvement!</p>
                 <div className='space-y-3'>
                     <p className='font-semibold'>Future improvements:</p>
                     <ul className="list-disc pl-4 space-y-2">
@@ -350,7 +347,7 @@ export default function page() {
                             <Image src="/images/localization/localized-assets.png" width={675} height={700} alt="localized assets" className="drop-shadow-lg rounded-md" />
                         </div>
                         <div className="max-w-[340px] text-wrap">
-                            <p className="font-light text-center text-slate-400"> generated localized design assets</p>
+                            <p className="font-light text-center text-stone-400"> generated localized design assets</p>
                         </div>
                     </div>
                     <div className='space-y-3 flex flex-col items-center pb-14 md:pb-0'>
@@ -358,7 +355,7 @@ export default function page() {
                             <Image src="/images/localization/plugin.png" width={450} height={700} alt="plugin" className="drop-shadow-lg rounded-md" />
                         </div>
                         <div className="max-w-[340px] text-wrap">
-                            <p className="font-light text-center text-slate-400"> localization plugin interface</p>
+                            <p className="font-light text-center text-stone-400"> localization plugin interface</p>
                         </div>
                     </div>
             </div>

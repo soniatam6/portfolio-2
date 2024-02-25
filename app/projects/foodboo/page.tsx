@@ -6,15 +6,13 @@ import Link from 'next/link'
 export default function page() {
   return (
     <div className="">
-        <div className="flex flex-col md:flex-row p-6 pb-16 md:p-0 md:pl-20">
+        <div className="bg-cream_v3 flex flex-col md:flex-row p-6 pb-16 md:p-0 md:pl-20">
             <div className="flex items-center basis-[300px] md:basis-[600px]">
-                <div className="space-y-10 ">
-                    <div className="space-y-6">
+                <div className="space-y-20 ">
+                    <div className="space-y-4">
                         <div>
-                            <p className="text-slate-300 font-semibold text-sm">PROJECT</p>
-                        </div>
-                        <div className="flex flex-col w-60 md:w-[400px]">
-                            <Image src="/images/foodboo/foodboo-logo.svg" width={400} height={500} layout='responsive' alt="logo" />
+                            <p className="text-stone-400 text-md font-mono">HOW MIGHT WE...</p>
+                            <h1 className='text-5xl font-semibold leading-normal'>make food trucks more discoverable?</h1>
                         </div>
                         <div className="max-w-[450px] text-wrap">
                             <p className="font-light text-xl">designing a food truck directory app and website for Penn students</p>
@@ -34,14 +32,14 @@ export default function page() {
                 <Image src="/images/foodboo/foodboo-hero.svg" width={1100} height={500} layout='responsive' alt="foodboo hero" />
             </div>
         </div>
-        <div className="bg-slate-900 h-fit flex">
+        <div className="bg-black_v3 h-fit flex">
             <div className="flex flex-col md:flex-row md:p-0 p-6 pt-14 md:pl-20 md:max-h-[780px]">
                 <div className="flex items-center">
                     <div className="space-y-10">
                         <div className="space-y-12">
                             <div className="space-y-1">
                                 <h1 className="font-bold text-3xl text-white">context</h1>
-                                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
+                                <div className="bg-burgundy_v3 h-1.5 w-32"></div>
                             </div>
                             <div className="max-w-[512px] text-wrap text-white">
                                 <p><span className="font-semibold">role:</span> <span className="font-light">lead product designer</span></p>
@@ -70,10 +68,10 @@ export default function page() {
             </div>
         </div>
 
-        <div className="md:pl-20 md:py-20 p-6 pt-14 space-y-6">
+        <div className="bg-cream_v3 md:pl-20 md:py-20 p-6 pt-14 space-y-6">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl">research</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
+                <div className="bg-burgundy_v3 h-1.5 w-32"></div>
             </div>
             <div className="space-y-2">
                 <p>My research was focused in 2 main areas</p>
@@ -124,20 +122,20 @@ export default function page() {
                     
             </div>
             <div className="py-4 md:py-16 flex-row flex items-center space-x-6 md:space-x-16 justify-center">
-                <div className="w-2 h-40 bg-teal-400"></div>
+                <div className="w-2 h-40 bg-burgundy_v3"></div>
                 <div className="text-center space-y-4 flex flex-col md:max-w-[600px] ">
                     <h1 className="font-bold">the problem statement</h1>
                     <p><strong>how might we...</strong> create a centralized platform providing customers with all necessary information to make informed decisions on which food truck to choose?</p>
                 </div>
-                <div className="w-2 h-40 bg-teal-400"></div>
+                <div className="w-2 h-40 bg-burgundy_v3"></div>
             </div>
         </div>
 
-        <div className="bg-slate-900 p-6 pt-14 md:p-20 md:py-20 space-y-16">
+        <div className="bg-black_v3 p-6 pt-14 md:p-20 md:py-20 space-y-16">
             <div className="space-y-2">
                 <div className="space-y-1">
                     <h1 className="font-bold text-3xl text-white">wireframing</h1>
-                    <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-40"></div>
+                    <div className="bg-burgundy_v3 h-1.5 w-40"></div>
                 </div>
                 <div className="flex items-center justify-center ">
                     <Image src="/images/foodboo/wireframing-table.svg" width={1000} height={500} layout='responsive' alt="wireframing table" className='md:max-w-[1000px]'/>
@@ -171,11 +169,11 @@ export default function page() {
             </div>
         </div>
 
-        <div className="p-6 pt-14 md:pl-20 md:py-20 space-y-16">
+        <div className="bg-cream_v3 p-6 pt-14 md:pl-20 md:py-20 space-y-16">
             <div className="space-y-5">
                 <div className="space-y-1">
                     <h1 className="font-bold text-3xl">usability testing</h1>
-                    <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-60"></div>
+                    <div className="bg-burgundy_v3 h-1.5 w-60"></div>
                 </div>
                 <div className="flex items-center justify-center">
                     <Image src="/images/foodboo/user-testing.svg" width={1000} height={500} layout='responsive' alt="wireframing table" className='md:max-w-[1000px]'/>
@@ -238,14 +236,14 @@ export default function page() {
                 </div>
             </div>
         </div>
-        <div className='bg-slate-100 h-[500px] md:h-[800px] relative flex justify-center'>
+        <div className='bg-beige_v3 h-[500px] md:h-[800px] relative flex justify-center'>
             <Image src="/images/foodboo/final-mob.svg" layout='fill' className="w-full h-full object-cover" alt="final mob" />
         </div>
 
-        <div className="p-6 pt-14 md:pl-20 md:py-20 space-y-6">
+        <div className="bg-cream_v3 p-6 pt-14 md:pl-20 md:py-20 space-y-6">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl">challenges</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
+                <div className="bg-burgundy_v3 h-1.5 w-32"></div>
             </div>
             <div className='md:max-w-[1240px] flex items-center justify-center'>
                 <table className="table-auto text-left">
@@ -302,7 +300,7 @@ export default function page() {
             </div>
         </div>
 
-        <div className='bg-slate-100 h-[700px] md:h-[1200px] relative flex justify-center'>
+        <div className='bg-beige_v3 h-[700px] md:h-[1200px] relative flex justify-center'>
             <Image src="/images/foodboo/final-desktop.svg" layout='fill' className="w-full object-cover" alt="final desktop" />
         </div>
 

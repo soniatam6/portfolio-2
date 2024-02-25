@@ -5,14 +5,14 @@ import Link from 'next/link'
 
 export default function page() {
   return (
-    <div>
+    <div className='bg-cream_v3'>
         <div className="grid md:grid-cols-2 p-6 md:px-20 md:p-0">
             <div className="flex items-center justify-start md:justify-end py-20 md:py-0">
                 <div className="space-y-10 ">
                     <div className="space-y-3">
                         <div className="justify-start md:justify-end flex flex-row space-x-2 md:space-x-5">
-                            <h1 className="font-light text-4xl md:text-7xl">hi! i&apos;m </h1>
-                            <h1 className="font-extrabold text-4xl md:text-7xl"> sonia</h1>
+                            <h1 className="font-light font-serif text-4xl md:text-7xl">i&apos;m </h1>
+                            <h1 className="font-extrabold font-serif text-4xl md:text-7xl"> sonia</h1>
                         </div>
                         <div className="text-slate-700 max-w-[510px] space-y-4 text-wrap">
                             <p className="md:text-right text-lg">a junior at UPenn studying Cognitive Science + Computer Science, with a potential minor in Philosophy. </p>
@@ -21,11 +21,11 @@ export default function page() {
                     </div>
                 </div>
             </div>
-            <div className="max-h-[625px] md:order-first md:pt-72 overflow-y-hidden flex items-center justify-start">
+            <div className="max-h-[625px] md:order-first md:pt-40 overflow-y-hidden flex items-center">
                 <Image src="/images/about/sonia_tam.jpg" width={525} height={500} alt="sonia-tam" className="saturate-500 drop-shadow-2xl" />
             </div>
         </div>
-        <div className="p-6 py-20 md:px-20 md:py-40 space-y-12 bg-gradient-to-r text-white from-teal-500 to-indigo-600">
+        <div className="p-6 py-20 md:px-20 md:py-40 space-y-12 text-white bg-burgundy_v3">
             <div className='space-y-4'>
                 <div className="space-x-2 md:space-x-3">
                     <h1 className="font-light text-4xl md:text-5xl">my design</h1>
@@ -89,7 +89,7 @@ export default function page() {
                     <ul className='list-disc pl-4'>
                         <li><p>Art history - Surrealism & Romanticism</p></li>
                         <li><p>Classical music - pipe organ</p></li>
-                        <li><p>Philosophy of mind</p></li>
+                        <li><p>Philosophy of mind, philosophy of religion</p></li>
                         <li><p>Muay thai</p></li>
                         <li><p>Latin guitar music - flamenco, bossa nova</p></li>
                         <li><p>currently trying to learn the art of coffee!</p></li>

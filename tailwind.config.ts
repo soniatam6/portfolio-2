@@ -16,9 +16,12 @@ const config: Config = {
     },
     extend: {
       fontFamily: {
-        'sans': 'var(--font-raleway)',
-        'body': 'var(--font-raleway)',
-        'display': 'var(--font-josefin-sans)',
+        'sans': 'var(--font-inter)',
+        'serif': 'var(--font-garamond)',
+        'mono': 'var(--font-ibm)',
+        'body': 'var(--font-garamond)',
+        'paragraph': 'var(--font-garamond)',
+        'display': 'var(--font-inter)',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

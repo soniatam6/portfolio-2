@@ -12,20 +12,17 @@ import {
   
 export default function page() {
   return (
-    <div className="">
+    <div className="bg-cream_v3">
         <div className="flex flex-col md:flex-row p-6 md:p-0 md:pl-20">
-            <div className="pt-10 flex items-center basis-[300px] md:basis-[600px]">
-                <div className="space-y-10 ">
-                    <div className="space-y-3">
-                        <div>
-                            <p className="text-slate-300 font-semibold text-sm">INTERNSHIP</p>
-                        </div>
-                        <div className="flex flex-col">
-                            <h1 className="font-light text-5xl md:text-7xl">airwallex</h1>
-                            <h1 className="font-extrabold text-5xl md:text-7xl">website revamp</h1>
+            <div className="pt-10 flex items-center basis-[500px] md:basis-[600px]">
+                <div className="space-y-20 ">
+                    <div className="space-y-4">
+                        <div className=''>
+                            <p className="text-stone-400 text-md font-mono">HOW MIGHT WE...</p>
+                            <h1 className='text-5xl font-semibold leading-normal'>revamp and redefine product narratives?</h1>
                         </div>
                         <div className="max-w-[512px] text-wrap">
-                            <p className="text-md md:text-xl">redesigning and revamping Airwallex&apos;s website, localizing and launching 17 landing pages in 11 regions.</p>
+                            <p className="text-md md:text-xl">redefining, designing, and revamping the product narratives and messaging for Airwallex's 17 fintech products.</p>
                         </div>
                     </div>
                     <div>
@@ -39,22 +36,23 @@ export default function page() {
                 <Image src="/images/website-revamp/hero.svg" width={600} height={500} alt="website revamp hero" className="drop-shadow-2xl rounded-md" />
             </div>
         </div>
-        <div className="bg-slate-900 md:py-8">
+        <div className="bg-black_v3 md:py-8">
             <div className="grid md:grid-cols-2 p-6 pt-14 md:p-20 md:max-h-[625px]">
                 <div className="flex items-center ">
                     <div className="space-y-10 ">
                         <div className="space-y-8">
                             <div className="space-y-1">
                                 <h1 className="font-bold text-3xl text-white">context</h1>
-                                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
+                                <div className="bg-burgundy_v3 h-1.5 w-32"></div>
                             </div>
                             <div className="max-w-[512px] text-wrap text-white">
                                 <p><strong>role:</strong> lead designer, product manager</p>
                                 <p><strong>timeline:</strong> Nov 2022 - Jun 2023</p>
                             </div>
                             <div className="max-w-[600px] text-wrap  text-white space-y-3">
-                                <p>Airwallex is a fintech unicorn valued offering a variety of financial solutions for SMEs and enterprises such as global money transfers, payment acceptance, and cards and expense management.</p>
-                                <p>In November of 2022, Airwallex made the strategic decision to focus on enterprise customers and enter the embedded finance market. This meant that the website needed to be redesigned to reflect the changes in product offerings. As the main designer, I was responsible for redesigning 17 product landing pages, where I worked closely with product managers, developers, the marketing team, and C-suite stakeholders. </p>
+                                <p>Airwallex is a fintech unicorn offering a variety of financial solutions for SMEs and enterprises, such as global money transfers, payment acceptance, and cards and expense management.</p>
+                                <p>In November of 2022, Airwallex made the strategic decision to focus on enterprise customers and enter the embedded finance market. This meant that the company had to redefine how to tell the story about its products to potential customers, and rewrite its external facing product narratives. </p>
+                                <p>As the main designer on this project, I was responsible for redesigning 17 product landing pages, where I worked closely with product managers, developers, product marketing, commercial and sales teams, and C-suite stakeholders. Through continuous iterations of my designs, I drove the efforts to define, visualize, and consolidate the messaging and narratives for all 17 of Airwallex’s products.</p>
                             </div>
                         </div>
                     </div>
@@ -67,7 +65,7 @@ export default function page() {
         <div className="p-6 pt-14 md:p-20 space-y-8">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl">jobs to be done</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-56"></div>
+                <div className="bg-burgundy_v3 h-1.5 w-56"></div>
             </div>
             <div>
                 <div className="space-y-3">
@@ -109,7 +107,7 @@ export default function page() {
                     </div>
                 </div>
         </div>
-        <div className="bg-slate-100 md:px-20 md:max-h-[800px]">
+        <div className="bg-beige_v3 md:px-20 md:max-h-[800px]">
             <div className="grid md:grid-cols-2 justify-center">
                 <div className="md:max-h-[800px] p-10 md:p-0 md:pb-80 md:overflow-y-hidden flex items-center justify-center">
                     <Image src="/images/website-revamp/baas-page-prev.jpg" width={550} height={500} alt="baas preview" className="drop-shadow-2xl rounded-md" />
@@ -119,10 +117,10 @@ export default function page() {
                 </div>
             </div>
         </div>
-        <div className="bg-slate-900 p-6 pt-14 md:p-20 md:py-20 space-y-6">
+        <div className="bg-black_v3 p-6 pt-14 md:p-20 md:py-20 space-y-6">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl text-white">overview & timeline</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-60"></div>
+                <div className="bg-burgundy_v3 h-1.5 w-60"></div>
             </div>
             <div>
                 <p className=" text-white">With these JTBD in mind, the next step was to design the 17 product pages. These 17 pages can be roughly categorized as the following, with 2-4 representing Airwallex&apos;s new product categories: </p>
@@ -133,7 +131,7 @@ export default function page() {
                     <li><p>Embedded Finance (3 pages)</p></li>
                 </ol>
             </div>
-            <div className="text-white bg-slate-800 p-2 px-5 rounded-md">
+            <div className="text-white bg-stone-800 p-2 px-5 rounded-md">
                 <Accordion type="single" collapsible>
                     <AccordionItem value="item-1">
                         <AccordionTrigger><p>Design Process Overview</p></AccordionTrigger>
@@ -163,7 +161,7 @@ export default function page() {
                         <div className="space-y-8">
                             <div className="space-y-1">
                                 <h1 className="font-bold text-3xl">example: expense management</h1>
-                                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-80"></div>
+                                <div className="bg-burgundy_v3 h-1.5 w-80"></div>
                             </div>
                             <div className="space-y-3 max-w-[600px] text-wrap">
                                 <p>To demonstrate the design process, let’s take an example of how I designed the Expense Management page.</p>
@@ -197,7 +195,7 @@ export default function page() {
                                 <li><p>What are some legal, marketing, or strategy concerns I should consider for this product?</p></li>
                             </ol>
                         </div>
-                        <div className="bg-slate-100 p-2 px-5 rounded-md max-w-[600px]">
+                        <div className="bg-beige_v3 p-2 px-5 rounded-md max-w-[600px]">
                             <Accordion type="single" collapsible>
                                 <AccordionItem value="item-1">
                                     <AccordionTrigger><p>Example: Expense Management</p></AccordionTrigger>
@@ -222,7 +220,7 @@ export default function page() {
                         <Image src="/images/website-revamp/expense-file.jpg" width={500} height={700} layout='responsive' alt="expense file" className="drop-shadow-xl rounded-md md:max-w-[500px]" />
                     </div>
                     <div className="max-w-[340px] text-wrap">
-                        <p className=" text-center text-slate-400"> Interviewing other designers to understand their product, their designs, and the user journey</p>
+                        <p className=" text-center text-stone-400"> Interviewing other designers to understand their product, their designs, and the user journey</p>
                     </div>
                 </div>
             </div>
@@ -239,7 +237,7 @@ export default function page() {
                                 <li><p><strong>How:</strong> how this works for developers, how this works for other customers (customer testimonials or case studies), or how to get started (CTAs)</p></li>
                             </ol>
                         </div>
-                        <div className="bg-slate-100 p-2 px-5 rounded-md max-w-[600px]">
+                        <div className="bg-beige_v3 p-2 px-5 rounded-md max-w-[600px]">
                             <Accordion type="single" collapsible>
                                 <AccordionItem value="item-1">
                                     <AccordionTrigger><p>Example: Expense Management</p></AccordionTrigger>
@@ -287,7 +285,7 @@ export default function page() {
                             </ul>
                             <p>Once I have collected all the product screens that address the factors above, I would find a way to assemble them in a visually pleasing, not too overwhelming yet informative.</p>
                         </div>
-                        <div className="bg-slate-100 p-2 px-5 rounded-md max-w-[600px]">
+                        <div className="bg-beige_v3 p-2 px-5 rounded-md max-w-[600px]">
                             <Accordion type="single" collapsible>
                                 <AccordionItem value="item-1">
                                     <AccordionTrigger><p>Example: Expense Management</p></AccordionTrigger>
@@ -310,19 +308,19 @@ export default function page() {
                         <Image src="/images/website-revamp/admin-example.svg" width={500} height={700} alt="admin example" className="drop-shadow-xl rounded-md" />
                     </div>
                     <div className="max-w-[340px] text-wrap">
-                        <p className=" text-center text-slate-400"> high fidelity version with overhead section</p>
+                        <p className=" text-center text-stone-400"> high fidelity version with overhead section</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div className="bg-slate-900 p-6 py-14 md:p-20 md:py-20 space-y-20">
+        <div className="bg-black_v3 p-6 py-14 md:p-20 md:py-20 space-y-20">
             <div className="h-fit grid gap-6 md:gap-0 md:grid-cols-2">
             <div className="flex items-center">
                     <div className="space-y-8 text-white">
                         <div className="space-y-1">
                             <h1 className="font-bold text-3xl text-white">dev handoff</h1>
-                            <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-40"></div>
+                            <div className="bg-burgundy_v3 h-1.5 w-40"></div>
                         </div>
                         <div className="space-y-2">
                             <p>For the website, there were 3 key things to hand off to developers:</p>
@@ -363,7 +361,7 @@ export default function page() {
                         <Image src="/images/website-revamp/responsiveness.jpg" width={600} height={600} alt="admin example" className="drop-shadow-xl rounded-md" />
                     </div>
                     <div className="max-w-[400px] text-wrap">
-                        <p className=" text-center text-slate-400"> mapping out responsive breakpoints and behaviours</p>
+                        <p className=" text-center text-stone-400"> mapping out responsive breakpoints and behaviours</p>
                     </div>
                 </div>
             </div>
@@ -384,7 +382,7 @@ export default function page() {
                         <Image src="/images/website-revamp/content-modeling.svg" width={600} height={600} alt="admin example" className="drop-shadow-xl rounded-md" />
                     </div>
                     <div className="max-w-[400px] text-wrap">
-                        <p className=" text-center text-slate-400"> content modeling for the hero section</p>
+                        <p className=" text-center text-stone-400"> content modeling for the hero section</p>
                     </div>
                 </div>
             </div>
@@ -397,7 +395,7 @@ export default function page() {
                         <div className="space-y-8">
                             <div className="space-y-1">
                                 <h1 className="font-bold text-3xl">localization</h1>
-                                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
+                                <div className="bg-burgundy_v3 h-1.5 w-32"></div>
                             </div>
                             <div className="max-w-[600px] text-wrap space-y-3">
                                 <p>The website needed to be localized to 11 different regions, all with different product offerings, legal requirements, language translations, and image requirements. </p>
@@ -424,13 +422,13 @@ export default function page() {
                         <Image src="/images/website-revamp/localization.jpg" width={500} height={700} alt="admin example" className="drop-shadow-xl rounded-md" />
                     </div>
                     <div className="max-w-[340px] text-wrap">
-                        <p className=" text-center text-slate-400"> generated localized images from plugin</p>
+                        <p className=" text-center text-stone-400"> generated localized images from plugin</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div className="bg-slate-100 md:px-20 h-fit md:max-h-[800px]">
+        <div className="bg-beige_v3 md:px-20 h-fit md:max-h-[800px]">
             <div className="grid md:grid-cols-2 justify-center">
                 <div className="md:max-h-[800px] p-6 md:pb-56 md:overflow-y-hidden flex items-center justify-center">
                     <Image src="/images/website-revamp/issuing.svg" width={550} height={500} alt="website revamp hero" className="drop-shadow-2xl rounded-md" />
@@ -448,7 +446,7 @@ export default function page() {
                         <div className="space-y-8">
                             <div className="space-y-1">
                                 <h1 className="font-bold text-3xl">launch</h1>
-                                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-24"></div>
+                                <div className="bg-burgundy_v3 h-1.5 w-24"></div>
                             </div>
                             <div className="max-w-[600px] text-wrap space-y-3">
                                 <p>We launched in 7 regions over the course of 3 weeks, where each launch roughly followed these steps:</p>
@@ -475,20 +473,20 @@ export default function page() {
                         <Image src="/images/website-revamp/launch.png" width={350} height={500} alt="admin example" className="drop-shadow-xl rounded-md" />
                     </div>
                     <div className="max-w-[340px] text-wrap">
-                        <p className=" text-center text-slate-400"> balloon gifted to me and my PM celebrating the launches!</p>
+                        <p className=" text-center text-stone-400"> balloon gifted to me and my PM celebrating the launches!</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div className="bg-slate-100">
+        <div className="bg-beige_v3">
             <div className="grid md:grid-cols-2 md:p-20 p-6 py-14 gap-6 md:gap-0 h-fit">
                 <div className="flex items-center">
                     <div className="space-y-10 ">
                         <div className="space-y-8">
                             <div className="space-y-1">
                                 <h1 className="font-bold text-3xl">reflection</h1>
-                                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
+                                <div className="bg-burgundy_v3 h-1.5 w-32"></div>
                             </div>
                             <div className="max-w-[600px] text-wrap  space-y-3">
                                 <div>
@@ -514,7 +512,7 @@ export default function page() {
                         <Image src="/images/website-revamp/reflection.png" width={350} height={500} alt="admin example" className="drop-shadow-xl rounded-md" />
                     </div>
                     <div className="max-w-[340px] text-wrap">
-                        <p className=" text-center text-slate-400"> farewell dinner on my last day @ airwallex</p>
+                        <p className=" text-center text-stone-400"> farewell dinner on my last day @ airwallex</p>
                     </div>
                 </div>
             </div>

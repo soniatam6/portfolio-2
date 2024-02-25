@@ -24,11 +24,11 @@ export default function Navbar() {
     { ssr: false }
   );
   return (
-    <NavigationMenu className=" w-full border-b md:border-0">
+    <NavigationMenu className="bg-cream_v3 w-full border-b md:border-0">
       <div className="items-center w-screen mx-auto md:flex md:px-8">
         <div className="w-screen px-4 md:px-0 flex items-center justify-between py-3 md:py-5 md:block">
           <Link href="/">
-            <h1 className="text-3xl">sonia tam</h1>
+            <h1 className="text-2xl font-semibold">sonia tam</h1>
           </Link>
           <div className="md:hidden">
             <button
@@ -44,55 +44,55 @@ export default function Navbar() {
             state ? "block" : "hidden"
           }`}
         >
-          <NavigationMenuList className="flex flex-col  md:space-x-3 md:flex-row md:items-center items-end">
+          <NavigationMenuList className="flex flex-col md:space-x-3 md:flex-row md:items-center items-end">
             <NavigationMenuItem>
               <Link href="/about" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  <h2>about</h2>
+                  <h2 className="text-xl" >about</h2>
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="font-normal"><h2>projects</h2></NavigationMenuTrigger>
+              <NavigationMenuTrigger className="font-normal"><h2 className="text-xl">projects</h2></NavigationMenuTrigger>
               <NavigationMenuContent>
-                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+                <ul className="bg-cream_v3 grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
                   <ListItem
-                    key="glean search redesign"
-                    title="glean search redesign"
+                    key="AI search redesign"
+                    title="AI search redesign"
                     href="/projects/glean"
-                    className="hover:bg-slate-50"
+                    className="hover:bg-beige_v3"
                   >
                     <p className="font-light">redesigning Glean&apos;s enterprise search results page</p>
                   </ListItem>
                   <ListItem
-                    key="foodboo"
-                    title="foodboo"
-                    href="/projects/foodboo"
-                    className="hover:bg-slate-50"
-                  >
-                    <p className="font-light">designing a food truck directory app and website </p>
-                  </ListItem>
-                  <ListItem
-                    key="PennInTouch"
-                    title="PennInTouch"
-                    href="/projects/pennintouch"
-                    className="hover:bg-slate-50"
-                  >
-                    <p className="font-light">redesigning Penn&apos;s academic planning worksheet</p>
-                  </ListItem>
-                  <ListItem
-                    key="airwallex website revamp"
-                    title="airwallex website revamp"
+                    key="designing product narratives"
+                    title="designing product narratives"
                     href="/projects/website-revamp"
-                    className="hover:bg-slate-50"
+                    className="hover:bg-beige_v3"
                   >
-                    <p className="font-light">redesigning and revamping Airwallex&apos;s website</p>
+                    <p className="font-light">revamping and designing Airwallex&apos;s fintech product narratives</p>
                   </ListItem>
                   <ListItem
-                    key="localization automation"
-                    title="localization automation"
+                    key="food truck app"
+                    title="food truck app"
+                    href="/projects/foodboo"
+                    className="hover:bg-beige_v3"
+                  >
+                    <p className="font-light">designing a food truck directory app to help students discover food trucks </p>
+                  </ListItem>
+                  <ListItem
+                    key="course planning redesign"
+                    title="course planning redesign"
+                    href="/projects/pennintouch"
+                    className="hover:bg-beige_v3"
+                  >
+                    <p className="font-light">redesigning Penn&apos;s course planning software</p>
+                  </ListItem>
+                  <ListItem
+                    key="localization automation tool"
+                    title="localization automation tool"
                     href="/projects/localization"
-                    className="hover:bg-slate-50"
+                    className="hover:bg-beige_v3"
                   >
                     <p className="font-light">building an image localization automation tool</p>
                   </ListItem>
@@ -102,14 +102,14 @@ export default function Navbar() {
             <NavigationMenuItem>
               <Link href="https://soniatam.substack.com/" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  <h2>writings</h2>
+                  <h2 className="text-xl">writings</h2>
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="https://drive.google.com/file/d/12W4pJytDyxrtDuhZQqDSaD0lv0TeVJpz/view?usp=sharing" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  <h2>resume</h2>
+                  <h2 className="text-xl">resume</h2>
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>

@@ -5,17 +5,14 @@ import Link from 'next/link'
 
 export default function page() {
   return (
-    <div>
-        <div className="flex flex-col md:flex-row p-6 pb-16 md:p-0 md:pl-20">
-            <div className="flex items-center basis-[300px] md:basis-[600px]">
+    <div className='bg-cream_v3'>
+        <div className="flex flex-col space-x-20 md:flex-row p-6 pb-16 md:p-0 md:pl-20 md:overflow-x-hidden">
+            <div className="flex items-center basis-[300px] md:basis-[650px]">
                 <div className="space-y-10 ">
                     <div className="space-y-3">
-                        <div className='pb-3'>
-                            <p className="text-slate-300 font-semibold text-sm">CASE STUDY</p>
-                        </div>
-                        <div className="flex flex-col">
-                            <h1 className="font-light text-5xl md:text-7xl">glean</h1>
-                            <h1 className="font-extrabold text-5xl md:text-7xl">search redesign</h1>
+                        <div className='max-w-[700px]'>
+                            <p className="text-stone-400 text-md font-mono">HOW MIGHT WE...</p>
+                            <h1 className='text-5xl font-semibold leading-normal'>redesign the AI powered search experience?</h1>
                         </div>
                         <div className="max-w-[512px] text-wrap">
                             <p className="text-md md:text-xl">redesigning glean&apos;s traditional search and AI powered search result page.</p>
@@ -23,16 +20,16 @@ export default function page() {
                     </div>
                 </div>
             </div>
-            <div className="relative flex md:overflow-x-hidden md:h-[650px] md:w-[800px] justify-center items-center">
+            <div className="flex md:h-[650px] md:w-[800px] justify-center items-center">
                 <div className=''>
-                    <Image src="/images/glean/hero.svg" width={1000} height={5000} layout="responsive" alt="glean hero" className="md:absolute md:inset-y-14 md:left-20 md:right-0 drop-shadow-2xl rounded-md " />
+                    <Image src="/images/glean/hero.svg" width={1000} height={5000} layout="responsive" alt="glean hero" className="drop-shadow-2xl rounded-md " />
                 </div>
             </div>
         </div>
-        <div className="bg-slate-900 pt-16 md:pt-20 text-white space-y-10">
+        <div className="bg-black_v3 pt-16 md:pt-20 text-white space-y-10">
             <div className="pl-6 md:pl-20 space-y-1">
                 <h1 className="font-bold text-3xl">introduction</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-40"></div>
+                <div className="bg-burgundy_v3 h-1.5 w-40"></div>
             </div>
             <div className="pl-6 md:pl-20 grid gap-10 md:grid-cols-2 max-h-[625px]">
                 <div className="flex items-center justify-center w-[180px] md:w-[400px]">
@@ -51,23 +48,33 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-                
             </div>
-            <div>
+            <div className='md:pt-14 pb-20 flex flex-col w-screen space-y-3 justify-center items-center'>
+                <div className='text-center px-6 md:max-w-[900px]'>
+                    <h2 className='font-semibold'>disclaimers</h2>
+                    <p>before we dive in, this is a full disclaimer that i had <strong>no actual access</strong> to Glean’s product, since it is a B2B software. hence everything that I use in this post to redesign Glean’s search results page is <strong>taken from and only from Glean’s website</strong>. i don’t know what Glean’s search results page is actually like, so this is more of a reconstruction of what I envision it to be based on Glean’s online content (i would love to use it someday though!)</p>
+                </div>
+            </div>
+        </div>
+        <div>
+        <div className='py-16 md:py-20 space-y-10'>
+            <div className="pl-6 md:pl-20 space-y-1">
+                <h1 className="font-bold text-3xl">why redesign Glean?</h1>
+                <div className="bg-burgundy_v3 h-1.5 w-60"></div>
+            </div>
                 <div className="pt-14 grid gap-6 md:grid-cols-2">
-                    <div className="px-6 md:pl-6 flex flex-col space-y-4 md:w-[625px] justify-center items-center">
+                    <div className="px-6 md:pl-6 flex flex-col space-y-4 md:max-w-[625px] justify-center items-center">
                         <Image src="/images/glean/cabrium.svg" width={625} height={500} layout='responsive' alt="cabrium" className="drop-shadow-xl rounded-md" />
-                        <p className='text-slate-400'>cabrium&apos;s platform</p>
+                        <p className='text-stone-400'>cabrium&apos;s platform</p>
                     </div>
                     <div className=" md:pr-20 px-6 md:pl-4 flex items-center">
                         <div className="space-y-5">
                             <div className="space-y-3 text-wrap">
-                                <h1>Why redesign Glean?</h1>
                                 <p>When I was a product designer at Airwallex, I often found myself needing to reference past projects to understand why certain design decisions were made and the rationale behind them. However, the process was often very messy and tedious -- I would have to sift through hundreds of different Figma files, Confluence pages, and Slack channel histories before finding the answer I wanted. </p>
                                 <p>In the past two months, I worked with two other friends to build and design Cabrium, a decision documentation platform, in order to solve this problem. We built Cabrium to automatically document the entire decision making journey for designers, from receiving feedback from stakeholders to the back and forth between designers and stakeholders, to generating summary reports about key decisions made in a project once completed. You can read more about my startup here:</p>
                             </div>
                             <div>
-                                <Button variant="secondary">
+                                <Button variant="default">
                                     <Link href="https://drive.google.com/file/d/1f7DXO7ijqyfs4lYVBsliADTyCbLAePFC/view" className="font-semibold">Read more</Link>
                                 </Button>
                             </div>
@@ -79,19 +86,19 @@ export default function page() {
                 </div>
             </div>
             <div>
-                <div className="pt-14 md:pl-20 px-6 gap-6 grid md:grid-cols-2">
+                <div className="pb-14 md:pl-20 px-6 gap-6 grid md:grid-cols-2">
                     <div className="flex flex-col space-y-4 justify-center items-center">
                         <Image src="/images/glean/google-ux.svg" width={625} height={500} layout='responsive' alt="cabrium" className="drop-shadow-xl rounded-md" />
-                        <p className='text-slate-400'>Google&apos;s &apos;generative search&apos; design</p>
+                        <p className='text-stone-400'>Google&apos;s &apos;generative search&apos; design</p>
                     </div>
                     <div className="md:pr-20 md:pl-4 flex items-center md:order-first">
                         <div className="space-y-5">
                             <div className="space-y-3 text-wrap">
-                                <h1>Why the search results page?</h1>
+                                <h1 className='font-semibold'>Why the search results page?</h1>
                                 <p>As like most people, the explosion of AI in the past year has made me think. a lot. it’s made me ponder a lot about human relationship with technology and has led me down numerous existential crises. one recent pondering came about when I noticed more people talking about Perplexity AI, an AI search engine aimed to basically replace Google. it made me think a lot about how humans interact with information, and how the AI powered chat interface is another revolution in our human relationship with data. i wrote about my ponderings here:</p>
                             </div>
                             <div>
-                                <Button variant="secondary">
+                                <Button variant="default">
                                     <Link href="https://soniatam.substack.com/p/our-relationship-with-information" className="font-semibold">Read more</Link>
                                 </Button>
                             </div>
@@ -103,17 +110,31 @@ export default function page() {
                     
                 </div>
             </div>
-            <div className='md:pt-14 pb-20 flex flex-col space-y-3 justify-center items-center'>
-                <div className='text-center px-6 md:max-w-[900px]'>
-                    <h1>disclaimers</h1>
-                    <p>before we dive in, this is a full disclaimer that i had <strong>no actual access</strong> to Glean’s product, since it is a B2B software. hence everything that I use in this post to redesign Glean’s search results page is <strong>taken from and only from Glean’s website</strong>. i don’t know what Glean’s search results page is actually like, so this is more of a reconstruction of what I envision it to be based on Glean’s online content (i would love to use it someday though!)</p>
+        </div>
+        <div className="bg-beige_v3 p-6 pt-14 md:p-20 space-y-8">
+            <div className="space-y-1">
+                <h1 className="font-bold text-3xl">what are the JTBD of a search results page?</h1>
+                <div className="bg-burgundy_v3 h-1.5 w-60"></div>
+            </div>
+            <div className="grid md:grid-cols-2 space-y-6 md:space-y-0 md:space-x-16">
+                <div className=''>
+                    <Image src="/images/glean/jtbd.svg" width={700} height={500} layout='responsive' alt="jtbd"/>
+                </div>
+                <div className='space-y-6'>
+                    <h2>Jobs to be done:</h2>
+                    <p>the search results page is a product, and as with any product, it has its inputs and outputs. I wanted to map out what the inputs and outputs are for the search results page in order to understand its jobs to be done</p>
+                    <p>as a functional product, the JTBD of a search results page was to retrieve <strong>input queries</strong> and <strong>display output data</strong>.</p>
                 </div>
             </div>
+            <p>to better understand the product I was designing, I wanted to understand what are the <strong>inputs</strong> and <strong>outputs</strong></p>
+            <div className=''>
+                    <Image src="/images/glean/inputs-and-outputs.svg" width={700} height={500} layout='responsive' alt="inputs and outputs"/>
+                </div>
         </div>
-        <div className="md:p-20 p-6 pt-14 space-y-8">
+        <div className="bg-black_v3 text-white md:p-20 p-6 pt-14 space-y-8">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl">user research</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-40"></div>
+                <div className="bg-burgundy_v3 h-1.5 w-40"></div>
             </div>
             <div>
                 <div className="space-y-3">
@@ -127,126 +148,23 @@ export default function page() {
             </div>
             <div>
                 <div className="space-y-3">
-                    <h1>user interviews</h1>
+                    <h2 className='font-semibold'>user interviews</h2>
                     <p>since I didn’t have access to actual Glean users, a lot of my questions were more focused on the user experience of generic traditional search engines & AI chat interfaces. </p>
                     <p>i interviewed 5 people, most of whom were either software engineers or designers. these are some of my key takeaways:</p>
                 </div>
             </div>
             <div className="flex items-center justify-center">
-                <Image src="/images/glean/interviews.svg" width={1200} height={500} layout='responsive' alt="interviews"/>
+                <Image src="/images/glean/user-research.svg" width={1200} height={500} layout='responsive' alt="interviews"/>
             </div>
         </div>
 
 
-        <div className="bg-slate-100 p-6 pt-14 md:p-20 space-y-8">
-            <div className="space-y-1">
-                <h1 className="font-bold text-3xl">product research</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-60"></div>
-            </div>
-            <p>now that i had a good sense of what users may want for each user experience, i wanted to specify it to Glean. but first, i wanted to understand more about Glean’s product. more specifically, I wanted to understand what were the building blocks that I had to play with, and what kind of scenarios and use cases the search result page would encounter.</p>
-            <div className="grid md:grid-cols-2 space-y-6 md:space-y-0 md:space-x-16">
-                <div className=''>
-                    <Image src="/images/glean/jtbd.svg" width={700} height={500} layout='responsive' alt="jtbd"/>
-                </div>
-                <div className='space-y-6'>
-                    <h2>Jobs to be done:</h2>
-                    <p>the search results page is a product, and as with any product, it has its inputs and outputs. I wanted to map out what the inputs and outputs are for the search results page in order to understand its jobs to be done</p>
-                    <p>as a functional product, the JTBD of a search results page was to retrieve <strong>input queries</strong> and <strong>display output data</strong>.</p>
-                </div>
-            </div>
-            <div className="grid md:grid-cols-2 py-10 space-y-6 md:space-y-0 md:space-x-16">
-                <div className='space-y-6'>
-                    <h2>Types of Input Queries:</h2>
-                    <ul className='list-decimal pl-4 space-y-1'>
-                        <li><p><strong>Questions</strong> that expect an action or a direct answer</p></li>
-                        <ul className='list-disc pl-8 space-y-1'>
-                            <li><p>Example: What is the status of this week’s backend release?</p></li>
-                            <li><p>Example: ‘Help me solve this customer issue’ </p></li>
-                        </ul>
-                        <li><p><strong>Keyword searches</strong> where users want to see all relevant results with those keywords</p></li>
-                        <ul className='list-disc pl-8 space-y-1'>
-                            <li><p>Example: New user onboarding</p></li>
-                            <li><p>Example: ‘#4243 An error occurred, Please check..’</p></li>
-                        </ul>
-                        <li><p><strong>Entity searches</strong> where users want to see all summarized information about one entity</p></li>
-                        <ul className='list-disc pl-8 space-y-1'>
-                            <li><p>Example: &apos;Christine Kong&apos;</p></li>
-                            <li><p>Example:  &apos;Acme Inc&apos; </p></li>
-                        </ul>
-                    </ul>
-                </div>
-                <div className='flex justify-center items-center'>
-                    <Image src="/images/glean/inputs.svg" width={400} height={500} alt="inputs" className='drop-shadow-xl rounded-md'/>
-                </div>
-            </div>
-            <h2>Types of Output Data</h2>
-            <div className="pb-10 grid md:grid-cols-3 space-y-4 md:space-y-0 md:space-x-12">
-                <div className='space-y-6 flex flex-col items-center'>
-                    <Image src="/images/glean/output-ga3.svg" width={380} height={300} alt="GAs" className='drop-shadow-md'/>
-                    <div className='w-fit'>
-                        <p className='text-center'><strong>Glean Assistant answers</strong></p>
-                        <p className='text-center text-slate-500 max-w-[350px]'>responses generated from the generative AI. This comes with the chat interface too</p>
-                    </div>
-                </div>
-                <div className='space-y-6'>
-                    <Image src="/images/glean/output-raw3.svg" width={800} height={800} alt="raw data" className='drop-shadow-md'/>
-                    <div className='w-fit'>
-                        <p className='text-center'><strong>Raw data</strong></p>
-                        <p className='text-center text-slate-500 max-w-[350px]'>Unpackaged data that is presented from keyword matching. Examples include documents, Slack threads, Jira tickets etc.</p>
-                    </div>
-                </div>
-                <div className='space-y-6 flex flex-col items-center justify-center'>
-                    <Image src="/images/glean/output-entity3.svg" width={800} height={800} alt="cards" className='drop-shadow-md rounded-md'/>
-                    <div className='w-fit'>
-                        <p className='text-center'><strong>Entities</strong></p>
-                        <p className='text-center text-slate-500 max-w-[350px]'>Grouped results that come in a package of relevant information. Examples include projects, sales accounts, and people.</p>
-                    </div>
-                </div>
-            </div>
-            <div className='space-y-4'>
-                <h2>Matching Input and Output Data</h2>
-                <p>I’m not exactly sure how Glean decides what kind of data and the order of data to show based on user queries, so here is my own analysis and assumptions of the use cases based on my understanding of Glean’s product from the website: </p>
-            </div>
-            <div className="pt-2 grid md:grid-cols-3 space-y-6 md:space-y-0  md:space-x-12">
-                <div className='pt-4 space-y-6 flex flex-col items-center justify-center'>
-                    <Image src="/images/glean/questions.svg" width={380} height={300} alt="questions" className='drop-shadow-lg rounded-md'/>
-                    <div className='w-fit'>
-                        <p className='text-center'><strong>Questions</strong></p>
-                        <ul className='text-center text-slate-500 max-w-[350px]'>
-                            <li><p>Glean Assistant responses</p></li>
-                            <li><p>Raw data</p></li>
-                            <li><p>Entities (only Answers*)</p></li>
-                        </ul>
-                    </div>
-                </div>
-                <div className='space-y-6 flex flex-col items-center justify-center'>
-                    <Image src="/images/glean/keyword-search.svg" width={800} height={800} alt="keyword searches" className='drop-shadow-lg rounded-md'/>
-                    <div className='w-fit'>
-                        <p className='text-center'><strong>Keyword searches</strong></p>
-                        <ul className='text-center text-slate-500 max-w-[350px]'>
-                            <li><p>Raw data</p></li>
-                            <li><p>Entities</p></li>
-                        </ul>
-                    </div>
-                </div>
-                <div className='space-y-6 flex flex-col items-center justify-center'>
-                    <Image src="/images/glean/entity-search.svg" width={800} height={800} alt="cards" className='drop-shadow-lg rounded-md'/>
-                    <div className='w-fit'>
-                        <p className='text-center'><strong>Entity searches</strong></p>
-                        <ul className='text-center text-slate-500 max-w-[350px]'>
-                            <li><p>Raw data</p></li>
-                            <li><p>Entities</p></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <p className='text-slate-400 pb-16 md:pb-0'>*Answers is a Glean product, where employees can write specific answers to frequently asked questions</p>
-        </div>
+        
         <div>
         <div className="md:p-20 p-6 pt-14 space-y-12">
             <div className="space-y-1">
-                <h1 className="font-bold text-3xl">auditing</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-32"></div>
+                <h1 className="font-bold text-3xl">user testing with existing product</h1>
+                <div className="bg-burgundy_v3 h-1.5 w-96"></div>
             </div>
             <div className="space-y-2">
                 <p>now that I had a better understanding of Glean’s search result page, I wanted to go back to my users and conduct an initial usability test with Glean’s current search results page to see what they thought. I based by tests off these 4 JTBD of a search results page:</p>
@@ -266,7 +184,7 @@ export default function page() {
                     <div className="flex items-center md:pl-20 md:w-[650px]">
                         <div className="space-y-2 md:space-y-8 text-wrap">
                             <div>
-                                <h1 className="font-semibold">Converse with Assistant</h1>
+                                <h2 className="font-semibold">Goal 1: Converse with Assistant</h2>
                             </div>
                             <div className="">
                                 <p><strong>Test #1: </strong>Write a follow up question to Glean Assistant</p>
@@ -291,10 +209,10 @@ export default function page() {
                 <div className="flex px-2 items-center justify-center ">
                         <Image src="/images/glean/audit-relevant.svg" width={750} height={500} layout='responsive' alt="audit relevant" className='drop-shadow-lg rounded-md'/>
                     </div>
-                    <div className="flex items-center md:w-[580px] md:order-first">
+                    <div className="flex items-center md:pl-20 md:w-[650px]">
                         <div className="space-y-2 md:space-y-8">
                             <div>
-                                <h1 className="font-semibold">Find relevant information fast</h1>
+                                <h2 className="font-semibold">Goal 2: Find relevant information fast</h2>
                             </div>
                             <div className="max-w-[550px]">
                                 <p><strong>Test #3: </strong>Tell me who Sam Eve is</p>
@@ -316,7 +234,7 @@ export default function page() {
                     <div className="flex items-center md:pl-20 md:w-[580px]">
                         <div className="space-y-2 md:space-y-8">
                             <div>
-                                <h1 className="font-semibold">Navigate information easily</h1>
+                                <h2 className="font-semibold">Goal 3: Navigate information easily</h2>
                             </div>
                             <div className="">
                                 <p><strong>Test #4: </strong>Say you are on the product team and want to find the product quarterly goals. Point to where you would click</p>
@@ -334,10 +252,10 @@ export default function page() {
                 <div className="flex px-2 items-center justify-center ">
                         <Image src="/images/glean/audit-customize.svg" width={750} height={500} layout='responsive' alt="audit customize" className='drop-shadow-lg rounded-md'/>
                     </div>
-                    <div className="flex items-center md:w-[580px] pb-16 md:pb-0 md:order-first">
+                    <div className="flex items-center md:pl-20 md:w-[580px]">
                         <div className="space-y-2 md:space-y-8">
                             <div>
-                                <h1 className="font-semibold">Customize search</h1>
+                                <h2 className="font-semibold">Goal 4: Customize search</h2>
                             </div>
                             <div className="max-w-[550px]">
                                 <p><strong>Test #5: </strong>Filter out for all results of type &apos;Notion&apos;</p>
@@ -354,28 +272,13 @@ export default function page() {
         </div>
         </div>
 
-        <div className='bg-slate-900 p-6 pt-14 md:p-20'>
-            <div className="text-white space-y-1">
-                <h1 className="font-bold text-3xl">defining the problem</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-72"></div>
-            </div>
-            <div className='py-6 md:py-16'>
-                <Image src="/images/glean/problem-statement.svg" width={1200} height={500} layout='responsive' alt="problem statement" className='drop-shadow-lg rounded-md'/>
-            </div>
-        </div>
-
-        <div className='p-6 pt-14 md:p-20 space-y-20'>
+        <div className='bg-beige_v3 p-6 pt-14 md:p-20 space-y-20'>
             <div className="space-y-1">
-                <h1 className="font-bold text-3xl">1. traditional search</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-72"></div>
+                <h1 className="font-bold text-3xl">part 1: redesigning the traditional search experience</h1>
+                <div className="bg-burgundy_v3 h-1.5 w-96"></div>
             </div>
-            <div className='grid grid-cols-2 space-y-1'>
-                <p><strong>Problem</strong></p>
-                <p><strong>Solution</strong></p>
-                <p>Search results are feel overwhelming and very dense</p>
-                <p>Reduce the number of features for each result item, and redesign to give more breathing space</p>
-                <p>Design components were sometimes used inconsistently</p>
-                <p>Create guidelines for card component, illustrating when it should be used</p>
+            <div>
+                <Image src="/images/glean/hmw1.svg" width={1200} height={500} layout='responsive' alt="hmw1" className=''/>
             </div>
             <div className='space-y-3'>
                 <h2>1.1 Redesigning traditional search results</h2>
@@ -391,7 +294,7 @@ export default function page() {
                 <p>visually, to make it lighter, I used a lighter color for the body text, added more spacing, and positioned the alt info (author, time, folder) below the main body.</p>
                 <div className='md:flex md:items-center md:justify-center'>
                     <div className='md:max-w-[1000px]'>
-                        <Image src="/images/glean/raw-redesigned.svg" width={850} height={500} layout='responsive' alt="raw redesigned" className='drop-shadow-md rounded-md'/>
+                        <Image src="/images/glean/raw-redesigned.svg" width={850} height={500} layout='responsive' alt="raw redesigned" className='rounded-md'/>
                     </div>
                 </div>
             </div>
@@ -404,25 +307,18 @@ export default function page() {
             </div>
         </div>
 
-        <div className='bg-slate-100 p-6 pt-14 md:p-20 space-y-12'>
+        <div className='bg-cream_v3 p-6 pt-14 md:p-20 space-y-20'>
             <div className="space-y-1">
-                <h1 className="font-bold text-3xl">2. traditional search</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-72"></div>
+                <h1 className="font-bold text-3xl">part 2: redesigning AI powered search</h1>
+                <div className="bg-burgundy_v3 h-1.5 w-72"></div>
             </div>
-            <div className='flex flex-col space-y-4 md:space-x-4 md:justify-between md:flex-row md:space-y-1'>
-                <div>
-                    <p><strong>Problem</strong></p>
-                    <p>Users are confused how to ask follow up questions to Assistant</p>
-                </div>
-                <div>
-                    <p><strong>Solution</strong></p>
-                    <p>Redesign Assistant to make the input field more prominent</p>
-                </div>
+            <div>
+                <Image src="/images/glean/hmw2.svg" width={1200} height={500} layout='responsive' alt="hmw2" className=''/>
             </div>
             <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:h-[500px]">
-                    <div className="basis-3/5 flex flex-col space-y-4 items-center justify-center md:pl-12">
+                    <div className="max-w-[800px] basis-3/5 flex flex-col space-y-4 items-center justify-center md:pl-12">
                         <Image src="/images/glean/ga-1.svg" width={675} height={600} layout='responsive' alt="ga1" className='drop-shadow-lg rounded-md'/>
-                        <p className=' text-slate-400 italic'>grey background</p>
+                        <p className=' text-stone-400 italic'>grey background</p>
                     </div>
                     <div className="flex items-center md:w-[580px] md:order-first">
                         <div className="space-y-12">
@@ -440,9 +336,9 @@ export default function page() {
                     
             </div>
             <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:h-[500px]">
-                    <div className="basis-3/5 flex flex-col space-y-4 items-center justify-center md:pl-12">
+                    <div className="max-w-[800px] basis-3/5 flex flex-col space-y-4 items-center justify-center md:pl-12">
                         <Image src="/images/glean/ga-2.svg" width={675} height={600} layout='responsive' alt="ga2" className='drop-shadow-lg rounded-md'/>
-                        <p className=' text-slate-400 italic'>iteration #2</p>
+                        <p className=' text-stone-400 italic'>iteration #2</p>
                     </div>
                     <div className="flex items-center md:w-[580px] md:order-first">
                         <div className="space-y-12">
@@ -456,9 +352,9 @@ export default function page() {
                     </div>
             </div>
             <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:h-[500px]">
-                    <div className="basis-3/5 flex flex-col space-y-4 items-center justify-center md:pl-12">
+                    <div className="basis-3/5 max-w-[800px] flex flex-col space-y-4 items-center justify-center md:pl-12">
                         <Image src="/images/glean/ga-3.svg" width={675} height={600} layout='responsive' alt="ga3" className='drop-shadow-lg rounded-md'/>
-                        <p className=' text-slate-400 italic'>minimized AI search results</p>
+                        <p className=' text-stone-400 italic'>minimized AI search results</p>
                     </div>
                     <div className="flex items-center md:w-[580px] md:order-first">
                         <div className="space-y-12">
@@ -471,9 +367,9 @@ export default function page() {
                     
             </div>
             <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:h-[500px]">
-                    <div className="basis-3/5 flex flex-col space-y-4 items-center justify-center md:pl-12">
+                    <div className="max-w-[800px] basis-3/5 flex flex-col space-y-4 items-center justify-center md:pl-12">
                         <Image src="/images/glean/final-ga-expand.svg" width={675} height={600} layout='responsive' alt="ga4" className='drop-shadow-lg rounded-md'/>
-                        <p className=' text-slate-400 italic'>expanded conversation</p>
+                        <p className=' text-stone-400 italic'>expanded conversation</p>
                     </div>
                     <div className="flex items-center md:w-[580px] md:order-first pb-14 md:pb-0">
                         <div className="space-y-12">
@@ -488,27 +384,13 @@ export default function page() {
             </div>
         </div>
         
-        <div className='bg-slate-900 text-white p-6 pt-14 md:p-20 space-y-16'>
+        <div className='bg-black_v3 text-white p-6 pt-14 md:p-20 space-y-16'>
             <div className="space-y-1">
-                <h1 className="font-bold text-3xl">3. customize search</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-72"></div>
+                <h1 className="font-bold text-3xl">part 3: redesigning search configuration</h1>
+                <div className="bg-burgundy_v3 h-1.5 w-96"></div>
             </div>
-            <div className='grid grid-cols-2 space-y-1'>
-                <p><strong>Problem</strong></p>
-                <p><strong>Solution</strong></p>
-                <p className='pr-3 md:pr-0'>Users are confused with the current UI on how to customize search</p>
-                <p>research industry standards, identify where the root of confusion may be, and redesign the filter section </p>
-            </div>
-            <div className='space-y-5'>
-                <p>to redesign the filter feature, I first looked to research how other people have done this. there were two observations I made:</p>
-                <ul className='list-decimal pl-4 space-y-1'>
-                    <li><p>the standard seemed to be put the filter feature on the left as a fixed bar</p></li>
-                    <li><p>the space on the right was usually used to show “insights” or Entity type data, as shown by Google</p></li>
-                </ul>
-                <div className='grid md:grid-cols-2 gap-3 md:gap-10'>
-                    <Image src="/images/glean/competitor1.svg" width={585} height={500} layout='responsive' alt="ecommerce" className='drop-shadow-lg rounded-md'/>
-                    <Image src="/images/glean/competitor2.svg" width={600} height={500} layout='responsive' alt="google" className='drop-shadow-lg rounded-md'/>
-                </div>
+            <div>
+                <Image src="/images/glean/hmw3.svg" width={1200} height={500} layout='responsive' alt="hmw3" className=''/>
             </div>
             <div className="flex space-y-4 md:space-y-0 md:flex-row flex-col">
                     <div className="flex items-center md:w-[580px]">
@@ -540,7 +422,7 @@ export default function page() {
                     </div>
             </div>
             <div className="flex md:flex-row flex-col pb-14 md:pb-0">
-                    <div className="flex items-center md:pl-12 md:w-[580px]">
+                    <div className="flex items-center md:w-[550px]">
                         <div className="space-y-12">
                             <div className="space-y-4 md:max-w-[550px]">
                                 <p><strong>Iteration #2: </strong>so for iteration 2, I echoed Google’s page layout and put the filter feature in the top, where I put the ‘type’ as the first filter given it seemed to be of high importance to Glean. </p>
@@ -548,33 +430,67 @@ export default function page() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex md:order-first">
+                    <div className="basis-3/5 flex flex-col space-y-4 items-center justify-center md:pl-12">
                         <Image src="/images/glean/filter-features.svg" width={675} height={600} alt="filter feature" className='rounded-md'/>
                     </div>
             </div>
         </div>
 
-        <div className='bg-slate-100 p-6 pt-14 md:p-20 space-y-10 md:space-y-20 pb-14'>
+        <div className=' p-6 pt-14 md:p-20 space-y-10 md:space-y-10 pb-14'>
             <div className="space-y-1">
-                <h1 className="font-bold text-3xl">final designs</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-40"></div>
+                <h1 className="font-bold text-3xl">final designs: traditional search</h1>
+                <div className="bg-burgundy_v3 h-1.5 w-96"></div>
+            </div>
+            <div className='flex flex-col justify-center items-center'>
+                <h2 className='font-semibold'>key changes</h2>
+                <ul className='list-decimal pl-4 space-y-2'>
+                    <li>Removed filter from right hand space</li>
+                    <li>Used right hand area for highlighted outputs</li>
+                    <li>Visually decluttered each search item component</li>
+                    <li>Used design system to delineate main and secondary outputs</li>
+                </ul>
             </div>
             <div className='flex items-center justify-center'>
-                <Image src="/images/glean/final-ga-total.svg" width={1440} height={500} alt="final ga designs" className='drop-shadow-2xl rounded-md'/>
+                <Image src="/images/glean/final-ts.svg" width={1440} height={500} alt="final ts designs" className=''/>
+            </div>
+        </div>
+
+        <div className='bg-beige_v3 p-6 pt-14 md:p-20 space-y-10 md:space-y-10 pb-14'>
+            <div className="space-y-1">
+                <h1 className="font-bold text-3xl">final designs: AI powered search</h1>
+                <div className="bg-burgundy_v3 h-1.5 w-96"></div>
+            </div>
+            <div className='flex flex-col justify-center items-center'>
+                <h2 className='font-semibold'>key changes</h2>
+                <ul className='list-decimal pl-4 space-y-2'>
+                    <li>designed AI results to be in the grey background</li>
+                    <li>Redesigned the follow up question field</li>
+                    <li>Added a toggle feature </li>
+                    <li>Redesigned the user response </li>
+                </ul>
             </div>
             <div className='flex items-center justify-center'>
-                <Image src="/images/glean/final-ts-total.svg" width={1440} height={500} alt="final ts designs" className='drop-shadow-2xl rounded-md'/>
+                <Image src="/images/glean/final-ga.svg" width={1440} height={500} alt="final ga designs" className=''/>
             </div>
         </div>
 
         <div className='p-6 pt-14 md:p-20 space-y-10'>
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl">reflection</h1>
-                <div className="bg-gradient-to-r from-teal-400 to-indigo-500 h-1.5 w-40"></div>
+                <div className="bg-burgundy_v3 h-1.5 w-40"></div>
             </div>
-            <p>For next steps, I would conduct another usability test on these new designs, align with Product, Engineering, and Strategy teams, and iterate and revise again. As I was doing this project, I kept thinking that if I were to truly be the designer of Glean’s search, I would need to have constant alignment and discussion with the PMs and strategy team. There were a lot of decisions I made along the way that probably had much more farther reaching implications than I’d expect, such as removing the right hand filter feature, showing the preview button, and putting the Entity type outputs on the right hand side. As a designer, I’d make sure these discussions were had and the implications of each decision were fully explored before committing to them. </p>
-            <p>Looking back, I think the biggest challenge was not having access to the product to play around, so my understanding of the product was limited to only a few flows and scenarios. I’d also never thought about or worked with search engine UI/UX before, so this was definitely new. Despite these challenges, it was really fun to dive deep, break apart problems, bump into walls, and problem solve given the constraints! This challenge definitely made me be much more aware and conscious of how I interact with information and how information is being presented to me. </p>
-        
+            <div className='space-y-2'>
+                <h2 className='font-semibold'>biggest challenge: not having access to the product</h2>
+                <p>Since I was doing this challenge solely based off the images on Glean’s website, I wasn’t able to play around with the product and get an understanding of how the user experience is like. This meant that many of my designs were based off assumptions that I was making, which was an interesting way to design. Despite these challenges, it was really fun to dive deep, break apart problems, bump into walls, and problem solve given the constraints! This challenge definitely made me be much more aware and conscious of how I interact with information and how information is being presented to me.  </p>
+            </div>
+            <div className='space-y-2'>
+                <h2 className='font-semibold'>next steps: usability testing</h2>
+                <p>For next steps, I would conduct another usability test on these new designs, align with Product, Engineering, and Strategy teams, and iterate and revise again. There are a lot of large decisions that were made in this redesign, so conducting some usability tests or A/B tests in order to verify whether these decisions are along the right track would be my next big step.  </p>
+            </div>
+            <div className='space-y-2'>
+                <h2 className='font-semibold'>next steps: aligning with PMs, strategy and engineers</h2>
+                <p>As I was doing this project, I kept thinking that if I were to truly be the designer of Glean’s search, I would need to have constant alignment and discussion with the PMs and strategy team. There were a lot of decisions I made along the way that probably had much more farther reaching implications than I’d expect, such as removing the right hand filter feature, showing the preview button, and putting the Entity type outputs on the right hand side. As a designer, I’d make sure these discussions were had and the implications of each decision were fully explored before committing to them.  </p>
+            </div>
         </div>
     </div>
   )
