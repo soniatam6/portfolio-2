@@ -107,7 +107,7 @@ export default function Navbar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="https://drive.google.com/file/d/12W4pJytDyxrtDuhZQqDSaD0lv0TeVJpz/view?usp=sharing" legacyBehavior passHref>
+              <Link href="https://drive.google.com/file/d/1saY8aD8bRycttRxXK0x5emqokiC-xmz4/view?usp=sharing" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   <h2 className="text-xl">resume</h2>
                 </NavigationMenuLink>

@@ -94,7 +94,7 @@ export default function page() {
                     <div className="md:pr-20 md:pl-4 flex items-center md:order-first">
                         <div className="space-y-5">
                             <div className="space-y-3 text-wrap">
-                                <h1 className='font-semibold'>Why the search results page?</h1>
+                                <h2 className='font-semibold'>Why the search results page?</h2>
                                 <p>As like most people, the explosion of AI in the past year has made me think. a lot. it’s made me ponder a lot about human relationship with technology and has led me down numerous existential crises. one recent pondering came about when I noticed more people talking about Perplexity AI, an AI search engine aimed to basically replace Google. it made me think a lot about how humans interact with information, and how the AI powered chat interface is another revolution in our human relationship with data. i wrote about my ponderings here:</p>
                             </div>
                             <div>
