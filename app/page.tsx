@@ -12,7 +12,7 @@ const [openModal, setOpenModal] = useState(false);
         <div className="md:space-y-12 flex flex-col justify-center">
           <div className='text-center space-y-2'>
             <h1 className='text-cream_v3 text-4xl md:text-7xl text-center mb-4 font-serif'>sonia tam</h1>
-            <p className='text-cream_v3 text-xl md:text-2xl font-serif font-extralight'>cog sci + cs @ upenn '25</p>
+            <p className='text-cream_v3 text-xl md:text-2xl font-serif font-extralight'>cog sci + cs @ upenn &apos;25</p>
           </div>
           <div className='space-y-2 text-center'>
             <p className='text-cream_v3 text-xl md:text-2xl font-serif'><strong>thinker</strong> and <strong>doer</strong></p>
@@ -51,7 +51,7 @@ const [openModal, setOpenModal] = useState(false);
                 <div className="p-7">
                   <h1 className="text-2xl text-black_v3 dark:text-white font-bold">designing product narratives </h1>
                   <p className="text-stone-500 py-2 text">
-                    redefining, designing, and revamping the product narratives and messaging for Airwallex's 17 fintech products.
+                    redefining, designing, and revamping the product narratives and messaging for Airwallex&apos;s 17 fintech products.
                   </p>
                   <div className="inline-grid grid-cols-2 gap-x-2 py-2">
                     <div>

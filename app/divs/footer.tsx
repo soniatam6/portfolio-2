@@ -31,7 +31,7 @@ export default function Footer() {
                 </h2>
                 <ul className="text-cream_v3 dark:text-slate-200 space-y-3 text-sm">
                   <li>
-                    <Link href='/projects/website-revamp'><p>Airwallex's product narratives</p></Link></li>
+                    <Link href='/projects/website-revamp'><p>Airwallex&apos;s product narratives</p></Link></li>
                   <li><Link href='/projects/localization'>
                     <p>localization automation tool</p>
                   </Link></li>

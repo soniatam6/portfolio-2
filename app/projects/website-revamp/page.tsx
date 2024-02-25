@@ -22,7 +22,7 @@ export default function page() {
                             <h1 className='text-5xl font-semibold leading-normal'>revamp and redefine product narratives?</h1>
                         </div>
                         <div className="max-w-[512px] text-wrap">
-                            <p className="text-md md:text-xl">redefining, designing, and revamping the product narratives and messaging for Airwallex's 17 fintech products.</p>
+                            <p className="text-md md:text-xl">redefining, designing, and revamping the product narratives and messaging for Airwallex&apos;s 17 fintech products.</p>
                         </div>
                     </div>
                     <div>
