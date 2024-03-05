@@ -8,15 +8,15 @@ const [openModal, setOpenModal] = useState(false);
 
   return (
     <div>
-      <div className=' h-[500px] md:h-[800px] flex items-center justify-center p-6 md:p-10 bg-burgundy_v3'>
+      <div className=' h-[500px] md:h-[700px] flex items-center justify-center p-6 md:p-10 bg-burgundy_v3'>
         <div className="md:space-y-12 flex flex-col justify-center">
           <div className='text-center space-y-2'>
             <h1 className='text-cream_v3 text-4xl md:text-7xl text-center mb-4 font-serif'>sonia tam</h1>
             <p className='text-cream_v3 text-xl md:text-2xl font-serif font-extralight'>cog sci + cs @ upenn &apos;25</p>
           </div>
           <div className='space-y-2 text-center'>
-            <p className='text-cream_v3 text-xl md:text-2xl font-serif'><strong>thinker</strong> and <strong>doer</strong></p>
-            <p className='text-cream_v3 text-xl md:text-2xl font-serif max-w-[470px] font-light'>i love breaking down complex problems, and thrive on the journey of solving them.</p>
+            
+            <p className='text-cream_v3 text-xl md:text-2xl font-serif max-w-[440px] font-light'>interested in systems thinking and tackling ambiguous problems</p>
           </div>
         </div>
       </div>

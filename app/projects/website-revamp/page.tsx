@@ -407,7 +407,7 @@ export default function page() {
                                 <p>Read more about the localization plugin here: </p>
                                 <div className="space-x-4">
                                     <Button variant="default">
-                                        <Link href="/localization" className="font-semibold">See page</Link>
+                                        <Link href="/projects/localization" className="font-semibold">See page</Link>
                                     </Button>
                                     <Button variant="secondary">
                                         <Link href="https://youtu.be/Jimy1GPWg6g?si=O3KnR52a3CbSqKzC&t=32" className="font-semibold">See demo</Link>
