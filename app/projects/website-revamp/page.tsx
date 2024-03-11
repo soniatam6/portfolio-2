@@ -107,16 +107,20 @@ export default function page() {
                     </div>
                 </div>
         </div>
-        <div className="bg-beige_v3 md:px-20 md:max-h-[800px]">
-            <div className="grid md:grid-cols-2 justify-center">
-                <div className="md:max-h-[800px] p-10 md:p-0 md:pb-80 md:overflow-y-hidden flex items-center justify-center">
-                    <Image src="/images/website-revamp/baas-page-prev.jpg" width={550} height={500} alt="baas preview" className="drop-shadow-2xl rounded-md" />
+
+        <div className='bg-beige_v3 p-20'>
+            <div className='grid md:grid-cols-2 gap-6'>
+                <div className="items-center justify-center space-y-4">
+                    <p className="text-stone-500 text-md font-mono">banking as a service: draft 1</p>
+                    <Image src="/images/website-revamp/old-baas-page.svg" width={550} height={700} alt="old baas" className="drop-shadow-xl rounded-md" />
                 </div>
-                <div className="md:max-h-[800px] p-10 md:p-0 md:pt-96 md:overflow-y-hidden flex items-center justify-center">
-                    <Image src="/images/website-revamp/ba-prev.jpg" width={550} height={500} alt="ba preview" className="drop-shadow-2xl rounded-md" />
+                <div className="items-start justify-start space-y-4">
+                    <p className="text-stone-500 text-md font-mono">banking as a service: final draft</p>
+                    <Image src="/images/website-revamp/final-baas-page.svg" width={550} height={700} alt="final baas" className="drop-shadow-xl rounded-md" />
                 </div>
             </div>
         </div>
+
         <div className="bg-black_v3 p-6 pt-14 md:p-20 md:py-20 space-y-6">
             <div className="space-y-1">
                 <h1 className="font-bold text-3xl text-white">overview & timeline</h1>
@@ -313,6 +317,18 @@ export default function page() {
                 </div>
             </div>
         </div>
+        <div className='bg-beige_v3 p-20'>
+            <div className='grid md:grid-cols-2 gap-6'>
+                <div className="items-center justify-center space-y-4">
+                    <p className="text-stone-500 text-md font-mono">before</p>
+                    <Image src="/images/website-revamp/old-expenses-page.jpg" width={550} height={700} alt="old expenses" className="drop-shadow-xl rounded-md" />
+                </div>
+                <div className="items-start justify-start space-y-4">
+                    <p className="text-stone-500 text-md font-mono">after</p>
+                    <Image src="/images/website-revamp/new-expenses-page.jpg" width={550} height={700} alt="new expenses" className="drop-shadow-xl rounded-md" />
+                </div>
+            </div>
+        </div>
 
         <div className="bg-black_v3 p-6 py-14 md:p-20 md:py-20 space-y-20">
             <div className="h-fit grid gap-6 md:gap-0 md:grid-cols-2">
@@ -428,13 +444,15 @@ export default function page() {
             </div>
         </div>
 
-        <div className="bg-beige_v3 md:px-20 h-fit md:max-h-[800px]">
-            <div className="grid md:grid-cols-2 justify-center">
-                <div className="md:max-h-[800px] p-6 md:pb-56 md:overflow-y-hidden flex items-center justify-center">
-                    <Image src="/images/website-revamp/issuing.svg" width={550} height={500} alt="website revamp hero" className="drop-shadow-2xl rounded-md" />
+        <div className='bg-beige_v3 p-20'>
+            <div className='grid md:grid-cols-2 gap-6'>
+                <div className="items-center justify-center space-y-4">
+                    <p className="text-stone-500 text-md font-mono">payments: draft 1</p>
+                    <Image src="/images/website-revamp/old-payments-page.svg" width={550} height={700} alt="old payments" className="drop-shadow-xl rounded-md" />
                 </div>
-                <div className="md:max-h-[800px] p-6 md:pt-72 md:overflow-y-hidden flex items-center justify-center">
-                    <Image src="/images/website-revamp/payments.svg" width={550} height={500} alt="website revamp hero" className="drop-shadow-2xl rounded-md" />
+                <div className="items-start justify-start space-y-4">
+                    <p className="text-stone-500 text-md font-mono">payments: final draft</p>
+                    <Image src="/images/website-revamp/final-payments-page.svg" width={550} height={700} alt="final payments" className="drop-shadow-xl rounded-md" />
                 </div>
             </div>
         </div>

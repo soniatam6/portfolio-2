@@ -1,0 +1,21 @@
+        <div className="bg-beige_v3 md:px-20 md:max-h-[800px]">
+            <div className="grid md:grid-cols-2 justify-center">
+                <div className="md:max-h-[800px] p-10 md:p-0 md:pb-80 md:overflow-y-hidden flex items-center justify-center">
+                    <Image src="/images/website-revamp/baas-page-prev.jpg" width={550} height={500} alt="baas preview" className="drop-shadow-2xl rounded-md" />
+                </div>
+                <div className="md:max-h-[800px] p-10 md:p-0 md:pt-96 md:overflow-y-hidden flex items-center justify-center">
+                    <Image src="/images/website-revamp/ba-prev.jpg" width={550} height={500} alt="ba preview" className="drop-shadow-2xl rounded-md" />
+                </div>
+            </div>
+        </div>
+
+                <div className="bg-beige_v3 md:px-20 h-fit md:max-h-[800px]">
+            <div className="grid md:grid-cols-2 justify-center">
+                <div className="md:max-h-[800px] p-6 md:pb-56 md:overflow-y-hidden flex items-center justify-center">
+                    <Image src="/images/website-revamp/issuing.svg" width={550} height={500} alt="website revamp hero" className="drop-shadow-2xl rounded-md" />
+                </div>
+                <div className="md:max-h-[800px] p-6 md:pt-72 md:overflow-y-hidden flex items-center justify-center">
+                    <Image src="/images/website-revamp/payments.svg" width={550} height={500} alt="website revamp hero" className="drop-shadow-2xl rounded-md" />
+                </div>
+            </div>
+        </div>
